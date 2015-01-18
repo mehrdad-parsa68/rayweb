@@ -18,7 +18,7 @@
 	<div class="col-lg-12" style="font-size:18px; ">
 		<h2>مقالات</h2>
 		<ul style="list-style:none; color:black important;">
-			<li><span class="fa fa-book"></span><a class="exo" href="index.php?page=article&article=4">&nbsp;&nbsp; نبایدها در طراحی وب سایت</a></li>
+			<li><span class="fa fa-book"></span><a class="exo" href="index.php?page=article&article=4">&nbsp;&nbsp; AngularJS</a></li>
 			<li><span class="fa fa-book"></span><a class="exo" href="index.php?page=article&article=3">&nbsp;&nbsp; اصول طراحی سایت</a></li>
 			<li><span class="fa fa-book"></span><a class="exo" href="index.php?page=article&article=2">&nbsp;&nbsp;  عناصر مهم در طراحی سایت</a></li>
 			<li><span class="fa fa-book"></span><a class="exo" href="index.php?page=article&article=1">&nbsp;&nbsp;  تأثیر طراحی سایت واکنشی یا “Responsive”بر سئو</a></li>		
@@ -27,14 +27,11 @@
             
             
 		</ul>
-	</div>
-      
-    
+	</div>  
 </div>
 <hr>
 <div class="container">
-	<div class="wp-example" id="images-text">
-      
+	<div class="wp-example" id="images-text">  
       <div class="slice bg-banner-1">
           <div class="w-section inverse">
               <div class="row">
@@ -45,9 +42,7 @@
                           <p>
                               گابریل گارسیا مارکز
                           </p>
-                          <span class="clearfix"></span>
-                          
-                          
+                          <span class="clearfix"></span> 
                       </div>
                   </div>
               </div>
@@ -55,3 +50,7 @@
       </div>
   </div>
 </div>
+<?php
+if(isset($_GET['article'])){
+	include($_GET['article'].'.php');
+	}

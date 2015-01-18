@@ -1,0 +1,77 @@
+body{
+	font-family:mj,exo !important;
+	direction:rtl !important;
+	}
+@font-face{
+	font-family:'mj';
+	src:url('../fonts/Mj_Dinar_Two_Light.eot');
+	src:url('../fonts/Mj_Dinar_Two_Light.eot#iefix') format('eot'),url('../fonts/Mj_Dinar_Two_Light.woff') format('woff'),url('../fonts/Mj_Dinar_Two_Light.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face{
+	font-family:'Exo';
+	src:url('../fonts/Exo-Light.eot');
+	src:url('../fonts/Exo-Light.eot#iefix') format('eot'),url('../fonts/Exo-Light.woff') format('woff'),url('../fonts/Exo-Light.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+.exo{
+	font-family:Exo,mj !important;
+	}
+h1,h2,h3,h4,h5,h6{
+	font-family:mj,Exo !important;
+	}
+rtl{
+	direction:rtl !important;
+	}
+rtl{
+	direction:ltr !important;
+	}
+.btn-menu{
+	background-color:#438838;
+	color:#FFF;
+	}
+.btn-menu:hover{
+	background-color:#33672b;
+	color:#FFF !important;
+	}
+h1{
+	margin-bottom:20px !important;
+	}
+.h4-font{
+	font-size:18px;
+	}
+.h6-font{
+	font-size:12px;
+	}
+.describe{
+	font-size:18px;
+	text-align:justify;
+	line-height:5px;
+	}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+	background-color:#438838 !important;
+	color:#FFF !important;
+	}
+.gift{
+	color:#5cb85c;
+	text-align:center;
+	font-weight:bold;
+	}
+.price{
+	font-weight:bold;
+	letter-spacing:2px;
+	text-align:center;
+	}
+.price-calculate{
+	position:fixed;
+	top:0;
+	left:50%;
+	background-color:#5cb85c;
+	text-align:center;
+	color:#FFF;
+	padding:10px;
+	min-width:100px;
+	font-weight:bold;
+	}

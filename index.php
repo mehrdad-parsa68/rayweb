@@ -268,11 +268,12 @@
             <div class="col-md-3">
             	<div class="col">
                    <h4>ارتباط با <strong>رای وب</strong></h4>
+                   <hr>
                    <ul>
-                        <li>تهران - خیابان آزادی - خیابان نمایندگی - پلاک 1 - واحد 15</li>
-                        <li>تلقن : 66576199 - 021</li>
-                        <li>ایمیل: <a href="mailto:info@rayweb.ir" title="Email Us">info@rayweb.ir</a></li>
-                        <li>طراحی ایده های خود را به ما بسپارید</li>
+                        <li><i class="fa fa-taxi"></i> تهران - خیابان آزادی - خیابان نمایندگی - پلاک 1 - واحد 15</li>
+                        <li><i class="fa fa-taxi"></i> تلقن : 66576199 - 021</li>
+                        <li><i class="fa fa-envelope-o"></i> ایمیل: <a href="mailto:info@rayweb.ir" title="Email Us">info@rayweb.ir</a></li>
+                        <li><h4>طراحی ایده های خود را به ما بسپارید</h4></li>
                     </ul>
                  </div>
             </div>
@@ -280,6 +281,7 @@
             <div class="col-md-3">
             	<div class="col">
                     <h4>عضویت در خبرنامه <strong>رای وب</strong></h4>
+                    <hr>
                     <p>برای عضویت در خبرنامه <strong>رای وب</strong>، ایمیل خود را برای ما ارسال نمایید..</p>
                     <form class="form-inline">
                         <div class="input-group">
@@ -295,6 +297,7 @@
             <div class="col-md-3">
             	<div class="col col-social-icons">
                     <h4><strong>رای وب</strong> را دنبال نمایید</h4>
+                    <hr>
                     <a href="https://www.facebook.com/raywebco" target="_blank"><i class="fa fa-facebook"></i></a>
                     <a href="boomerang.html#"><i class="fa fa-google-plus"></i></a>
                     <a href="boomerang.html#"><i class="fa fa-linkedin"></i></a>
@@ -303,11 +306,19 @@
 
              <div class="col-md-3">
              	<div class="col">
-                    <h4>درباره <strong>رای وب</strong></h4>
-                    <p>
-                    شما تصور کنید، ما طراحی می کنیم.
-                    <br><br>
-                    <a href="?page=sample" class="btn btn-two">نمونه کارها</a>
+                    <h4>لینک های مرتبط</h4>
+                    <hr>
+                    <ul>
+                    	<li><a href="?page=home"><i class="fa fa-arrow-circle-o-left"></i> صفحه اصلی </a></li>
+                        <li><a href="?page=article"><i class="fa fa-arrow-circle-o-left"></i> مقالات</a></li>
+                        <li><a href="?page=hire"><i class="fa fa-arrow-circle-o-left"></i> استخدام</a></li>
+                        <li><a href="?page=education"><i class="fa fa-arrow-circle-o-left"></i> آموزش</a></li>
+                        <li><a href="?page=sapmle"><i class="fa fa-arrow-circle-o-left"></i> نمونه کارها</a></li>
+                        <li><a href="?page=about"><i class="fa fa-arrow-circle-o-left"></i> درباره ما</a></li>
+                        <li><a href="?page=contact"><i class="fa fa-arrow-circle-o-left"></i> ارتباط با ما</a></li>
+                        <li><a href="?page=order"><i class="fa fa-arrow-circle-o-left"></i> سفارش</a></li>
+                        <li><a href="?page=press"><i class="fa fa-arrow-circle-o-left"></i> رای وب در جراید</a></li>
+                    </ul>
                     </p>
                 </div>
             </div>

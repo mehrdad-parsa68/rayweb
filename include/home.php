@@ -20,38 +20,19 @@
             </p>
            
         </div>
-        <!--<div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
-            <img src="images/slider/fw-1.jpg" class="ls-bg" alt="Slide background"/><img class="ls-l" style="top:129px;left:487px;white-space: nowrap;" data-ls="offsetxin:400;durationin:2000;offsetxout:400;" src="images/slider/d1.png" alt=""><img class="ls-l" style="top:104px;left:70px;white-space: nowrap;" data-ls="offsetxin:-200;durationin:2000;offsetxout:-200;" src="images/slider/d2.png" alt="">
-
-
-            <p class="ls-l" style="top:320px;left:830px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#544f8c;border-radius:3px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:1500;easingin:easeOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:-400;durationout:1000;">
-                SWEET TRANSITIONS
-            </p>
-            <p class="ls-l" style="top:360px;left:836px;font-family:'Indie Flower';font-size:31px;color:#544f8c;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:2000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% top 0;offsetxout:-600;">
-                for dessert
-            </p>
-        </div>-->
+      
     </div>
 </section>
 
-<section class="slice bg-2 p-15">
-        <div class="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h1>
-                            طراحی وب سایت <strong>رای وب</strong>
-                        </h1>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
+ 
+    
 
     <section class="slice bg-5">
+    	
         <div class="w-section inverse">
             <div class="container">
+           	 <h2> برخی از خدمات <strong>رای وب</strong></h2>
+             <hr>
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="aside-feature">
@@ -136,7 +117,9 @@
                                          <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> javascript / JQuery</h3>
                                          <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> PHP / MySQL</h3>
                                          <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> Advanced PHP</h3>
-                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> MVC Programming</h3>
+                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> Bootstrap</h3>
+                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> Android</h3>
+                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> Anguluarjs</h3>
                                          
                                     
                                 </div>
@@ -202,31 +185,7 @@
         </div>
     </section>
     
-    <section class="slice bg-banner-1">
-        <div class="w-section inverse">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-center">
-                            <h4><i class="fa fa-quote-left fa-3x"></i></h4>
-                            <h2>شما تصور کنید، ما طراحی می کنیم</h2>
-                            <!--<p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque diam, luctus at laoreet in, auctor ut tellus.
-                                <br>
-                                Etiam enim lacus, ornare et tempor, rhoncus rhoncus sem.
-                            </p>-->
-                            <span class="clearfix"></span>
-                            
-                            <div class="text-center">
-                                <a href="?page=sample" target="_blank" class="btn btn-lg btn-one mt-20 ext-source">مشاهده نمونه کارها </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
+   
     <section class="slice bg-5">
         <div class="w-section inverse">
             <div class="container">
@@ -273,7 +232,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <h3 class="section-title">چرا <a><strong>رای وب</strong></a></h3>
+                        <h3 class="section-title">چرا <strong>رای وب</strong></h3>
                         <div class="widget">
                             <div class="panel-group" id="accordion">
                                 <div class="panel panel-default">
@@ -338,7 +297,26 @@
             </div>
         </div>    
     </section>
-    
+    <section class="slice bg-banner-1">
+        <div class="w-section inverse">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <h4><i class="fa fa-quote-left fa-3x"></i></h4>
+                            <h2>شما تصور کنید، ما طراحی می کنیم</h2>
+                      
+                            <span class="clearfix"></span>
+                            
+                            <div class="text-center">
+                                <a href="?page=sample" target="_blank" class="btn btn-lg btn-one mt-20 ext-source">مشاهده نمونه کارها </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="slice bg-3">
 	<div class="w-section inverse">
         <div class="container">

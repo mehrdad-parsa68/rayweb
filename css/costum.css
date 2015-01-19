@@ -41,6 +41,8 @@ h1{
 	}
 .h4-font{
 	font-size:18px;
+	color:#438838;
+	font-weight:bold;
 	}
 .h6-font{
 	font-size:12px;
@@ -74,4 +76,37 @@ h1{
 	padding:10px;
 	min-width:100px;
 	font-weight:bold;
+	}
+.col ul li{
+	text-decoration:none;
+	list-style-type:none;
+	}
+.panel-heading{
+	background-color:#438838 !important;
+	
+	}
+.panel-title a {
+	color:#FFF !important;
+	}
+strong {
+	color:#438838;
+	}
+.top-header{
+	border-bottom:1px solid #438838 !important;
+	}
+
+footer .col ul li {
+	color:#fff !important;
+	}
+footer h4 {
+	color:#fff !important;
+	}
+footer .col p {
+	color:#fff !important;
+	}
+footer a {
+	color:#fff !important;
+	}
+footer a:hover {
+	color:#438838 !important;
 	}

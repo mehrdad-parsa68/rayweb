@@ -15,7 +15,7 @@
 </div>
 
 <section class="slice no-padding">
-        <div id="mapCanvas" class="map-canvas no-margin"><iframe src="https://mapsengine.google.com/map/embed?mid=zASG-CfPy70E.kCI88FvK-ZLU" width="100%" height="300"></iframe></div>
+        <div id="mapCanvas" class="map-canvas no-margin"><iframe src="https://www.google.com/maps/d/embed?mid=zASG-CfPy70E.kCI88FvK-ZLU" width="100%" height="300"></iframe></div>
     </section>
     
     <section class="slice bg-3">

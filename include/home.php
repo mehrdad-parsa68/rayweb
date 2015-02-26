@@ -2,8 +2,8 @@
     <div id="layerslider" style="width:100%;height:500px;">
         <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
             <img src="images/slider/fw-1.jpg" class="ls-bg" alt="Slide background"/><img class="ls-l" style="top:280px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:300;delayin:500;offsetxout:0;offsetyout:-50;durationout:1000;showuntil:220;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;transformoriginout:50% top 0;" src="images/slider/s1.png" alt=""><img class="ls-l" style="top:230px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:30;delayin:1720;scalexin:0.9;scaleyin:0.9;offsetxout:0;offsetyout:300;durationout:1000;scalexout:0.5;scaleyout:0.5;transformoriginout:50% bottom 0;" src="images/slider/s2.png" alt=""><img class="ls-l" style="top:65%;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:250;durationin:950;delayin:500;offsetxout:0;offsetyout:-8;durationout:1000;showuntil:270;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;" src="images/slider/s2.jpg" alt=""><img class="ls-l" style="top:195px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;delayin:1720;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;" src="images/slider/s1.jpg" alt="">
-            <p class="ls-l" style="top:150px;right:116px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#82d10c;border-radius:3px;white-space: nowrap; width:250px" data-ls="offsetxin:0;durationin:2000;delayin:1500;easingin:easeOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:-200;durationout:1000;">
-                طراحی واکنش گرا
+            <p class="ls-l" style="top:150px;right:116px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#82d10c;border-radius:3px;white-space: nowrap; width:340px" data-ls="offsetxin:0;durationin:2000;delayin:1500;easingin:easeOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:-200;durationout:1000;">
+                طراحی وب سایت واکنش گرا
             </p>
             <p class="ls-l" style="top:190px;right:125px;font-size:21px;color:#6db509;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:2000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% top 0;offsetxout:-400;">
                 در تمامی دستکاه ها
@@ -87,14 +87,16 @@
                             <div class="row">
                                 
                                 <div class="col-md-9">
-                                    <h2 class="h4-font">طراحی وب سایت و پرتال</h2>
+                                    <h2 class="h4-font"><a href="http://rayweb.ir" style="color:#438838">طراحی وب سایت</a> و پرتال</h2>
                                     
-                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی سایت</h3>
-                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی سایت شخصی</h3>
-                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی سایت شرکتی</h3>
-                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی فروشگاه اینترنتی</h3>
+                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی وب سایت</h3>
+                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی وب سایت شخصی</h3>
+                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی وب سایت شرکتی</h3>
+                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی وب سایت فروشگاهی</h3>
+                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی وب سایت هنری</h3>
+                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی وب سایت سرمایه گذاری</h3>
                                          <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی پورتال سازمانی</h3>
-                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی و توللید سیستم های مدیریت پورتال</h3>
+                                         <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی و تولید سیستم های مدیریت پورتال</h3>
                                     
                                  </div>
                                 <div class="col-md-3">
@@ -111,7 +113,7 @@
                             <div class="row">
                                 
                                 <div class="col-md-9">
-                                    <h2 class="h4-font">آموزش</h2>
+                                    <h2 class="h4-font"> آموزش طراحی وب سایت</h2>
                                     
                                          <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> HTML / CSS</h3>
                                          <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> javascript / JQuery</h3>
@@ -186,19 +188,87 @@
     </section>
     
    
-    <section class="slice bg-5">
-        <div class="w-section inverse">
-            <div class="container">
-                <div class="row">
+    
+            
+                    <hr>
+                    <section class="container">
                     <div class="col-md-6">
-                        <h3 class="section-title"><span>آخرین پروژه</span></h3>
+				<div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="text-center margin-padding">رای وب در جراید</h3>
+          </div>
+          <div id="collapseThree" class="panel-collapse in" style="height: auto;">
+            <div class="panel-body">
+              <div id="component" class="component component-transparent fxTableDrop">
+                
+					<ul class="itemwrap">
+						<li class="current"><a class="example-image-link" href="images/press/pic01.jpg" data-lightbox="example-set">
+                    <img class="example-image img-thumbnail" src="images/press/pic01-t.jpg" alt="رای وب"/></a><h4 align="center">روزنامه ابتکار</h4></li>
+					
+					</ul>
+					<nav>
+						<a class="prev fa fa-chevron-left" href="#">Previous item</a>
+						<a class="next  fa fa-chevron-right" href="#">Next item</a>
+					</nav>
+				</div>
+            </div>
+          </div>
+        </div>
+      </div>
+				
+			
+            
+                    <div class="col-md-6">
+                    <h2>چرا <strong>رای وب</strong></h2>
+                    <hr>
+                    <h4><i class="fa fa-check fa-green"></i> طراحی وب سایت تخصصی</h4>
+                    <p align="justify">
+تیم تخصصی طراحی وب سایت رای وب برای هر پروژه مراحل طراحی گرافیکی را کامل انجام می دهند و در هر مرحله مستندات آن را به مشتری ارائه می دهند و مشتری را در جریان انجام مراحل طراحی می گذارند.
+                     </p>
+                     
+                    <h4><i class="fa fa-check fa-green"></i> برنامه نویسی لایه ای</h4>
+                    <p align="justify">
+تیم برنامه نویسی شرکت <strong>رای وب</strong> با تکیه بر کار گروهی و افزایش سرعت طراحی و توسعه وب سایت ها و پرتال ها از مدل برنامه نویسی لایه ای در سفارشات خود استفاده می کنند که به موجل آن کار طراحی و توسعه به صورت تخصصی در هر حوزه به متخصص آن ارجاع می شود.
+                     </p>
+                     <h4><i class="fa fa-check fa-green"></i> امنیت بالا</h4>
+                    <p align="justify">
+ تیم برنامه نویسی شرکت <strong>رای وب</strong> با تجربه بالا در زمینه برنامه نویسی و استفاده از فریم ورکهای قوی و جدید ، وب سایت ها و پرتال هایی با بالاترین سطح امنیت را طراحی می کند و کلیه سفارشات دارای گارانتی 6 ماهه در زمینه امنیت و پشتیبانی می باشد.
+                     </p>
+                     
+                    
+                    </div>
+  
+    </section>
+    <hr>
+    <section class="container">
+	 	<div class="col-md-6 	
+consultation">
+    	<div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="text-center margin-padding">مشاوره رایگان</h3>
+          </div>
+          <div id="collapseThree" class="panel-collapse in" style="height: auto;">
+            <div class="panel-body">
+            <p align="center" style="font-size:40px;color:#438838"><i class="fa fa-users"></i></p>
+              <p><p align="center">نیاز هر انتخاب خوب ، مشاوره قبل از انتخاب می باشد.</p><p align="justify"> واحد مشاروه شرکت رای وب در جهت رضایت شما، آماده ارائه خدمات مشاوره می باشد. به منظور مشاوره رایگان ، با شماره 66576199 تماس حاصل فرمائید و یا پس از پرکردن فرم <a href="?page=order" style="text-decoration:underline">سفارش</a> منتظر تماس کارشناسان ما باشید. </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+			<div class="col-md-6">
+        <div class="w-section inverse">
+            
+                
+                    <div>
+                        <h3 class="section-title"><span> آخرین پروژه های <a href="http://rayweb.ir" style="color:#000">طراحی وب سایت</a></span></h3>
                         <div class="row">
                             <div class="col-md-12">
                                 <!--project slide show start-->
                                 	<section id="homepageCarousel" class="carousel carousel-1 slide color-two-l" data-ride="carousel">
                                         <div class="carousel-inner">
                                               
-                                            <div class="item item-dark active" style="background-image:url(images/carousel/bazarsonnati.jpg);">
+                                            <div class="item item-dark active" style="background-image:url(images/samples/detail/tannazmezon_big.jpg);">
                                                 <div class="container">
                                                     <div class="description fluid-center">
                                                         
@@ -206,8 +276,18 @@
                                                     
                                                 </div>
                                             </div> 
+                                            <div class="item item-light" style="background-image:url(images/samples/detail/barincard_big.jpg);">
+                                                <div class="container">
+                                                    <div class="description">
+                                                        
+                                                    </div>
+                                                    <div class="object">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
                                             
-                                            <div class="item item-light" style="background-image:url(images/carousel/guardianbourse.jpg);">
+                                            <div class="item item-light" style="background-image:url(images/samples/detail/tadbir_big.jpg);">
                                                 <div class="container">
                                                     <div class="description">
                                                         
@@ -227,77 +307,13 @@
                                             <i class="fa fa-angle-right"></i>
                                         </a>     
                                     </section>
-                                <!--project slide show end-->
-                            </div>
+ </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <h3 class="section-title">چرا <strong>رای وب</strong></h3>
-                        <div class="widget">
-                            <div class="panel-group" id="accordion">
-                                <div class="panel panel-default">
-                                  <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapsed">
-                                        طراحی تخصصی
-                                      </a>
-                                    </h4>
-                                  </div>
-                                  <div id="collapseOne" class="panel-collapse collapse" style="height: 0px;">
-                                    <div class="panel-body">
-                                    <p>
-                                      <p>طراحان <strong>رای وب</strong> کپی نمی کنند !</p>
-تیم تخصصی طراحی وب سایت رای وب برای هر پروژه مراحل طراحی گرافیکی را کامل انجام می دهند و در هر مرحله مستندات آن را به مشتری ارائه می دهند و مشتری را در جریان انجام مراحل طراحی می گذارند
-                                    </p>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="panel panel-default">
-                                  <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
-                                        برنامه نویسی لایه ای
-                                      </a>
-                                    </h4>
-                                  </div>
-                                  <div id="collapseTwo" class="panel-collapse collapse" style="height: 0px;">
-                                    <div class="panel-body">
-                                      <p>
-                                     تیم برنامه نویسی شرکت <strong>رای وب</strong> با تکیه بر کار گروهی و افزایش سرعت طراحی و توسعه وب سایت ها و پرتال ها از مدل برنامه نویسی لایه ای در سفارشات خود استفاده می کنند که به موجل آن کار طراحی و توسعه به صورت تخصصی در هر حوزه به متخصص آن ارجاع می شود.
-                                    </p>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="panel panel-default">
-                                  <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="">
-                                        امنیت بالا
-                                      </a>
-                                    </h4>
-                                  </div>
-                                  <div id="collapseThree" class="panel-collapse in" style="height: auto;">
-                                    <div class="panel-body">
-                                      <p>
-                                      تیم برنامه نویسی شرکت <strong>رای وب</strong> با تجربه بالا در زمینه برنامه نویسی و استفاده از فریم ورکهای قوی و جدید ، وب سایت ها و پرتال هایی با بالاترین سطح امنیت را طراحی می کند و کلیه سفارشات دارای گارانتی 6 ماهه در زمینه امنیت و پشتیبانی می باشد.
-                                    </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-                        
-                        <blockquote class="blockquote-1">
-                            <p class="text-justify">شرکت <strong>رای وب</strong> معتقد است که وب سایت شما ویترین حرفه ای شرکت شما در بازار است و میبایست از نظر فنی کاملاً بی نقص و مدرن، از نظر ظاهری شکیل و از نظر محتوا جامع و هدفمند باشد تا بهترین بازتاب ممکن از فعالیتها، جایگاه و اعتبار شرکت شما را در بازارهای منطقه ای و جهانی بنمایش گذارد.</p>
-                            
-                        </blockquote>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>    
+        </div></div>
     </section>
-    <section class="slice bg-banner-1">
+    
+    <section class="slice para">
         <div class="w-section inverse">
             <div class="container">
                 <div class="row">
@@ -325,42 +341,42 @@
                 <div class="col-md-2 col-sm-4 col-xs-6">
                     <div class="client">
                     	<a href="#">
-                    		<img src="images/clients/boostan.jpg" alt="مجتمع تجاری اداری بوستان">
+                    		<img src="images/clients/boostan.png" alt="مشتریان طراحی وب سایت رای وب">
                         </a>
                     </div>
                 </div>
                  <div class="col-md-2 col-sm-4 col-xs-6">
                     <div class="client">
                     	<a href="#">
-                    		<img src="images/clients/scards.jpg" alt="شرکت سرمایه گذران قوی سپید یکتا">
+                    		<img src="images/clients/scards.png" alt="مشتریان طراحی وب سایت رای وب">
                         </a>
                     </div>
                 </div>
                  <div class="col-md-2 col-sm-4 col-xs-6">
                     <div class="client">
                     	<a href="#">
-                    		<img src="images/clients/ano.jpg" alt="گروه توسعه و ساخت آنو">
+                    		<img src="images/clients/ano.png" alt="مشتریان طراحی وب سایت رای وب">
                         </a>
                     </div>
                 </div>
                  <div class="col-md-2 col-sm-4 col-xs-6">
                     <div class="client">
                     	<a href="#">
-                    		<img src="images/clients/notrika.jpg" alt="گروه موسیقی نوتریکا">
+                    		<img src="images/clients/atieh.png" alt="مشتریان طراحی وب سایت رای وب">
                         </a>
                     </div>
                 </div>
                  <div class="col-md-2 col-sm-4 col-xs-6">
                     <div class="client">
                     	<a href="#">
-                    		<img src="images/clients/guardianbourse.jpg" alt="شرکت سرمایه گذاری گاردین بورس">
+                    		<img src="images/clients/barincard.png" alt="مشتریان طراحی وب سایت رای وب">
                         </a>
                     </div>
                 </div>
                  <div class="col-md-2 col-sm-4 col-xs-6">
                     <div class="client">
                     	<a href="#">
-                    		<img src="images/clients/parvazsystem.jpg" alt="پرواز سیستم">
+                    		<img src="images/clients/parvazi.png" alt="مشتریان طراحی وب سایت رای وب">
                         </a>
                     </div>
                 </div>

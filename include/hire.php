@@ -53,6 +53,7 @@
                 </ol>
             </div>
         </div>
+        <hr>
     </div>
 </div>
 

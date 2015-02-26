@@ -12,6 +12,7 @@
                 </ol>
             </div>
         </div>
+        <hr>
     </div>
 </div>
     
@@ -43,7 +44,7 @@
 					
                     
                    <?php 
-				   $sample_query = "SELECT * FROM `project`";
+				   $sample_query = "SELECT * FROM `project` ORDER BY RAND()";
 					$sample_result = mysqli_query($connection,$sample_query);
 				   while($sample_row = mysqli_fetch_assoc($sample_result)){
 					   $cat = $sample_row['project_type'];
@@ -72,7 +73,7 @@
 						<div class='mix category_$cat col-lg-4 col-md-4 col-sm-6' data-cat='$cat'>
 							<div class='w-box inverse'>
 								<div class='figure'>
-									<img alt='' src='images/samples/$sample_row[project_image]' class='img-responsive'>
+									<img alt='طراحی وب سایت' src='images/samples/$sample_row[project_image]' class='img-responsive'>
 									<div class='figcaption bg-2'></div>
 									<div class='figcaption-btn'>
 										<a href='$sample_row[project_address]' target='_blank' class='btn btn-xs btn-one theater'><i class='fa fa-plus-circle'></i> ورود به سایت</a>
@@ -81,7 +82,7 @@
 								</div>
 								<div class='row'>
 									<div class='text-center'>
-										<h2>$sample_row[project_name]</h2>
+										<h3>$sample_row[project_name]</h3>
 										<small>$sample_row[project_service]</small>
 									</div>
 									

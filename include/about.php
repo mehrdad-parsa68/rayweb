@@ -11,6 +11,7 @@
                     </ol>
                 </div>
             </div>
+            <hr>
         </div>
     </div>
     
@@ -86,54 +87,59 @@
             </div>
         </div>
     </section>
-         
     
     
     <section class="slice bg-3">
 	<div class="w-section inverse">
         <div class="container">
-        	<h3 class="section-title">برخی مشتریان ما</h3>
+        	<h3 class="section-title">اعضای هیئت مدیره <strong>رای وب</strong> </h3>
             <div class="row">
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <div class="client">
+                <div class="col-md-3 col-sm-6">
+                    <div class="client managers text-center">
                     	<a href="#">
-                    		<img src="images/clients/boostan.jpg" alt="">
+                    		<img src="images/managers/mousavi.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
                         </a>
+                        <h4>سید امیر موسوی محسنی</h4>
+                        <p>عضو هیئت مدیره</p>
+                        <p>مدرس طراحی وب سایت</p>
+                        <p>توسعه دهنده وب سایت</p>
+                        <input type="submit" name="mosuavi" class="btn btn-two" value="دانلود رزومه">
                     </div>
                 </div>
-                 <div class="col-md-2 col-sm-4 col-xs-6">
-                    <div class="client">
+                 <div class="col-md-3 col-sm-6">
+                    <div class="client managers text-center">
                     	<a href="#">
-                    		<img src="images/clients/scards.jpg" alt="">
+                    		<img src="images/managers/alaee.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
                         </a>
+                        <h4>علی علایی کرهرودی</h4>
+                        <p>نایب رئیس هیئت مدیره</p>
+                        <p>گرافیست</p>
+                        <p>مدرس فتوشاپ</p>
+                        <input type="submit" name="mosuavi" class="btn btn-two" value="دانلود رزومه">
                     </div>
                 </div>
-                 <div class="col-md-2 col-sm-4 col-xs-6">
-                    <div class="client">
+                <div class="col-md-3 col-sm-6">
+                    <div class="client managers text-center">
                     	<a href="#">
-                    		<img src="images/clients/ano.jpg" alt="">
+                    		<img src="images/managers/parsa.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
                         </a>
+                        <h4>مهرداد پارسانژاد</h4>
+                        <p>رئیس هیئت مدیره</p>
+                        <p>مدرس طراحی وب سایت</p>
+                        <p>توسعه دهنده وب سایت</p>
+                        <input type="submit" name="mosuavi" class="btn btn-two" value="دانلود رزومه">
                     </div>
                 </div>
-                 <div class="col-md-2 col-sm-4 col-xs-6">
-                    <div class="client">
+                 <div class="col-md-3 col-sm-6">
+                    <div class="client managers text-center">
                     	<a href="#">
-                    		<img src="images/clients/notrika.jpg" alt="">
+                    		<img src="images/managers/sabramooz.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
                         </a>
-                    </div>
-                </div>
-                 <div class="col-md-2 col-sm-4 col-xs-6">
-                    <div class="client">
-                    	<a href="#">
-                    		<img src="images/clients/guardianbourse.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                 <div class="col-md-2 col-sm-4 col-xs-6">
-                    <div class="client">
-                    	<a href="#">
-                    		<img src="images/clients/parvazsystem.jpg" alt="">
-                        </a>
+                        <h4>پویا صبرآموز</h4>
+                        <p>مدیر عامل</p>
+                        <p>مدرس طراحی وب سایت</p>
+                        <p>توسعه دهنده وب سایت</p>
+                        <input type="submit" name="mosuavi" class="btn btn-two" value="دانلود رزومه">
                     </div>
                 </div>
             </div>

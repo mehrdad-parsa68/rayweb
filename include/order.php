@@ -122,7 +122,7 @@
 
 </div><br>
 <hr>
-<div class="container" ng-app="priceCalculate">
+<!--<div class="container" ng-app="priceCalculate">
     <div ng-controller="MainController">
         <table class="table table-bordered table-hover table-responsive table-striped">
             <tr>
@@ -141,4 +141,4 @@
         </table>
         <div class="price-calculate">{{amount}} تومان</div>
     </div>
-</div>
+</div>-->

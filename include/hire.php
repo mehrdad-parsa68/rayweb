@@ -48,7 +48,7 @@
             </div>
             <div class="col-md-6 col-sm-6">
                 <ol class="breadcrumb">
-                    <li><a href="?page=home">صفحه اصلی</a></li>
+                    <li><a href="http://www.rayweb.ir/<?php echo convert($connection,"home"); ?>/">صفحه اصلی</a></li>
                     <li class="active">استخدام</li>
                 </ol>
             </div>

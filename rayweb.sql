@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3306
--- Generation Time: Jan 18, 2015 at 12:20 PM
+-- Generation Time: Feb 27, 2015 at 09:17 AM
 -- Server version: 5.1.73
--- PHP Version: 5.5.14
+-- PHP Version: 5.5.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -121,7 +121,7 @@ CREATE TABLE IF NOT EXISTS `hire` (
   `ability` text NOT NULL,
   `resume` text NOT NULL,
   `register_date` bigint(20) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=21 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=23 ;
 
 --
 -- Dumping data for table `hire`
@@ -135,7 +135,9 @@ INSERT INTO `hire` (`id`, `full_name`, `mobile`, `email`, `address`, `category`,
 (17, '', '', '', '', '', '', '', 1411632546),
 (18, '', '', '', '', '', '', '', 1411632575),
 (19, '', '', '', '', '', '', '', 1411632621),
-(20, 'امیر موسوی', '09121234567', 'amirmousavi_90@yahoo.com', 'asd', 'گرافیست', 'adsf', 'afaeraFR', 1411632731);
+(20, 'امیر موسوی', '09121234567', 'amirmousavi_90@yahoo.com', 'asd', 'گرافیست', 'adsf', 'afaeraFR', 1411632731),
+(21, 'اسم ندارم', 'تلفن ندارم', 'ihavenotemail@notemail.com', 'خانه ندارم', 'گرافیست', 'مهارت ندارم', 'بیکار', 1422538977),
+(22, 'مسعود پارسا', '09125270217', 'm.parsanejad@gmail.com', 'خیابان نمایندگی', 'توسعه دهنده', 'همه چی', 'برند ها', 1424263064);
 
 -- --------------------------------------------------------
 
@@ -174,7 +176,7 @@ CREATE TABLE IF NOT EXISTS `order` (
   `site_type` varchar(250) NOT NULL,
   `site_description` varchar(250) NOT NULL,
   `date` bigint(20) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 --
 -- Dumping data for table `order`
@@ -183,7 +185,37 @@ CREATE TABLE IF NOT EXISTS `order` (
 INSERT INTO `order` (`id`, `first_name`, `last_name`, `phone`, `mobile`, `email`, `site_type`, `site_description`, `date`) VALUES
 (1, 'mohsen', 'taheri', '09124214285', '09124214285', 'moh3en.taheri@yahoo.com', 'شرکتی', 'سایت در مورد شبکه ،پشتیبانی شبکه ، دوربین مداربسته \r\nسایت بیشتر معرفی خودمان و خدماتی  هستش تا فروش', 1415515061),
 (2, 's', 's', 'sd', 'sd', 'sd', 'شرکتی', 'sdsd', 1416338187),
-(3, 'jhjhjhjkglhgjhjhhgfghfhggfdfdrettyuiiuiuiuiou88uy878787878787', 'll', '', '', '', 'شرکتی', '', 1416743988);
+(3, 'jhjhjhjkglhgjhjhhgfghfhggfdfdrettyuiiuiuiuiou88uy878787878787', 'll', '', '', '', 'شرکتی', '', 1416743988),
+(4, 'روح الله ', 'زردرنگ', '04142223442', '09143910172', 'zardrang90@gmail.com ', 'شرکتی', 'شرکت بازرگانی واردات ماشینهایشان سنگین تریلی رنو داف و کلیه سوارها ی کوره ای', 1422913312);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pages`
+--
+
+CREATE TABLE IF NOT EXISTS `pages` (
+`id` int(11) NOT NULL,
+  `latin_name` varchar(250) NOT NULL,
+  `persian_name` varchar(250) NOT NULL,
+  `keyword` text NOT NULL,
+  `description` text NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
+
+--
+-- Dumping data for table `pages`
+--
+
+INSERT INTO `pages` (`id`, `latin_name`, `persian_name`, `keyword`, `description`) VALUES
+(1, 'home', 'صفحه اصلی', 'طراحی سایت رای وب,ray web,rayweb,رای وب,طراحی سایت,طراحی وب سایت,بهینه سازی وب سایت,سئو,طراحی حرفه ای سایت,استاتیک,فروشگاه اینترنتی,سایت استاتیک,سایت داینامیک,طراحی فروشگاه اینترنتی,آموزش طراحی وب سایت', 'طراحی وب سایت,مقاله طراحی وب سایت,مقالات طراحی وب سایت,طراحی وب سایت تخصصی\r\nتیم تخصصی طراحی وب سایت رای وب برای هر پروژه مراحل طراحی گرافیکی را کامل انجام می دهند و در هر مرحله مستندات آن را به مشتری ارائه می دهند و مشتری را در جریان انجام مراحل طراحی می گذارند. ,بهینه سازی وب سایت,طراحی وب سایت رای وب,آموزش طراحی وب سایت'),
+(2, 'order', 'سفارش', 'طراحی سایت رای وب,ray web,rayweb,رای وب,طراحی سایت,طراحی وب سایت,بهینه سازی وب سایت,سئو,طراحی حرفه ای سایت,استاتیک,فروشگاه اینترنتی,سایت استاتیک,سایت داینامیک,طراحی فروشگاه اینترنتی,آموزش طراحی وب سایت', 'طراحی وب سایت,مقاله طراحی وب سایت,مقالات طراحی وب سایت,طراحی وب سایت تخصصی\r\nتیم تخصصی طراحی وب سایت رای وب برای هر پروژه مراحل طراحی گرافیکی را کامل انجام می دهند و در هر مرحله مستندات آن را به مشتری ارائه می دهند و مشتری را در جریان انجام مراحل طراحی می گذارند. ,بهینه سازی وب سایت,طراحی وب سایت رای وب,آموزش طراحی وب سایت'),
+(3, 'contact', 'ارتباط با ما', 'طراحی سایت رای وب,ray web,rayweb,رای وب,طراحی سایت,طراحی وب سایت,بهینه سازی وب سایت,سئو,طراحی حرفه ای سایت,استاتیک,فروشگاه اینترنتی,سایت استاتیک,سایت داینامیک,طراحی فروشگاه اینترنتی,آموزش طراحی وب سایت', 'طراحی وب سایت,مقاله طراحی وب سایت,مقالات طراحی وب سایت,طراحی وب سایت تخصصی\r\nتیم تخصصی طراحی وب سایت رای وب برای هر پروژه مراحل طراحی گرافیکی را کامل انجام می دهند و در هر مرحله مستندات آن را به مشتری ارائه می دهند و مشتری را در جریان انجام مراحل طراحی می گذارند. ,بهینه سازی وب سایت,طراحی وب سایت رای وب,آموزش طراحی وب سایت'),
+(4, 'about', 'درباره ما', 'طراحی سایت رای وب,ray web,rayweb,رای وب,طراحی سایت,طراحی وب سایت,بهینه سازی وب سایت,سئو,طراحی حرفه ای سایت,استاتیک,فروشگاه اینترنتی,سایت استاتیک,سایت داینامیک,طراحی فروشگاه اینترنتی,آموزش طراحی وب سایت', 'طراحی وب سایت,مقاله طراحی وب سایت,مقالات طراحی وب سایت,طراحی وب سایت تخصصی\r\nتیم تخصصی طراحی وب سایت رای وب برای هر پروژه مراحل طراحی گرافیکی را کامل انجام می دهند و در هر مرحله مستندات آن را به مشتری ارائه می دهند و مشتری را در جریان انجام مراحل طراحی می گذارند. ,بهینه سازی وب سایت,طراحی وب سایت رای وب,آموزش طراحی وب سایت'),
+(5, 'sample', 'نمونه کارها', 'طراحی سایت رای وب,ray web,rayweb,رای وب,طراحی سایت,طراحی وب سایت,بهینه سازی وب سایت,سئو,طراحی حرفه ای سایت,استاتیک,فروشگاه اینترنتی,سایت استاتیک,سایت داینامیک,طراحی فروشگاه اینترنتی,آموزش طراحی وب سایت', 'طراحی وب سایت,مقاله طراحی وب سایت,مقالات طراحی وب سایت,طراحی وب سایت تخصصی\r\nتیم تخصصی طراحی وب سایت رای وب برای هر پروژه مراحل طراحی گرافیکی را کامل انجام می دهند و در هر مرحله مستندات آن را به مشتری ارائه می دهند و مشتری را در جریان انجام مراحل طراحی می گذارند. ,بهینه سازی وب سایت,طراحی وب سایت رای وب,آموزش طراحی وب سایت'),
+(6, 'education', 'آموزش', 'طراحی سایت رای وب,ray web,rayweb,رای وب,طراحی سایت,طراحی وب سایت,بهینه سازی وب سایت,سئو,طراحی حرفه ای سایت,استاتیک,فروشگاه اینترنتی,سایت استاتیک,سایت داینامیک,طراحی فروشگاه اینترنتی,آموزش طراحی وب سایت', 'طراحی وب سایت,مقاله طراحی وب سایت,مقالات طراحی وب سایت,طراحی وب سایت تخصصی\r\nتیم تخصصی طراحی وب سایت رای وب برای هر پروژه مراحل طراحی گرافیکی را کامل انجام می دهند و در هر مرحله مستندات آن را به مشتری ارائه می دهند و مشتری را در جریان انجام مراحل طراحی می گذارند. ,بهینه سازی وب سایت,طراحی وب سایت رای وب,آموزش طراحی وب سایت'),
+(7, 'hire', 'استخدام', 'طراحی سایت رای وب,ray web,rayweb,رای وب,طراحی سایت,طراحی وب سایت,بهینه سازی وب سایت,سئو,طراحی حرفه ای سایت,استاتیک,فروشگاه اینترنتی,سایت استاتیک,سایت داینامیک,طراحی فروشگاه اینترنتی,آموزش طراحی وب سایت', 'طراحی وب سایت,مقاله طراحی وب سایت,مقالات طراحی وب سایت,طراحی وب سایت تخصصی\r\nتیم تخصصی طراحی وب سایت رای وب برای هر پروژه مراحل طراحی گرافیکی را کامل انجام می دهند و در هر مرحله مستندات آن را به مشتری ارائه می دهند و مشتری را در جریان انجام مراحل طراحی می گذارند. ,بهینه سازی وب سایت,طراحی وب سایت رای وب,آموزش طراحی وب سایت'),
+(8, 'article', 'مقالات', 'طراحی سایت رای وب,ray web,rayweb,رای وب,طراحی سایت,طراحی وب سایت,بهینه سازی وب سایت,سئو,طراحی حرفه ای سایت,استاتیک,فروشگاه اینترنتی,سایت استاتیک,سایت داینامیک,طراحی فروشگاه اینترنتی,آموزش طراحی وب سایت', 'طراحی وب سایت,مقاله طراحی وب سایت,مقالات طراحی وب سایت,طراحی وب سایت تخصصی\r\nتیم تخصصی طراحی وب سایت رای وب برای هر پروژه مراحل طراحی گرافیکی را کامل انجام می دهند و در هر مرحله مستندات آن را به مشتری ارائه می دهند و مشتری را در جریان انجام مراحل طراحی می گذارند. ,بهینه سازی وب سایت,طراحی وب سایت رای وب,آموزش طراحی وب سایت'),
+(9, 'press', 'رای وب در جراید', 'طراحی سایت رای وب,ray web,rayweb,رای وب,طراحی سایت,طراحی وب سایت,بهینه سازی وب سایت,سئو,طراحی حرفه ای سایت,استاتیک,فروشگاه اینترنتی,سایت استاتیک,سایت داینامیک,طراحی فروشگاه اینترنتی,آموزش طراحی وب سایت', 'طراحی وب سایت,مقاله طراحی وب سایت,مقالات طراحی وب سایت,طراحی وب سایت تخصصی\r\nتیم تخصصی طراحی وب سایت رای وب برای هر پروژه مراحل طراحی گرافیکی را کامل انجام می دهند و در هر مرحله مستندات آن را به مشتری ارائه می دهند و مشتری را در جریان انجام مراحل طراحی می گذارند. ,بهینه سازی وب سایت,طراحی وب سایت رای وب,آموزش طراحی وب سایت');
 
 -- --------------------------------------------------------
 
@@ -204,7 +236,7 @@ CREATE TABLE IF NOT EXISTS `project` (
   `confirmation` varchar(250) NOT NULL,
   `project_image` varchar(250) NOT NULL,
   `detail_image` varchar(250) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=28 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=33 ;
 
 --
 -- Dumping data for table `project`
@@ -215,14 +247,19 @@ INSERT INTO `project` (`id`, `project_name`, `project_address`, `project_type`, 
 (17, 'گروه ویستا', 'http://vistagroups.ir', 'شرکتی', 'طراحی وب سایت - پنل مدیریت', 'شرکت فخر نیکان ویستا', 'HTML5, CSS3, Bootstrap, PHP 5', 0, 'ارائه دهنده پودر کاکائو کارگیل هلند', '', 'vistagroups.jpg', 'vistagroups_big.jpg'),
 (18, 'پروژه RFID مجتمع تجاری اداری بوستان', '#', 'پرتال', 'طراحی سیستم مدیریت مجتمع بوستان', 'مجتمع تجاری اداری بوستان', 'C#- PHP5 - RFID', 0, 'مجتمع تجاری اداری', '', 'boostan.jpg', 'boostan_big.jpg'),
 (19, 'صفحه شخصی میثم نوری زاده', 'http://meysamnourizadeh.com', 'شخصی', 'طراحی وب سایت', 'میثم نوری زاده', 'bootstrap3 - html - css3', 0, 'طراحی تخم مرغ های مشبک - خواننده', '', 'nourizadeh.jpg', 'nourizadeh_big.jpg'),
-(20, 'شرکت حمل و نقل آتیه', 'http://rayweb.ir/atieh', 'شرکتی', 'طراحی وب سایت', 'شرکت حمل و نقل آتیه', 'html5 - css3 - jquery', 0, 'حمل و نقل بین المللی', '', 'atieh.jpg', 'atieh_big.jpg'),
+(20, 'شرکت حمل و نقل آتیه', 'http://atiehtransport.com', 'شرکتی', 'طراحی وب سایت', 'شرکت حمل و نقل آتیه  ', 'html5 - css3 - jquery', 0, 'حمل و نقل بین المللی', '', 'atieh.jpg', 'atieh_big.jpg'),
 (21, 'گروه توسعه و ساخت آنو', 'http://tavgroup.ir', 'شرکتی', 'طراحی وب سایت - پنل مدیریت', 'گروه توسعه و ساخت آنو', 'bootstrap3 - html5 - css3 -jquery', 0, 'ساخت و ساز برج های مسکونی و تجاری', '', 'ano.jpg', 'ano_big.jpg'),
 (22, 'صفحه شخصی پویا صبرآموز', 'http://sabramooz.ir', 'شخصی', 'طراحی وب سایت', 'پویا صبرآموز', 'bootstrap3 - html5 - css3 -jquery', 0, 'طراحی وب سایت - برنامه نویسی', '', 'sabramooz.jpg', 'sabramooz_big.jpg'),
 (23, 'گاردین بورس', 'http://guardianbourse.ir', 'سرمایه گذاری', 'طراحی وب سایت - پنل مدیریت - SEO', 'شرکت سرمایه گذاری گاردین بورس', 'bootstrap3 - html5 - css3 -jquery', 0, 'مشاوره بورس', '', 'guardianbourse.jpg', 'guardianbourse_big.jpg'),
 (24, 'بازار سنتی', 'http://bazarsonnati.com', 'فروشگاهی', 'طراحی وب سایت - پنل مدیریت', '', 'HTML5, CSS3, Bootstrap, PHP 5', 0, 'فروشگاه اینترنتی محصولات سنتی ایرانی', '', 'bazarsonnati.jpg', 'bazarsonnati_big.jpg'),
 (25, 'مزون طناز', 'http://tannazmezon.ir', 'هنری', 'طراحی وب سایت - پنل مدیریت - SEO', 'مزون طناز  ', 'bootstrap3 - html5 - css3 -jquery - PHP', 0, 'طراحی لباس', '', 'tannazmezon_small.jpg', 'tannazmezon_big.jpg'),
-(26, 'ثبت شرکت تدبیر اندیشان', 'http://rayweb.ir/tadbir', 'شرکتی', 'طراحی وب سایت - پنل مدیریت - SEO', 'ثبت شرکت تدبیر اندیشان ', 'html5 - css3 - jquery - PHP', 0, 'ثبت شرکت - ثبت برند و ...', '', 'tadbir_small.jpg', 'tadbir_big.jpg'),
-(27, 'تهویه سازان وطن', 'http://tahviehvatan.com', 'شرکتی', 'طراحی وب سایت - پنل مدیریت', 'شرکت تهویه سازان وطن', 'html5 - css3 - jquery - PHP - Bootstrap3', 0, 'وارد کننده سیستم های تهویه', '', 'tahvieh_small.jpg', 'tahvieh_big.jpg');
+(26, 'ثبت شرکت تدبیر اندیشان', 'http://tadbirregister.ir', 'شرکتی', 'طراحی وب سایت - پنل مدیریت - SEO', 'ثبت شرکت تدبیر اندیشان  ', 'html5 - css3 - jquery - PHP', 0, 'ثبت شرکت - ثبت برند و ...', '', 'tadbir_small.jpg', 'tadbir_big.jpg'),
+(27, 'تهویه سازان وطن', 'http://tahviehvatan.com', 'شرکتی', 'طراحی وب سایت - پنل مدیریت', 'شرکت تهویه سازان وطن', 'html5 - css3 - jquery - PHP - Bootstrap3', 0, 'وارد کننده سیستم های تهویه', '', 'tahvieh_small.jpg', 'tahvieh_big.jpg'),
+(28, 'ثبت شرکت ژیهات', 'http://www.zhihatregister.ir', 'شرکتی', 'طراحی وب سایت - SEO', 'ثبت شرکت ژیهات ', 'bootstrap3 - html5 - css3 -jquery - PHP', 0, 'ثبت شرکت - ثبت برند - کد اقتصادی', '', 'zhihat.jpg', 'zhihat_big.jpg'),
+(29, 'راه سازان زرافشان', 'http://www.rzarafshan.com', 'شرکتی', 'طراحی وب سایت - SEO', 'راه سازان زرافشان', 'bootstrap3 - html5 - css3 -jquery - PHP', 0, 'تولید کننده انواع جدول و سنگدال', '', 'zarafshan.jpg', 'zarafshan_big.jpg'),
+(30, 'محصولات OMS', 'http://omstehran.com', 'فروشگاهی', 'طراحی وب سایت', '', 'bootstrap3 - html5 - css3 -jquery - PHP ', 0, 'نماینده انحصاری فروش محصولات OMS', '', 'omstehran.jpg', 'omstehran_big.jpg'),
+(31, 'برین کارت', 'http://barincard.com', 'فروشگاهی', 'طراحی وب سایت - SEO - نرم افزار Android - نرم افزار IOS', 'شرکت یگانه نوآوران پویا', 'bootstrap3 - html5 - css3 -jquery - PHP - Smarty ', 0, 'ارائه دهنده کارت های تخفیف', '', 'barincard.jpg', 'barincard_big.jpg'),
+(32, 'شمس آباد بلور', 'http://www.shamsabadglass.com', 'فروشگاهی', 'طراحی وب سایت - پنل مدیریت', 'شرکت شمس آباد بلور ', 'bootstrap3 - html5 - css3 -jquery - PHP ', 0, 'تولید کننده انواع محصولات بلور', '', 'shamsabad.jpg', 'shamsabad_big.jpg');
 
 -- --------------------------------------------------------
 
@@ -273,6 +310,12 @@ ALTER TABLE `order`
  ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `pages`
+--
+ALTER TABLE `pages`
+ ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `project`
 --
 ALTER TABLE `project`
@@ -297,7 +340,7 @@ MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=61;
 -- AUTO_INCREMENT for table `hire`
 --
 ALTER TABLE `hire`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=21;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=23;
 --
 -- AUTO_INCREMENT for table `hire_category`
 --
@@ -307,12 +350,17 @@ MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 -- AUTO_INCREMENT for table `order`
 --
 ALTER TABLE `order`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
+--
+-- AUTO_INCREMENT for table `pages`
+--
+ALTER TABLE `pages`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT for table `project`
 --
 ALTER TABLE `project`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=28;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=33;
 --
 -- AUTO_INCREMENT for table `sms_temp`
 --

@@ -87,7 +87,7 @@
                             <div class="row">
                                 
                                 <div class="col-md-9">
-                                    <h2 class="h4-font"><a href="http://rayweb.ir" style="color:#438838">طراحی وب سایت</a> و پرتال</h2>
+                                    <h2 class="h4-font"><a href="http://www.rayweb.ir/<?php echo convert($connection,"home"); ?>/" style="color:#438838">طراحی وب سایت</a> و پرتال</h2>
                                     
                                          <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی وب سایت</h3>
                                          <h3 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی وب سایت شخصی</h3>
@@ -261,7 +261,7 @@ consultation">
             
                 
                     <div>
-                        <h3 class="section-title"><span> آخرین پروژه های <a href="http://rayweb.ir" style="color:#000">طراحی وب سایت</a></span></h3>
+                        <h3 class="section-title"><span> آخرین پروژه های <a href="http://www.rayweb.ir/<?php echo convert($connection,"home"); ?>/" style="color:#000">طراحی وب سایت</a></span></h3>
                         <div class="row">
                             <div class="col-md-12">
                                 <!--project slide show start-->

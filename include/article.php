@@ -7,7 +7,7 @@
             </div>
             <div class="col-md-6 col-sm-6">
                 <ol class="breadcrumb">
-                    <li><a href="?page=home">صفحه اصلی</a></li>
+                    <li><a href="http://www.rayweb.ir/<?php echo convert($connection,"home"); ?>/">صفحه اصلی</a></li>
                     <li class="active">مقالات</li>
                 </ol>
             </div>
@@ -20,12 +20,12 @@
 	<div class="col-lg-12" style="font-size:18px; ">
 		<h2>مقالات طراحی وب سایت</h2>
 		<ul style="list-style:none; color:black important;">
-			<li><a class="exo" href="index.php?page=article&article=4"><span class="fa fa-book"></span>&nbsp;&nbsp; AngularJS</a></li>
-			<li><a class="exo" href="index.php?page=article&article=3"><span class="fa fa-book"></span>&nbsp;&nbsp; اصول طراحی سایت</a></li>
-			<li><a class="exo" href="index.php?page=article&article=2"><span class="fa fa-book"></span>&nbsp;&nbsp;  عناصر مهم در طراحی سایت</a></li>
-			<li><a class="exo" href="index.php?page=article&article=1"><span class="fa fa-book"></span>&nbsp;&nbsp;  تأثیر طراحی سایت واکنشی یا “Responsive”بر سئو</a></li>		
-            <li><a class="exo" href="index.php?page=article&article=5"><span class="fa fa-book"></span>&nbsp;&nbsp;  W3C و معتبر سازی کدها</a></li>
-            <li><a class="exo" href="index.php?page=article&article=5"><span class="fa fa-book"></span>&nbsp;&nbsp; CSS3 نسل جدیدی از CSS</a></li>
+			<li><a class="exo" href="http://www.rayweb.ir/<?php echo convert($connection,"article"); ?>/&article=4"><span class="fa fa-book"></span>&nbsp;&nbsp; AngularJS</a></li>
+			<li><a class="exo" href="http://www.rayweb.ir/<?php echo convert($connection,"article"); ?>/&article=3"><span class="fa fa-book"></span>&nbsp;&nbsp; اصول طراحی سایت</a></li>
+			<li><a class="exo" href="http://www.rayweb.ir/<?php echo convert($connection,"article"); ?>/&article=2"><span class="fa fa-book"></span>&nbsp;&nbsp;  عناصر مهم در طراحی سایت</a></li>
+			<li><a class="exo" href="http://www.rayweb.ir/<?php echo convert($connection,"article"); ?>/&article=1"><span class="fa fa-book"></span>&nbsp;&nbsp;  تأثیر طراحی سایت واکنشی یا “Responsive”بر سئو</a></li>		
+            <li><a class="exo" href="http://www.rayweb.ir/<?php echo convert($connection,"article"); ?>/&article=5"><span class="fa fa-book"></span>&nbsp;&nbsp;  W3C و معتبر سازی کدها</a></li>
+            <li><a class="exo" href="http://www.rayweb.ir/<?php echo convert($connection,"article"); ?>/&article=5"><span class="fa fa-book"></span>&nbsp;&nbsp; CSS3 نسل جدیدی از CSS</a></li>
             
             
 		</ul>

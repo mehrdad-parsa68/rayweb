@@ -7,7 +7,7 @@
             </div>
             <div class="col-md-6">
                 <ol class="breadcrumb">
-                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="http://www.rayweb.ir/<?php echo convert($connection,"home"); ?>/">صفحه اصلی</a></li>
                     <li class="active">نمونه کارها</li>
                 </ol>
             </div>

@@ -6,7 +6,7 @@
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <ol class="breadcrumb">
-                        <li><a href="?page=home">صفحه اصلی</a></li>
+                        <li><a href="http://www.rayweb.ir/<?php echo convert($connection,"home"); ?>/">صفحه اصلی</a></li>
                         <li class="active">درباره ما</li>
                     </ol>
                 </div>
@@ -53,7 +53,7 @@
                 <div class="row">
                     
                     <div class="col-md-6">
-                        <h3 class="section-title">خدمات شرکت <a href="index.php">رای وب</a></h3>
+                        <h3 class="section-title">خدمات شرکت <a href="http://www.rayweb.ir/<?php echo convert($connection,"home"); ?>/">رای وب</a></h3>
                         <p>
                         تیم طراحی وب سایت شرکت رای وب در پروژه های خود از به روز ترین تکنولوژی ها استفاده میکند.
                         </p>
@@ -67,7 +67,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <h3 class="section-title">چرا <a href="index.php">رای وب</a></h3>
+                        <h3 class="section-title">چرا <a href="http://www.rayweb.ir/<?php echo convert($connection,"home"); ?>/">رای وب</a></h3>
                         <ul class="bullet">
                             <li>
                                 <figure class="pull-right">1</figure>

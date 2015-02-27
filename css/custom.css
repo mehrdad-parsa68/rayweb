@@ -2,22 +2,22 @@ body{
 	font-family:mj,exo !important;
 	direction:rtl !important;
 	font-size:15px !important;
-	background-image:url(../images/bg.jpg) !important;
+	background-image:url(http://www.rayweb.ir/images/bg.jpg) !important;
 	}
 section,.top-header,header{
-	background-image:url(../images/bg.jpg);
+	background-image:url(http://www.rayweb.ir/images/bg.jpg);
 	}
 @font-face{
 	font-family:'mj';
-	src:url('../fonts/Mj_Dinar_Two_Light.eot');
-	src:url('../fonts/Mj_Dinar_Two_Light.eot#iefix') format('eot'),url('../fonts/Mj_Dinar_Two_Light.woff') format('woff'),url('../fonts/Mj_Dinar_Two_Light.ttf') format('truetype');
+	src:url('http://www.rayweb.ir/fonts/Mj_Dinar_Two_Light.eot');
+	src:url('http://www.rayweb.ir/fonts/Mj_Dinar_Two_Light.eot#iefix') format('eot'),url('http://www.rayweb.ir/fonts/Mj_Dinar_Two_Light.woff') format('woff'),url('http://www.rayweb.ir/fonts/Mj_Dinar_Two_Light.ttf') format('truetype');
 	font-weight:normal;
 	font-style:normal;
 }
 @font-face{
 	font-family:'Exo';
-	src:url('../fonts/Exo-Light.eot');
-	src:url('../fonts/Exo-Light.eot#iefix') format('eot'),url('../fonts/Exo-Light.woff') format('woff'),url('../fonts/Exo-Light.ttf') format('truetype');
+	src:url('http://www.rayweb.ir/fonts/Exo-Light.eot');
+	src:url('http://www.rayweb.ir/fonts/Exo-Light.eot#iefix') format('eot'),url('http://www.rayweb.ir/fonts/Exo-Light.woff') format('woff'),url('http://www.rayweb.ir/fonts/Exo-Light.ttf') format('truetype');
 	font-weight:normal;
 	font-style:normal;
 }
@@ -116,7 +116,7 @@ footer a:hover {
 	color:#438838 !important;
 	}
 .para{
-	background-image:url(../images/prv/para.jpg) !important;
+	background-image:url(http://www.rayweb.ir/images/prv/para.jpg) !important;
 	background-size:auto;
 	background-attachment:fixed !important;
 	background-position:0 0 0 0;
@@ -146,7 +146,7 @@ hr{
 	border-color:#438838 -moz-use-text-color -moz-use-text-color !important;
 	}
 .wp-theme-1,.lw,.bg-5,.bg-3 {
-	background-image:url(../images/bg.jpg !important);
+	background-image:url(http://www.rayweb.ir/images/bg.jpg !important);
 	}
 .itemwrap{
 	margin-top:80px !important;

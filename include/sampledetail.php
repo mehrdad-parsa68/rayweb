@@ -14,8 +14,8 @@
                 </div>
                 <div class="col-md-6">
                     <ol class="breadcrumb">
-                        <li><a href="index.php">صفحه اصلی</a></li>
-                        <li><a href="?page=sample">نمونه کارها</a></li>
+                        <li><a href="http://www.rayweb.ir/<?php echo convert($connection,"home"); ?>/">صفحه اصلی</a></li>
+                        <li><a href="http://www.rayweb.ir/<?php echo convert($connection,"sample"); ?>/">نمونه کارها</a></li>
                         <li class="active">اطلاعات سایت</li>
                     </ol>
                 </div>

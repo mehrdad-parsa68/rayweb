@@ -1,7 +1,7 @@
 <section id="slider-wrapper" class="layer-slider-wrapper">
     <div id="layerslider" style="width:100%;height:500px;">
         <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
-            <img src="images/slider/fw-1.jpg" class="ls-bg" alt="Slide background"/><img class="ls-l" style="top:280px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:300;delayin:500;offsetxout:0;offsetyout:-50;durationout:1000;showuntil:220;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;transformoriginout:50% top 0;" src="images/slider/s1.png" alt=""><img class="ls-l" style="top:230px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:30;delayin:1720;scalexin:0.9;scaleyin:0.9;offsetxout:0;offsetyout:300;durationout:1000;scalexout:0.5;scaleyout:0.5;transformoriginout:50% bottom 0;" src="images/slider/s2.png" alt=""><img class="ls-l" style="top:65%;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:250;durationin:950;delayin:500;offsetxout:0;offsetyout:-8;durationout:1000;showuntil:270;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;" src="images/slider/s2.jpg" alt=""><img class="ls-l" style="top:195px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;delayin:1720;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;" src="images/slider/s1.jpg" alt="">
+            <img src="http://www.rayweb.ir/images/slider/fw-1.jpg" class="ls-bg" alt="Slide background"/><img class="ls-l" style="top:280px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:300;delayin:500;offsetxout:0;offsetyout:-50;durationout:1000;showuntil:220;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;transformoriginout:50% top 0;" src="http://www.rayweb.ir/images/slider/s1.png" alt=""><img class="ls-l" style="top:230px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:30;delayin:1720;scalexin:0.9;scaleyin:0.9;offsetxout:0;offsetyout:300;durationout:1000;scalexout:0.5;scaleyout:0.5;transformoriginout:50% bottom 0;" src="http://www.rayweb.ir/images/slider/s2.png" alt=""><img class="ls-l" style="top:65%;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:250;durationin:950;delayin:500;offsetxout:0;offsetyout:-8;durationout:1000;showuntil:270;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;" src="http://www.rayweb.ir/images/slider/s2.jpg" alt=""><img class="ls-l" style="top:195px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;delayin:1720;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;" src="http://www.rayweb.ir/images/slider/s1.jpg" alt="">
             <p class="ls-l" style="top:150px;right:116px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#82d10c;border-radius:3px;white-space: nowrap; width:340px" data-ls="offsetxin:0;durationin:2000;delayin:1500;easingin:easeOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:-200;durationout:1000;">
                 طراحی وب سایت واکنش گرا
             </p>
@@ -11,7 +11,7 @@
             
         </div>
         <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
-            <img src="images/slider/fw-1.jpg" class="ls-bg" alt="Slide background"/><img class="ls-l" style="top:157px;left:284px;white-space: nowrap;" data-ls="offsetxin:300;durationin:2000;offsetxout:-300;parallaxlevel:-1;" src="images/slider/l1.png" alt=""><img class="ls-l" style="top:20px;left:50%;white-space: nowrap;" data-ls="offsetxin:600;durationin:2000;offsetxout:-600;parallaxlevel:1;" src="images/slider/l2.png" alt=""><img class="ls-l" style="top:37px;left:564px;white-space: nowrap;" data-ls="offsetxin:900;durationin:2000;offsetxout:-900;parallaxlevel:4;" src="images/slider/l3.png" alt="">
+            <img src="http://www.rayweb.ir/images/slider/fw-1.jpg" class="ls-bg" alt="Slide background"/><img class="ls-l" style="top:157px;left:284px;white-space: nowrap;" data-ls="offsetxin:300;durationin:2000;offsetxout:-300;parallaxlevel:-1;" src="http://www.rayweb.ir/images/slider/l1.png" alt=""><img class="ls-l" style="top:20px;left:50%;white-space: nowrap;" data-ls="offsetxin:600;durationin:2000;offsetxout:-600;parallaxlevel:1;" src="http://www.rayweb.ir/images/slider/l2.png" alt=""><img class="ls-l" style="top:37px;left:564px;white-space: nowrap;" data-ls="offsetxin:900;durationin:2000;offsetxout:-900;parallaxlevel:4;" src="http://www.rayweb.ir/images/slider/l3.png" alt="">
             <p class="ls-l" style="top:60px;left:74px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#f04705;border-radius:3px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:1500;easingin:easeOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:-200;durationout:1000;parallaxlevel:10;">
                 جای شما در دهکده جهانی خالیست
             </p>
@@ -202,13 +202,13 @@
               <div id="component" class="component component-transparent fxTableDrop">
                 
 					<ul class="itemwrap">
-						<li class="current"><a class="example-image-link" href="images/press/pic01.jpg" data-lightbox="example-set">
-                    <img class="example-image img-thumbnail" src="images/press/pic01-t.jpg" alt="رای وب"/></a><h4 align="center">روزنامه ابتکار</h4></li>
+						<li class="current"><a class="example-image-link" href="http://www.rayweb.ir/images/press/pic01.jpg" data-lightbox="example-set">
+                    <img class="example-image img-thumbnail" src="http://www.rayweb.ir/images/press/pic01-t.jpg" alt="رای وب"/></a><h4 align="center">روزنامه ابتکار</h4></li>
 					
 					</ul>
 					<nav>
-						<a class="prev fa fa-chevron-left" href="#">Previous item</a>
-						<a class="next  fa fa-chevron-right" href="#">Next item</a>
+						<a class="prev fa fa-chevron-left" href="http://www.rayweb.ir/#">Previous item</a>
+						<a class="next  fa fa-chevron-right" href="http://www.rayweb.ir/#">Next item</a>
 					</nav>
 				</div>
             </div>
@@ -250,7 +250,7 @@ consultation">
           <div id="collapseThree" class="panel-collapse in" style="height: auto;">
             <div class="panel-body">
             <p align="center" style="font-size:40px;color:#438838"><i class="fa fa-users"></i></p>
-              <p><p align="center">نیاز هر انتخاب خوب ، مشاوره قبل از انتخاب می باشد.</p><p align="justify"> واحد مشاروه شرکت رای وب در جهت رضایت شما، آماده ارائه خدمات مشاوره می باشد. به منظور مشاوره رایگان ، با شماره 66576199 تماس حاصل فرمائید و یا پس از پرکردن فرم <a href="?page=order" style="text-decoration:underline">سفارش</a> منتظر تماس کارشناسان ما باشید. </p>
+              <p><p align="center">نیاز هر انتخاب خوب ، مشاوره قبل از انتخاب می باشد.</p><p align="justify"> واحد مشاروه شرکت رای وب در جهت رضایت شما، آماده ارائه خدمات مشاوره می باشد. به منظور مشاوره رایگان ، با شماره 66576199 تماس حاصل فرمائید و یا پس از پرکردن فرم <a href="http://www.rayweb.ir/<?php echo convert($connection,"order"); ?>/" style="text-decoration:underline">سفارش</a> منتظر تماس کارشناسان ما باشید. </p>
               
             </div>
           </div>
@@ -268,7 +268,7 @@ consultation">
                                 	<section id="homepageCarousel" class="carousel carousel-1 slide color-two-l" data-ride="carousel">
                                         <div class="carousel-inner">
                                               
-                                            <div class="item item-dark active" style="background-image:url(images/samples/detail/tannazmezon_big.jpg);">
+                                            <div class="item item-dark active" style="background-image:url(http://www.rayweb.ir/images/samples/detail/tannazmezon_big.jpg);">
                                                 <div class="container">
                                                     <div class="description fluid-center">
                                                         
@@ -276,7 +276,7 @@ consultation">
                                                     
                                                 </div>
                                             </div> 
-                                            <div class="item item-light" style="background-image:url(images/samples/detail/barincard_big.jpg);">
+                                            <div class="item item-light" style="background-image:url(http://www.rayweb.ir/images/samples/detail/barincard_big.jpg);">
                                                 <div class="container">
                                                     <div class="description">
                                                         
@@ -287,7 +287,7 @@ consultation">
                                                 </div>
                                             </div>
                                             
-                                            <div class="item item-light" style="background-image:url(images/samples/detail/tadbir_big.jpg);">
+                                            <div class="item item-light" style="background-image:url(http://www.rayweb.ir/images/samples/detail/tadbir_big.jpg);">
                                                 <div class="container">
                                                     <div class="description">
                                                         
@@ -300,10 +300,10 @@ consultation">
                                         </div>
                                         
                                         <!-- Controls -->
-                                        <a class="left carousel-control" href="#homepageCarousel" data-slide="prev">
+                                        <a class="left carousel-control" href="http://www.rayweb.ir/#homepageCarousel" data-slide="prev">
                                             <i class="fa fa-angle-left"></i>
                                         </a>
-                                        <a class="right carousel-control" href="#homepageCarousel" data-slide="next">
+                                        <a class="right carousel-control" href="http://www.rayweb.ir/#homepageCarousel" data-slide="next">
                                             <i class="fa fa-angle-right"></i>
                                         </a>     
                                     </section>
@@ -325,7 +325,7 @@ consultation">
                             <span class="clearfix"></span>
                             
                             <div class="text-center">
-                                <a href="?page=sample" target="_blank" class="btn btn-lg btn-one mt-20 ext-source">مشاهده نمونه کارها </a>
+                                <a href="http://www.rayweb.ir/<?php echo convert($connection,"sample"); ?>/" target="_blank" class="btn btn-lg btn-one mt-20 ext-source">مشاهده نمونه کارها </a>
                             </div>
                         </div>
                     </div>
@@ -340,43 +340,43 @@ consultation">
             <div class="row">
                 <div class="col-md-2 col-sm-4 col-xs-6">
                     <div class="client">
-                    	<a href="#">
-                    		<img src="images/clients/boostan.png" alt="مشتریان طراحی وب سایت رای وب">
+                    	<a href="http://www.rayweb.ir/#">
+                    		<img src="http://www.rayweb.ir/images/clients/boostan.png" alt="مشتریان طراحی وب سایت رای وب">
                         </a>
                     </div>
                 </div>
                  <div class="col-md-2 col-sm-4 col-xs-6">
                     <div class="client">
-                    	<a href="#">
-                    		<img src="images/clients/scards.png" alt="مشتریان طراحی وب سایت رای وب">
+                    	<a href="http://www.rayweb.ir/#">
+                    		<img src="http://www.rayweb.ir/images/clients/scards.png" alt="مشتریان طراحی وب سایت رای وب">
                         </a>
                     </div>
                 </div>
                  <div class="col-md-2 col-sm-4 col-xs-6">
                     <div class="client">
-                    	<a href="#">
-                    		<img src="images/clients/ano.png" alt="مشتریان طراحی وب سایت رای وب">
+                    	<a href="http://www.rayweb.ir/#">
+                    		<img src="http://www.rayweb.ir/images/clients/ano.png" alt="مشتریان طراحی وب سایت رای وب">
                         </a>
                     </div>
                 </div>
                  <div class="col-md-2 col-sm-4 col-xs-6">
                     <div class="client">
-                    	<a href="#">
-                    		<img src="images/clients/atieh.png" alt="مشتریان طراحی وب سایت رای وب">
+                    	<a href="http://www.rayweb.ir/#">
+                    		<img src="http://www.rayweb.ir/images/clients/atieh.png" alt="مشتریان طراحی وب سایت رای وب">
                         </a>
                     </div>
                 </div>
                  <div class="col-md-2 col-sm-4 col-xs-6">
                     <div class="client">
-                    	<a href="#">
-                    		<img src="images/clients/barincard.png" alt="مشتریان طراحی وب سایت رای وب">
+                    	<a href="http://www.rayweb.ir/#">
+                    		<img src="http://www.rayweb.ir/images/clients/barincard.png" alt="مشتریان طراحی وب سایت رای وب">
                         </a>
                     </div>
                 </div>
                  <div class="col-md-2 col-sm-4 col-xs-6">
                     <div class="client">
-                    	<a href="#">
-                    		<img src="images/clients/parvazi.png" alt="مشتریان طراحی وب سایت رای وب">
+                    	<a href="http://www.rayweb.ir/#">
+                    		<img src="http://www.rayweb.ir/images/clients/parvazi.png" alt="مشتریان طراحی وب سایت رای وب">
                         </a>
                     </div>
                 </div>

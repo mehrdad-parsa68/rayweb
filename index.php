@@ -37,7 +37,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo $seo->getTitle(); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="http://www.rayweb.ir/css/costum.css">
+    <link rel="stylesheet" type="text/css" href="http://www.rayweb.ir/css/custom.css">
      <!-- Required -->
      <meta name="keywords" content="<?php echo $seo->getKeyword(); ?>" />
 	<meta name="description" content="<?php echo $seo->getDescription(); ?>" />

@@ -9,15 +9,15 @@ section,.top-header,header{
 	}
 @font-face{
 	font-family:'mj';
-	src:url('http://www.rayweb.ir/fonts/Mj_Dinar_Two_Light.eot');
-	src:url('http://www.rayweb.ir/fonts/Mj_Dinar_Two_Light.eot#iefix') format('eot'),url('http://www.rayweb.ir/fonts/Mj_Dinar_Two_Light.woff') format('woff'),url('http://www.rayweb.ir/fonts/Mj_Dinar_Two_Light.ttf') format('truetype');
+	src:url('../fonts/Mj_Dinar_Two_Light.eot');
+	src:url('../fonts/Mj_Dinar_Two_Light.eot#iefix') format('eot'),url('../fonts/Mj_Dinar_Two_Light.woff') format('woff'),url('../fonts/Mj_Dinar_Two_Light.ttf') format('truetype');
 	font-weight:normal;
 	font-style:normal;
 }
 @font-face{
 	font-family:'Exo';
-	src:url('http://www.rayweb.ir/fonts/Exo-Light.eot');
-	src:url('http://www.rayweb.ir/fonts/Exo-Light.eot#iefix') format('eot'),url('http://www.rayweb.ir/fonts/Exo-Light.woff') format('woff'),url('http://www.rayweb.ir/fonts/Exo-Light.ttf') format('truetype');
+	src:url('../fonts/Exo-Light.eot');
+	src:url('../fonts/Exo-Light.eot#iefix') format('eot'),url('../fonts/Exo-Light.woff') format('woff'),url('../fonts/Exo-Light.ttf') format('truetype');
 	font-weight:normal;
 	font-style:normal;
 }

@@ -6,7 +6,7 @@
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <ol class="breadcrumb">
-                        <li><a href="http://www.rayweb.ir/<?php echo convert($connection,"home"); ?>/">صفحه اصلی</a></li>
+                        <li><a href="/home/">صفحه اصلی</a></li>
                         <li class="active">درباره ما</li>
                     </ol>
                 </div>
@@ -53,7 +53,7 @@
                 <div class="row">
                     
                     <div class="col-md-6">
-                        <h3 class="section-title">خدمات شرکت <a href="http://www.rayweb.ir/<?php echo convert($connection,"home"); ?>/">رای وب</a></h3>
+                        <h3 class="section-title">خدمات شرکت <a href="/home/">رای وب</a></h3>
                         <p>
                         تیم طراحی وب سایت شرکت رای وب در پروژه های خود از به روز ترین تکنولوژی ها استفاده میکند.
                         </p>
@@ -67,7 +67,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <h3 class="section-title">چرا <a href="http://www.rayweb.ir/<?php echo convert($connection,"home"); ?>/">رای وب</a></h3>
+                        <h3 class="section-title">چرا <a href="/home/">رای وب</a></h3>
                         <ul class="bullet">
                             <li>
                                 <figure class="pull-right">1</figure>
@@ -97,7 +97,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="client managers text-center">
                     	<a href="#">
-                    		<img src="images/managers/mousavi.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
+                    		<img src="/images/managers/mousavi.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
                         </a>
                         <h4>سید امیر موسوی محسنی</h4>
                         <p>عضو هیئت مدیره</p>
@@ -109,7 +109,7 @@
                  <div class="col-md-3 col-sm-6">
                     <div class="client managers text-center">
                     	<a href="#">
-                    		<img src="images/managers/alaee.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
+                    		<img src="/images/managers/alaee.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
                         </a>
                         <h4>علی علایی کرهرودی</h4>
                         <p>نایب رئیس هیئت مدیره</p>
@@ -121,7 +121,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="client managers text-center">
                     	<a href="#">
-                    		<img src="images/managers/parsa.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
+                    		<img src="/images/managers/parsa.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
                         </a>
                         <h4>مهرداد پارسانژاد</h4>
                         <p>رئیس هیئت مدیره</p>
@@ -133,7 +133,7 @@
                  <div class="col-md-3 col-sm-6">
                     <div class="client managers text-center">
                     	<a href="#">
-                    		<img src="images/managers/sabramooz.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
+                    		<img src="/images/managers/sabramooz.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
                         </a>
                         <h4>پویا صبرآموز</h4>
                         <p>مدیر عامل</p>

@@ -34,28 +34,28 @@
     <div class="nav">
     	<ul>
         	<li>
-            	<a href="boomerang.html#">Home</a>
+            	<a href="#">Home</a>
             </li>
             <li>
-            	<a href="boomerang.html#">About us</a>
+            	<a href="#">About us</a>
             </li>
             <li>
-            	<a href="boomerang.html#">Blog</a>
+            	<a href="#">Blog</a>
             </li>
             <li>
-            	<a href="boomerang.html#">Work</a>
+            	<a href="#">Work</a>
             </li>
             <li>
-            	<a href="boomerang.html#">Online shop</a>
+            	<a href="#">Online shop</a>
             </li>
         </ul>
     </div>
     
     <h5 class="side-section-title">Social media</h5>
     <div class="social-media">
-        <a href="boomerang.html#"><i class="fa fa-facebook facebook"></i></a>
-        <a href="boomerang.html#"><i class="fa fa-google-plus google"></i></a>
-        <a href="boomerang.html#"><i class="fa fa-twitter twitter"></i></a>
+        <a href="#"><i class="fa fa-facebook facebook"></i></a>
+        <a href="#"><i class="fa fa-google-plus google"></i></a>
+        <a href="#"><i class="fa fa-twitter twitter"></i></a>
     </div>
     
     <h5 class="side-section-title">Contact information</h5>
@@ -73,7 +73,7 @@
 <div class="wrapper">
 	<!-- This section is only for demonstration purpose only. Just remove the div "divStyleSwitcher" -->
 <!--<div id="divStyleSwitcher" class="style-switcher-slidebar">
-	<a href="boomerang.html#" id="cmdShowStyleSwitcher" class="open-panel"><i class="fa fa-cog"></i></a>
+	<a href="#" id="cmdShowStyleSwitcher" class="open-panel"><i class="fa fa-cog"></i></a>
 	<div class="switch-panel">
     	<h3>Boomerang - Style Builder</h3>
         <div class="panel-section">
@@ -122,12 +122,12 @@
         	<div class="form-group">
             	<label>Choose your favourite color</label>
             	<span class="color-picker">
-                    <a href="boomerang.html#" id="cmdRed" class="color-red" title="Red">Red</a>
-                    <a href="boomerang.html#" id="cmdViolet" class="color-violet" title="Violet">Violet</a>
-                    <a href="boomerang.html#" id="cmdBlue" class="color-blue" title="Blue">Blue</a>
-                    <a href="boomerang.html#" id="cmdGreen" class="color-green" title="Green">Green</a>
-                    <a href="boomerang.html#" id="cmdYellow" class="color-yellow" title="Yellow">Yellow</a>
-                    <a href="boomerang.html#" id="cmdOrange" class="color-orange" title="Orange">Orange</a>
+                    <a href="#" id="cmdRed" class="color-red" title="Red">Red</a>
+                    <a href="#" id="cmdViolet" class="color-violet" title="Violet">Violet</a>
+                    <a href="#" id="cmdBlue" class="color-blue" title="Blue">Blue</a>
+                    <a href="#" id="cmdGreen" class="color-green" title="Green">Green</a>
+                    <a href="#" id="cmdYellow" class="color-yellow" title="Yellow">Yellow</a>
+                    <a href="#" id="cmdOrange" class="color-orange" title="Orange">Orange</a>
                 </span>
             </div>
         </div>
@@ -143,7 +143,7 @@
             	<nav class="top-header-menu">
                     <ul class="menu">
                         
-                        <li class="aux-languages dropdown animate-hover" data-animate="animated fadeInUp"><a href="boomerang.html#"><span class="language name">فارسی</span></a>
+                        <li class="aux-languages dropdown animate-hover" data-animate="animated fadeInUp"><a href="#"><span class="language name">فارسی</span></a>
                             <ul id="auxLanguages" class="sub-menu animate-wr">
                                 <li><span class="language language-active">فارسی</span></li>
                                 <li><a href="#"><span class="language">English</span></a></li> 
@@ -171,7 +171,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php" title="Rayweb | رای وب">
+                <a class="navbar-brand" href="/home/" title="Rayweb | رای وب">
                 	<img src="images/logo.jpg" alt="Rayweb | رای وب">
                 </a>
             </div>
@@ -209,7 +209,7 @@
                         
                 	</li>
                     <!--<li class="dropdown pull-right animate-click" data-animate="animated fadeInUp" style="z-index:500;">
-                    	<a href="boomerang.html#" class="dropdown-toggle dropdown-form-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+                    	<a href="#" class="dropdown-toggle dropdown-form-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
                         <ul class="dropdown-menu dropdown-menu-user animate-wr">
                             <li id="dropdownForm">
                             	<div class="dropdown-form">
@@ -226,7 +226,7 @@
                         </ul>
                 	</li>-->
                     <!--<li class="hidden-xs">
-                        <a href="boomerang.html#" id="cmdAsideMenu" class="dropdown-toggle dropdown-form-toggle" title="Open sidebar">
+                        <a href="#" id="cmdAsideMenu" class="dropdown-toggle dropdown-form-toggle" title="Open sidebar">
                         	<i class="fa fa-outdent"></i>
                         </a>
                     </li>-->
@@ -286,8 +286,8 @@
             	<div class="col col-social-icons">
                     <h4><strong>رای وب</strong> را دنبال نمایید</h4>
                     <a href="https://www.facebook.com/raywebco" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a href="boomerang.html#"><i class="fa fa-google-plus"></i></a>
-                    <a href="boomerang.html#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
                 </div>
             </div>
 

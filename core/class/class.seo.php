@@ -22,7 +22,7 @@ class Seo{
 		return $this->fetch_row['persian_name'];									
 		}
 	public function getTitle(){
-		return ($this->titleExt.$this->seperator.$this->fetch_row['persian_name']);
+		return ($this->fetch_row['persian_name'].$this->seperator.$this->titleExt);
 		}	
 	public function getDescription(){
 		return $this->fetch_row['description'];

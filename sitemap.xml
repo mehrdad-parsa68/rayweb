@@ -8,56 +8,164 @@
 
 <url>
   <loc>http://rayweb.ir/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=home</loc>
+  <loc>http://rayweb.ir/home/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=article</loc>
+  <loc>http://rayweb.ir/article/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=hire</loc>
+  <loc>http://rayweb.ir/hire/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=education</loc>
+  <loc>http://rayweb.ir/learning/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=sample</loc>
+  <loc>http://rayweb.ir/works/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=aboutus</loc>
+  <loc>http://rayweb.ir/about/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=contactUs</loc>
+  <loc>http://rayweb.ir/contact/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=siteorder</loc>
+  <loc>http://rayweb.ir/order/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php</loc>
+  <loc>http://rayweb.ir/press/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=article&amp;article=1</loc>
+  <loc>http://rayweb.ir/works/barincard/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=article&amp;article=3</loc>
+  <loc>http://rayweb.ir/works/sabramooz/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=article&amp;article=2</loc>
+  <loc>http://rayweb.ir/works/omstehran/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=article&amp;article=4</loc>
+  <loc>http://rayweb.ir/works/tahviehvatan/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=sample_details&amp;site=scards</loc>
+  <loc>http://rayweb.ir/works/rzarafshan/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=sample_details&amp;site=sazshop</loc>
+  <loc>http://rayweb.ir/works/tannazmezon/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=sample_details&amp;site=guardian-bourse</loc>
+  <loc>http://rayweb.ir/works/vistagroups/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/index.php?page=sample_details&amp;site=sabramooz</loc>
+  <loc>http://rayweb.ir/works/meysamnourizadeh/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/tadbirregister/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/bazarsonnati/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/atiehtransport/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/guardianbourse/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/scards/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/tavgroup/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/shamsabadglass/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/zhihatregister/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/صفحه-اصلی/</loc>
+  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 </urlset>

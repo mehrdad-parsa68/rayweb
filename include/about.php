@@ -132,7 +132,7 @@
                 </div>
                  <div class="col-md-3 col-sm-6">
                     <div class="client managers text-center">
-                    	<a href="#">
+                    	<a href="/resume/Resume(93-12-06).pdf">
                     		<img src="/images/managers/sabramooz.jpg" width="200" alt="طراحی وب سایت رای وب | هیئت مدیره">
                         </a>
                         <h4>پویا صبرآموز</h4>

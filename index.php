@@ -32,7 +32,7 @@
 		return $page_latin;
 		}
 	if(!isset($_GET['page'])){
-		$_GET['page'] = "صفحه اصلی";
+		$_GET['page'] = "home";
 	}
 	//$latin_name_seo = convertToLatin($_GET['page'],$connection);
 	$seo = new seo(@$_GET['page'],$connection,"طراحی وب سایت رای وب | Rayweb "," | ");
@@ -151,8 +151,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     	<a href="/hire/" class="dropdown-toggle" data-close-others="true">استخدام</a>
                         
                 	</li>
-                    <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'education'){echo 'active';} ?> pull-right">
-                    	<a href="/learning/" class="dropdown-toggle" data-close-others="true">آموزش</a>
+                    <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'courses'){echo 'active';} ?> pull-right">
+                    	<a href="/courses/" class="dropdown-toggle" data-close-others="true">دوره آموزشی</a>
                         
                 	</li>
                     <li class="<?php if(isset($_GET['page']) && ($_GET['page'] == 'sample' || $_GET['page'] == 'sampledetail')){echo 'active';} ?> pull-right">
@@ -189,7 +189,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			die('صفحه مورد نظر وجود ندارد');
 			}
 		}else{
-			include "include/صفحه-اصلی/";
+			include "include/home/";
 	}
 ?>
 
@@ -241,7 +241,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     	<li><a href="/home/"><i class="fa fa-arrow-circle-o-left"></i> صفحه اصلی </a></li>
                         <li><a href="/article/"><i class="fa fa-arrow-circle-o-left"></i> مقالات</a></li>
                         <li><a href="/hire/"><i class="fa fa-arrow-circle-o-left"></i> استخدام</a></li>
-                        <li><a href="/learning/"><i class="fa fa-arrow-circle-o-left"></i> آموزش</a></li>
+                        <li><a href="/courses/"><i class="fa fa-arrow-circle-o-left"></i> دوره آموزشی</a></li>
                         <li><a href="/works/"><i class="fa fa-arrow-circle-o-left"></i> نمونه کارها</a></li>
                         <li><a href="/about/"><i class="fa fa-arrow-circle-o-left"></i> درباره ما</a></li>
                         <li><a href="/contact/"><i class="fa fa-arrow-circle-o-left"></i> ارتباط با ما</a></li>

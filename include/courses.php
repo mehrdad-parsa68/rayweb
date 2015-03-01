@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6">
-                <h2>Education</h2>
+                <h2>Courses</h2>
             </div>
             <div class="col-md-6 col-sm-6">
                 <ol class="breadcrumb">

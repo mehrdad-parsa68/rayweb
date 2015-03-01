@@ -1,4 +1,4 @@
-<?php require_once('core/core.php'); ?>
+<?php require_once('../core/core.php'); ?>
 <?php 
 	if(!isset($_SESSION['admin'])){
 		header('location: signin.php');

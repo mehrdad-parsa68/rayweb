@@ -41,6 +41,11 @@
 		var_dump($update_result);
 	}
 		
+	if(isset($_POST['delete'])){
+		$delete_query = "DELETE FROM `project` WHERE `id` = $_GET[id]";
+		$delete_result = mysqli_query($connection , $delete_query);
+		header('location: index.php?page=edit');
+		}
 ?>
 
 <form method="post" role="form" class="label_sabt" enctype="multipart/form-data">
@@ -109,7 +114,10 @@
                                 <div class="col-sm-5"><label>عکس بزرگ</label></div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-7"><input type="submit" class="btn btn-success" value="ثبت" name="update"></div>
+                                <div class="col-sm-7">
+                                	<input type="submit" class="btn btn-success" value="ثبت" name="update">
+                                    <input type="submit" class="btn btn-danger" value="حذف پروژه" name="delete">
+                                </div>
                             </div>
                             
                             

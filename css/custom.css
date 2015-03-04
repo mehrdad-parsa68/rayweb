@@ -221,3 +221,28 @@ i.fa-instagram:hover{
     -ms-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
+}
+.tags{
+	margin:0;
+	padding:0;
+	}
+.tags li {
+	display:inline-block;
+	list-style-type:none;
+	}
+.tags li a {
+	display:inline-block;
+	background-color:#64a45a;
+	text-decoration:none;
+	padding:5px;
+	color:#fff;
+	border:1px solid #64a45a;
+	}
+.tags li a:hover {
+	display:inline-block;
+	background-color:#fff;
+	text-decoration:none;
+	padding:5px;
+	color:#64a45a;
+	border:1px solid #64a45a;
+	}

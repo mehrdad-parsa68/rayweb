@@ -246,3 +246,7 @@ i.fa-instagram:hover{
 	color:#64a45a;
 	border:1px solid #64a45a;
 	}
+
+.logo img{
+	height:90px !important;
+	}

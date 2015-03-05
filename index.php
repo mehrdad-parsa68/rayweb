@@ -98,87 +98,93 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 </script>
-<div class="top-header">
-	<div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-            	<span class="aux-text hidden-xs pull-right">
-                    به <strong>رای وب</strong> خوش آمدید 66576199-021
-                </span>
-            	<nav class="top-header-menu">
-                    <ul class="menu">
-                        
-                        <li class="aux-languages dropdown animate-hover" data-animate="animated fadeInUp"><a href="/#"><span class="language name">فارسی</span></a>
-                            <ul id="auxLanguages" class="sub-menu animate-wr">
-                                <li><span class="language language-active">فارسی</span></li>
-                                <li><a href="/#"><span class="language">English</span></a></li> 
-                                <li><a href="/#"><span class="language">Español</span></a></li>
-                            </ul>
-                        </li>
-                        
-                    </ul>
-				</nav>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Header: Logo and Main Nav -->
-<header>    
-	<div id="navOne" class="navbar navbar-wp" role="navigation">
-        <div class="container header-main">
-            <div class="navbar-header">
-            	
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/home/" title="Rayweb | رای وب">
-                	<img src="/images/logo.png" alt="Rayweb | رای وب">
-                </a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                	<li class="<?php if((isset($_GET['page']) && $_GET['page'] == 'home') || !isset($_GET['page'])){echo 'active';} ?> pull-right">
-                    	<a href="/home/" data-close-others="true">صفحه اصلی</a>
-                	</li>
-                    <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'article'){echo 'active';} ?> pull-right">
-                    	<a href="/article/" class="dropdown-toggle" data-close-others="true">مقالات</a>
-                        
-                	</li>
-                    <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'hire'){echo 'active';} ?> pull-right">
-                    	<a href="/hire/" class="dropdown-toggle" data-close-others="true">استخدام</a>
-                        
-                	</li>
-                    <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'courses'){echo 'active';} ?> pull-right">
-                    	<a href="/courses/" class="dropdown-toggle" data-close-others="true">دوره آموزشی</a>
-                        
-                	</li>
-                    <li class="<?php if(isset($_GET['page']) && ($_GET['page'] == 'sample' || $_GET['page'] == 'sampledetail')){echo 'active';} ?> pull-right">
-                    	<a href="/works/" class="dropdown-toggle" data-close-others="true">نمونه کارها</a>
-                        
-                	</li>
-                    <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'about'){echo 'active';} ?> pull-right">
-                    	<a href="/about/" class="dropdown-toggle" data-close-others="true">درباره ما</a>
-                        
-                	</li>
-                    <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'contact'){echo 'active';} ?> pull-right">
-                    	<a href="/contact/" class="dropdown-toggle" data-close-others="true">ارتباط با ما</a>
-                        
-                	</li>
-                    <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'order'){echo 'active';} ?> pull-right">
-                    	<a href="/order/" class="dropdown-toggle" data-close-others="true">سفارش</a>
-                        
-                	</li>
-                   
-                </ul>
-               
-            </div><!--/.nav-collapse -->
-        </div>
-    </div>
-</header>	
+<div class="col-sm-2">
+	<a class="navbar-brand logo" href="/home/" title="Rayweb | رای وب">
+    	<img src="/images/logo-HR-with-note.png" alt="Rayweb | رای وب">   	
+    </a>
 
+</div>
+<div class="col-sm-10">
+    <div class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <span class="aux-text hidden-xs pull-right">
+                        به <strong>رای وب</strong> خوش آمدید 66576199-021
+                    </span>
+                    <nav class="top-header-menu">
+                        <ul class="menu">
+                            
+                            <li class="aux-languages dropdown animate-hover" data-animate="animated fadeInUp"><a href="/#"><span class="language name">فارسی</span></a>
+                                <ul id="auxLanguages" class="sub-menu animate-wr">
+                                    <li><span class="language language-active">فارسی</span></li>
+                                    <li><a href="/#"><span class="language">English</span></a></li> 
+                                    <li><a href="/#"><span class="language">Español</span></a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header: Logo and Main Nav -->
+    <header>    
+        <div id="navOne" class="navbar navbar-wp" role="navigation">
+            <div class="container header-main">
+                <div class="navbar-header">
+                    
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="<?php if((isset($_GET['page']) && $_GET['page'] == 'home') || !isset($_GET['page'])){echo 'active';} ?> pull-right">
+                            <a href="/home/" data-close-others="true">صفحه اصلی</a>
+                        </li>
+                        <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'article'){echo 'active';} ?> pull-right">
+                            <a href="/article/" class="dropdown-toggle" data-close-others="true">مقالات</a>
+                            
+                        </li>
+                        <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'hire'){echo 'active';} ?> pull-right">
+                            <a href="/hire/" class="dropdown-toggle" data-close-others="true">استخدام</a>
+                            
+                        </li>
+                        <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'courses'){echo 'active';} ?> pull-right">
+                            <a href="/courses/" class="dropdown-toggle" data-close-others="true">دوره آموزشی</a>
+                            
+                        </li>
+                        <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'works' ){echo 'active';} ?> pull-right">
+                            <a href="/works/" class="dropdown-toggle" data-close-others="true">نمونه کارها</a>
+                            
+                        </li>
+                        <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'about'){echo 'active';} ?> pull-right">
+                            <a href="/about/" class="dropdown-toggle" data-close-others="true">درباره ما</a>
+                            
+                        </li>
+                        <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'contact'){echo 'active';} ?> pull-right">
+                            <a href="/contact/" class="dropdown-toggle" data-close-others="true">ارتباط با ما</a>
+                            
+                        </li>
+                        <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'order'){echo 'active';} ?> pull-right">
+                            <a href="/order/" class="dropdown-toggle" data-close-others="true">سفارش</a>
+                            
+                        </li>
+                       
+                    </ul>
+                   
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+    </header>	
+</div>
+<div class="clearfix"></div>
 <?php
 	if(isset($_GET['page'])){	
 	  //$page_latin = convertToLatin($_GET['page'],$connection);

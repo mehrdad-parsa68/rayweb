@@ -55,12 +55,14 @@
                             <p class="delimiter exo">
                             <?php echo $project_row['Technology']; ?> 
                             </p>
-                            
+                            <p class="delimiter">
                             <a target="_blank" href="<?php echo $project_row['project_address']; ?>">
                              	مشاهده سایت
                             </a>
+                            </p>
                             
-                            
+                            <div class="fb-share-button" data-href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>" data-layout="button"></div>
+                            <div id="fb-root"></div>
                         </div>
                         <div style="height:20px;"></div>
                         

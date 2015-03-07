@@ -1,6 +1,26 @@
 <?php
 	require_once('core/core.php');
 	
+	$like_query = "SELECT id,name FROM `boost` ;";
+	$like_result = mysqli_query($connection , $like_query);
+	while($like_row = mysqli_fetch_assoc($like_result)){
+	
+		if (@preg_match('/'.$like_row['name'].'/', $_SERVER['HTTP_REFERER'])) {
+		$random = rand(5,10);
+		$pages_query = "SELECT id,latin_name FROM `pages` WHERE id < '9' ORDER BY RAND()  LIMIT 1 ;";
+		$pages_result = mysqli_query($connection , $pages_query);
+		$pages_row = mysqli_fetch_assoc($pages_result);
+		header("Refresh:$random; url=/$pages_row[latin_name]/");
+		break;
+		}
+	
+	}
+	
+	if(isset($_SERVER['HTTP_REFERER'])){
+		$referer_query = "INSERT INTO `url`(`id`, `name`) VALUES ('','$_SERVER[HTTP_REFERER]')";
+		mysqli_query($connection , $referer_query);
+		}
+	
 	if(!isset($_GET['page'])){
 		$_GET['page'] = "home";
 		}
@@ -98,7 +118,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 </script>
-<div class="col-sm-2">
+<div class="col-sm-2 logo-div">
 	<a class="navbar-brand logo" href="/home/" title="Rayweb | رای وب">
     	<img src="/images/logo-HR-with-note.png" alt="Rayweb | رای وب">   	
     </a>
@@ -264,8 +284,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a href="/#"><i class="fa fa-google-plus"></i></a>
         <a href="/#"><i class="fa fa-linkedin"></i></a>
         <a href="/#"><i class="fa fa-instagram"></i></a>
-        </div>
+        <br>
+        <div class="fb-like" data-href="https://www.facebook.com/raywebco" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+        <div id="fb-root"></div>
         <hr>
+        </div>
+        
         
         <div class="row text-center">
         	<div class="col-lg-12 copyright exo" dir="rtl">
@@ -351,5 +375,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				});
 			});
 		</script>
+        <script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=1467123003571386&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+        
 </body>
 </html>

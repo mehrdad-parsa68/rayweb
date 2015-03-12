@@ -2,10 +2,6 @@ body{
 	font-family:yekan,YekanNumbers,exo !important;
 	direction:rtl !important;
 	font-size:15px !important;
-	background-image:url(/images/bg.jpg) !important;
-	}
-section,.top-header,header{
-	background-image:url(/images/bg.jpg);
 	}
 @font-face{
 	font-family:'mj';
@@ -163,9 +159,6 @@ footer hr{
 	}
 hr{
 	border-color:#438838 -moz-use-text-color -moz-use-text-color !important;
-	}
-.wp-theme-1,.lw,.bg-5,.bg-3 {
-	background-image:url(/images/bg.jpg !important);
 	}
 .itemwrap{
 	margin-top:80px !important;

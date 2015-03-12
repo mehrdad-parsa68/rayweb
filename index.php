@@ -104,6 +104,17 @@
 <script src="<?php echo $prefix; ?>/js/angular.min.js"></script>
 <script src="<?php echo $prefix; ?>/js/script.js"></script>
 <script src="<?php echo $prefix; ?>/js/modernizr.custom.js"></script>
+<style>
+.wp-theme-1,.lw,.bg-5,.bg-3 {
+	background-image:url(<?php echo $prefix; ?>/images/bg.jpg !important);
+	}
+body{
+	background-image:url(<?php echo $prefix; ?>/images/bg.jpg) !important;
+	}
+section,.top-header,header{
+	background-image:url(<?php echo $prefix; ?>/images/bg.jpg);
+	}
+</style>
 <!-- Custom styles for this template -->
 
 

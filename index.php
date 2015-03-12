@@ -370,8 +370,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script type="text/javascript" src="<?php echo $prefix; ?>/js/jquery.wp.custom.js"></script>
 <script type="text/javascript" src="<?php echo $prefix; ?>/js/jquery.wp.switcher.js"></script>
 <script src="<?php echo $prefix; ?>/assets/layerslider/js/greensock.js" type="text/javascript"></script>
-<!--<script src="/js/classie.js"></script>
-<script src="/js/main.js"></script>-->
+<script src="<?php echo $prefix; ?>/js/classie.js"></script>
+<script src="<?php echo $prefix; ?>/js/main.js"></script>
 <!-- LayerSlider script files -->
 <script src="<?php echo $prefix; ?>/assets/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
 <script src="<?php echo $prefix; ?>/assets/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>

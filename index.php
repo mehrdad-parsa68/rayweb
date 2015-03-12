@@ -81,23 +81,29 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo $seo->getTitle(); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/css/custom.css">
      <!-- Required -->
      <meta name="keywords" content="<?php echo $seo->getKeyword(); ?>" />
 	<meta name="description" content="<?php echo $seo->getDescription(); ?>" />
 	<meta name="robots" content="all">
     <meta name="author" content="rayweb.ir | شرکت طراحی وب سایت رای وب">
-    <link href="/css/global-style.css" rel="stylesheet" type="text/css" media="screen">
-    <link rel="icon" href="/images/favicon.gif" type="image/png"><!-- LayerSlider stylesheet -->
-<link rel="stylesheet" href="/assets/layerslider/css/layerslider.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="/css/component.css">
-<link rel="stylesheet" type="text/css" href="/css/fxtransparent.css">
-<link rel="stylesheet" type="text/css" href="/css/normalize.css">
-<link rel="stylesheet" type="text/css" href="/css/lightbox.css">
+    
+    <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/assets/animate/animate.css">
+    
+    
+    <link href="<?php echo $prefix; ?>/css/global-style.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="icon" href="<?php echo $prefix; ?>/images/favicon.gif" type="image/png"><!-- LayerSlider stylesheet -->
+<link rel="stylesheet" href="<?php echo $prefix; ?>/assets/layerslider/css/layerslider.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/css/component.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/css/fxtransparent.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/css/lightbox.css">
 
-<script src="/js/angular.min.js"></script>
-<script src="/js/script.js"></script>
-<script src="/js/modernizr.custom.js"></script>
+<script src="<?php echo $prefix; ?>/js/angular.min.js"></script>
+<script src="<?php echo $prefix; ?>/js/script.js"></script>
+<script src="<?php echo $prefix; ?>/js/modernizr.custom.js"></script>
 <!-- Custom styles for this template -->
 
 
@@ -130,8 +136,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </script>
 <div class="col-sm-2 logo-div">
-	<a class="navbar-brand logo" href="/home/" title="Rayweb | رای وب">
-    	<img src="/images/logo-HR-with-note.png" alt="Rayweb | رای وب">   	
+	<a class="navbar-brand logo" href="<?php echo $prefix; ?>/home/" title="Rayweb | رای وب">
+    	<img src="<?php echo $prefix; ?>/images/logo-HR-with-note.png" alt="Rayweb | رای وب">   	
     </a>
 
 </div>
@@ -177,30 +183,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="<?php if((isset($_GET['page']) && $_GET['page'] == 'home') || !isset($_GET['page'])){echo 'active';} ?> pull-right">
-                            <a href="/home/" data-close-others="true">صفحه اصلی</a>
+                            <a href="<?php echo $prefix; ?>/home/" data-close-others="true">صفحه اصلی</a>
                         </li>
                         <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'article'){echo 'active';} ?> pull-right">
-                            <a href="/article/" class="dropdown-toggle" data-close-others="true">مقالات</a>
+                            <a href="<?php echo $prefix; ?>/article/" class="dropdown-toggle" data-close-others="true">مقالات</a>
                             
                         </li>
                         <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'hire'){echo 'active';} ?> pull-right">
-                            <a href="/hire/" class="dropdown-toggle" data-close-others="true">استخدام</a>
+                            <a href="<?php echo $prefix; ?>/hire/" class="dropdown-toggle" data-close-others="true">استخدام</a>
                             
                         </li>
                         <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'courses'){echo 'active';} ?> pull-right">
-                            <a href="/courses/" class="dropdown-toggle" data-close-others="true">دوره آموزشی</a>
+                            <a href="<?php echo $prefix; ?>/courses/" class="dropdown-toggle" data-close-others="true">دوره آموزشی</a>
                             
                         </li>
                         <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'works' ){echo 'active';} ?> pull-right">
-                            <a href="/works/" class="dropdown-toggle" data-close-others="true">نمونه کارها</a>
+                            <a href="<?php echo $prefix; ?>/works/" class="dropdown-toggle" data-close-others="true">نمونه کارها</a>
                             
                         </li>
                         <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'about'){echo 'active';} ?> pull-right">
-                            <a href="/about/" class="dropdown-toggle" data-close-others="true">درباره ما</a>
+                            <a href="<?php echo $prefix; ?>/about/" class="dropdown-toggle" data-close-others="true">درباره ما</a>
                             
                         </li>
                         <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'contact'){echo 'active';} ?> pull-right">
-                            <a href="/contact/" class="dropdown-toggle" data-close-others="true">ارتباط با ما</a>
+                            <a href="<?php echo $prefix; ?>/contact/" class="dropdown-toggle" data-close-others="true">ارتباط با ما</a>
                             
                         </li>
                         <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'order'){echo 'active';} ?> pull-right">
@@ -275,15 +281,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <h4>لینک های مرتبط</h4>
                     <hr>
                     <ul>
-                    	<li><a href="/home/"><i class="fa fa-arrow-circle-o-left"></i> صفحه اصلی </a></li>
-                        <li><a href="/article/"><i class="fa fa-arrow-circle-o-left"></i> مقالات</a></li>
-                        <li><a href="/hire/"><i class="fa fa-arrow-circle-o-left"></i> استخدام</a></li>
-                        <li><a href="/courses/"><i class="fa fa-arrow-circle-o-left"></i> دوره آموزشی</a></li>
-                        <li><a href="/works/"><i class="fa fa-arrow-circle-o-left"></i> نمونه کارها</a></li>
-                        <li><a href="/about/"><i class="fa fa-arrow-circle-o-left"></i> درباره ما</a></li>
-                        <li><a href="/contact/"><i class="fa fa-arrow-circle-o-left"></i> ارتباط با ما</a></li>
-                        <li><a href="/order/"><i class="fa fa-arrow-circle-o-left"></i> سفارش</a></li>
-                        <li><a href="/press/"><i class="fa fa-arrow-circle-o-left"></i> رای وب در جراید</a></li>
+                    	<li><a href="<?php echo $prefix; ?>/home/"><i class="fa fa-arrow-circle-o-left"></i> صفحه اصلی </a></li>
+                        <li><a href="<?php echo $prefix; ?>/article/"><i class="fa fa-arrow-circle-o-left"></i> مقالات</a></li>
+                        <li><a href="<?php echo $prefix; ?>/hire/"><i class="fa fa-arrow-circle-o-left"></i> استخدام</a></li>
+                        <li><a href="<?php echo $prefix; ?>/courses/"><i class="fa fa-arrow-circle-o-left"></i> دوره آموزشی</a></li>
+                        <li><a href="<?php echo $prefix; ?>/works/"><i class="fa fa-arrow-circle-o-left"></i> نمونه کارها</a></li>
+                        <li><a href="<?php echo $prefix; ?>/about/"><i class="fa fa-arrow-circle-o-left"></i> درباره ما</a></li>
+                        <li><a href="<?php echo $prefix; ?>/contact/"><i class="fa fa-arrow-circle-o-left"></i> ارتباط با ما</a></li>
+                        <li><a href="<?php echo $prefix; ?>/order/"><i class="fa fa-arrow-circle-o-left"></i> سفارش</a></li>
+                        <li><a href="<?php echo $prefix; ?>/press/"><i class="fa fa-arrow-circle-o-left"></i> رای وب در جراید</a></li>
                     </ul>
                     
                 </div>
@@ -292,9 +298,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <h3 class="text-center" style="color:#fff">طراحی ایده های خود را به ما بسپارید</h3>
         <div class="container text-center col col-social-icons">
         <a href="https://www.facebook.com/raywebco" target="_blank"><i class="fa fa-facebook"></i></a>
-        <a href="/#"><i class="fa fa-google-plus"></i></a>
-        <a href="/#"><i class="fa fa-linkedin"></i></a>
-        <a href="/#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-google-plus"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
         <br>
         <div class="social-link">
             <div class="g-plus-button">
@@ -327,13 +333,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <!-- JavaScript -->
-<script type="text/javascript" src="/js/jquery.js"></script>
-<script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/js/modernizr.custom.js"></script>
-<script type="text/javascript" src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script type="text/javascript" src="/js/jquery.cookie.js"></script>
-<script type="text/javascript" src="/js/jquery.easing.js"></script>
-<script src="/js/lightbox.min.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/js/jquery.easing.js"></script>
+<script src="<?php echo $prefix; ?>/js/lightbox.min.js"></script>
 
 <!--[if lt IE 9]>
     <script src="/js/html5shiv.js"></script>
@@ -341,28 +347,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <![endif]-->
 
 <!-- Plugins -->
-<script type="text/javascript" src="/assets/hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
-<script type="text/javascript" src="/assets/page-scroller/jquery.ui.totop.min.js"></script>
-<script type="text/javascript" src="/assets/mixitup/jquery.mixitup.js"></script>
-<script type="text/javascript" src="/assets/mixitup/jquery.mixitup.init.js"></script>
-<script type="text/javascript" src="/assets/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="/assets/easy-pie-chart/jquery.easypiechart.js"></script>
-<script type="text/javascript" src="/assets/waypoints/waypoints.min.js"></script>
-<script type="text/javascript" src="/assets/sticky/jquery.sticky.js"></script>
-<script type="text/javascript" src="/js/jquery.wp.custom.js"></script>
-<script type="text/javascript" src="/js/jquery.wp.switcher.js"></script>
-<script src="/assets/layerslider/js/greensock.js" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/assets/hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/assets/page-scroller/jquery.ui.totop.min.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/assets/mixitup/jquery.mixitup.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/assets/mixitup/jquery.mixitup.init.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/assets/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/assets/easy-pie-chart/jquery.easypiechart.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/assets/waypoints/waypoints.min.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/assets/sticky/jquery.sticky.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/js/jquery.wp.custom.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/js/jquery.wp.switcher.js"></script>
+<script src="<?php echo $prefix; ?>/assets/layerslider/js/greensock.js" type="text/javascript"></script>
 <!--<script src="/js/classie.js"></script>
 <script src="/js/main.js"></script>-->
 <!-- LayerSlider script files -->
-<script src="/assets/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
-<script src="/assets/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+<script src="<?php echo $prefix; ?>/assets/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+<script src="<?php echo $prefix; ?>/assets/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
 <!-- Initializing the slider -->
 	<script>
 		jQuery("#layerslider").layerSlider({
 			pauseOnHover: true,
 			autoPlayVideos: false,
-			skinsPath: 'assets/layerslider/skins/',
+			skinsPath: '<?php echo $prefix; ?>/assets/layerslider/skins/',
 			responsive: false,
 			responsiveUnder: 1280,
 			layersContainer: 1280,

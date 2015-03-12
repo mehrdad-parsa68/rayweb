@@ -268,7 +268,7 @@ consultation">
                                 	<section id="homepageCarousel" class="carousel carousel-1 slide color-two-l" data-ride="carousel">
                                         <div class="carousel-inner">
                                               
-                                            <div class="item item-dark active" style="background-image:url(/images/samples/detail/tannazmezon_big.jpg);">
+                                            <div class="item item-dark active" style="background-image:url(<?php echo $prefix; ?>/images/samples/detail/tannazmezon_big.jpg);">
                                                 <div class="container">
                                                     <div class="description fluid-center">
                                                         
@@ -276,7 +276,7 @@ consultation">
                                                     
                                                 </div>
                                             </div> 
-                                            <div class="item item-light" style="background-image:url(/images/samples/detail/barincard_big.jpg);">
+                                            <div class="item item-light" style="background-image:url(<?php echo $prefix; ?>/images/samples/detail/barincard_big.jpg);">
                                                 <div class="container">
                                                     <div class="description">
                                                         
@@ -287,7 +287,7 @@ consultation">
                                                 </div>
                                             </div>
                                             
-                                            <div class="item item-light" style="background-image:url(/images/samples/detail/tadbir_big.jpg);">
+                                            <div class="item item-light" style="background-image:url(<?php echo $prefix; ?>/images/samples/detail/tadbir_big.jpg);">
                                                 <div class="container">
                                                     <div class="description">
                                                         
@@ -313,7 +313,7 @@ consultation">
         </div></div>
     </section>
     
-    <section class="slice para">
+    <section class="slice para" style="background-image: url('<?php echo $prefix; ?>/images/prv/para.jpg') !important;">
         <div class="w-section inverse">
             <div class="container">
                 <div class="row">

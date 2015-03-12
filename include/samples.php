@@ -7,7 +7,7 @@
             </div>
             <div class="col-md-6">
                 <ol class="breadcrumb">
-                    <li><a href="/home/">صفحه اصلی</a></li>
+                    <li><a href="<?php echo $prefix; ?>/home/">صفحه اصلی</a></li>
                     <li class="active">نمونه کارها</li>
                 </ol>
             </div>
@@ -76,11 +76,11 @@
 						<div class='mix category_$cat col-lg-4 col-md-4 col-sm-6' data-cat='$cat'>
 							<div class='w-box inverse'>
 								<div class='figure'>
-									<img alt='طراحی وب سایت' src='/images/samples/$sample_row[project_image]' class='img-responsive'>
+									<img alt='طراحی وب سایت' src='".$prefix."/images/samples/$sample_row[project_image]' class='img-responsive'>
 									<div class='figcaption bg-2'></div>
 									<div class='figcaption-btn'>
 										<a href='$sample_row[project_address]' target='_blank' class='btn btn-xs btn-one theater'><i class='fa fa-plus-circle'></i> ورود به سایت</a>
-										<a href='/works/$project_address/' target='_blank' class='btn btn-xs btn-one'><i class='fa fa-link'></i> مشخصات سایت</a>
+										<a href='".$prefix."/works/$project_address/' target='_blank' class='btn btn-xs btn-one'><i class='fa fa-link'></i> مشخصات سایت</a>
 									</div>
 								</div>
 								<div class='row'>

@@ -12,7 +12,7 @@
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <ol class="breadcrumb">
-                        <li><a href="/home/">صفحه اصلی</a></li>
+                        <li><a href="<?php echo $prefix; ?>/home/">صفحه اصلی</a></li>
                         <li class="active">ویدئو آموزشی</li>
                     </ol>
                 </div>
@@ -29,7 +29,7 @@
                     	<section id="homepageCarousel" class="carousel carousel-1 slide color-two-l" data-ride="carousel">
                                         <div class="carousel-inner">
                                               
-                                            <div class="item item-dark active" style="background-image:url(/images/video_images/<?php echo $video_row['image1']; ?>);">
+                                            <div class="item item-dark active" style="background-image:url(<?php echo $prefix; ?>/images/video_images/<?php echo $video_row['image1']; ?>);">
                                                 <div class="container">
                                                     <div class="description fluid-center">
                                                         
@@ -37,7 +37,7 @@
                                                     
                                                 </div>
                                             </div> 
-                                            <div class="item item-light" style="background-image:url(/images/video_images/<?php echo $video_row['image2']; ?>);">
+                                            <div class="item item-light" style="background-image:url(<?php echo $prefix; ?>/images/video_images/<?php echo $video_row['image2']; ?>);">
                                                 <div class="container">
                                                     <div class="description">
                                                         
@@ -48,7 +48,7 @@
                                                 </div>
                                             </div>
                                             
-                                            <div class="item item-light" style="background-image:url(/images/video_images/<?php echo $video_row['image3']; ?>);">
+                                            <div class="item item-light" style="background-image:url(<?php echo $prefix; ?>/images/video_images/<?php echo $video_row['image3']; ?>);">
                                                 <div class="container">
                                                     <div class="description">
                                                         
@@ -61,10 +61,10 @@
                                         </div>
                                         
                                         <!-- Controls -->
-                                        <a class="left carousel-control" href="/#homepageCarousel" data-slide="prev">
+                                        <a class="left carousel-control" href="#" data-slide="prev">
                                             <i class="fa fa-angle-left"></i>
                                         </a>
-                                        <a class="right carousel-control" href="/#homepageCarousel" data-slide="next">
+                                        <a class="right carousel-control" href="#" data-slide="next">
                                             <i class="fa fa-angle-right"></i>
                                         </a>     
                                         
@@ -106,8 +106,8 @@
                 <h3 class="section-title">ویدئو های مشابه</h3>
                 <div id="carouselWork" class="carousel-3 slide animate-hover-slide">
                     <div class="carousel-nav">
-                        <a data-slide="prev" class="left color-two" href="#carouselWork"><i class="fa fa-angle-left"></i></a>
-                        <a data-slide="next" class="right color-two" href="#carouselWork"><i class="fa fa-angle-right"></i></a>
+                        <a data-slide="prev" class="left color-two" href="#"><i class="fa fa-angle-left"></i></a>
+                        <a data-slide="next" class="right color-two" href="#"><i class="fa fa-angle-right"></i></a>
                     </div>
                     
                     <!-- Wrapper for slides -->
@@ -117,11 +117,11 @@
                             <div class="col-md-3">
                                     <div class="w-box inverse">
                                         <div class="figure">
-                                            <img alt="" src="/images/samples/barincard.jpg" class="img-responsive">
+                                            <img alt="" src="<?php echo $prefix; ?>/images/samples/barincard.jpg" class="img-responsive">
                                             <div class="figcaption bg-2"></div>
                                             <div class="figcaption-btn">
                                                
-                                                <a href="/works/vistagroups/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> دانلود ویدئو</a>
+                                                <a href="<?php echo $prefix; ?>/works/vistagroups/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> دانلود ویدئو</a>
                                             </div>
                                         </div>
                                         <div class="row text-center">
@@ -135,10 +135,10 @@
                                 </div><div class="col-md-3">
                                     <div class="w-box inverse">
                                         <div class="figure">
-                                            <img alt="" src="/images/samples/ano.jpg" class="img-responsive">
+                                            <img alt="" src="<?php echo $prefix; ?>/images/samples/ano.jpg" class="img-responsive">
                                             <div class="figcaption bg-2"></div>
                                             <div class="figcaption-btn">
-                                                <a href="/works/vistagroups/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> دانلود ویدئو</a>
+                                                <a href="<?php echo $prefix; ?>/works/vistagroups/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> دانلود ویدئو</a>
                                             </div>
                                         </div>
                                         <div class="row text-center">
@@ -152,10 +152,10 @@
                                 </div><div class="col-md-3">
                                     <div class="w-box inverse">
                                         <div class="figure">
-                                            <img alt="" src="/images/samples/atieh.jpg" class="img-responsive">
+                                            <img alt="" src="<?php echo $prefix; ?>/images/samples/atieh.jpg" class="img-responsive">
                                             <div class="figcaption bg-2"></div>
                                             <div class="figcaption-btn">
-                                            <a href="/works/vistagroups/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> دانلود ویدئو</a>
+                                            <a href="<?php echo $prefix; ?>/works/vistagroups/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> دانلود ویدئو</a>
                                                 
                                             </div>
                                         </div>
@@ -170,11 +170,11 @@
                                 </div><div class="col-md-3">
                                     <div class="w-box inverse">
                                         <div class="figure">
-                                            <img alt="" src="/images/samples/tadbir_small.jpg" class="img-responsive">
+                                            <img alt="" src="<?php echo $prefix; ?>/images/samples/tadbir_small.jpg" class="img-responsive">
                                             <div class="figcaption bg-2"></div>
                                             <div class="figcaption-btn">
                                              
-                                                <a href="/works/vistagroups/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> دانلود ویدئو</a>
+                                                <a href="<?php echo $prefix; ?>/works/vistagroups/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> دانلود ویدئو</a>
                                             </div>
                                         </div>
                                         <div class="row text-center">

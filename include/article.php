@@ -7,7 +7,7 @@
             </div>
             <div class="col-md-6 col-sm-6">
                 <ol class="breadcrumb">
-                    <li><a href="/home/">صفحه اصلی</a></li>
+                    <li><a href="<?php echo $prefix; ?>/home/">صفحه اصلی</a></li>
                     <li class="active">مقالات</li>
                 </ol>
             </div>

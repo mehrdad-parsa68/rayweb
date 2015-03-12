@@ -250,3 +250,8 @@ i.fa-instagram:hover{
 .logo img{
 	height:90px !important;
 	}
+.social-link{
+	width:100%;
+	text-align:center;
+	margin:auto;
+	}

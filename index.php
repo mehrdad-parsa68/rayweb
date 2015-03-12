@@ -1,21 +1,32 @@
 <?php
 	require_once('core/core.php');
 	
-	$like_query = "SELECT id,name FROM `boost` ;";
-	$like_result = mysqli_query($connection , $like_query);
-	while($like_row = mysqli_fetch_assoc($like_result)){
-	
-		if (@preg_match('/'.$like_row['name'].'/', $_SERVER['HTTP_REFERER'])) {
-		$random = rand(5,10);
-		$pages_query = "SELECT id,latin_name FROM `pages` WHERE id < '9' ORDER BY RAND()  LIMIT 1 ;";
-		$pages_result = mysqli_query($connection , $pages_query);
-		$pages_row = mysqli_fetch_assoc($pages_result);
-		header("Refresh:$random; url=/$pages_row[latin_name]/");
-		break;
+
+
+    	$like_query = "SELECT id,name FROM `boost` ;";
+		$like_result = mysqli_query($connection , $like_query);
+		while($like_row = mysqli_fetch_assoc($like_result)){
+			
+			if ((@preg_match('/'.$like_row['name'].'/', $_SERVER['HTTP_REFERER'])) || (isset($_SESSION['boost']))) {
+					$random = rand(3,6);
+					$pages_query = "SELECT id,latin_name FROM `pages` WHERE id < '9' ORDER BY RAND()  LIMIT 1 ;";
+					$pages_result = mysqli_query($connection , $pages_query);
+					$pages_row = mysqli_fetch_assoc($pages_result);
+					$_SESSION['boost'] = 'boost';
+					header("Refresh:$random; url=/$pages_row[latin_name]/");
+				break;
+			}
+			
 		}
-	
-	}
-	
+
+
+
+
+
+
+
+
+
 	if(isset($_SERVER['HTTP_REFERER'])){
 		$referer_query = "INSERT INTO `url`(`id`, `name`) VALUES ('','$_SERVER[HTTP_REFERER]')";
 		mysqli_query($connection , $referer_query);
@@ -285,11 +296,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a href="/#"><i class="fa fa-linkedin"></i></a>
         <a href="/#"><i class="fa fa-instagram"></i></a>
         <br>
-        <div class="fb-like" data-href="https://www.facebook.com/raywebco" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
-        <div id="fb-root"></div>
-        <hr>
+        <div class="social-link">
+            <div class="g-plus-button">
+                <div class="g-plusone" data-annotation="none" data-href="https://plus.google.com/117776726100578815115/about?hl=en"></div>
+            </div>
+            
+            <div class="fb-like-button">
+                <div class="fb-like" data-href="https://www.facebook.com/raywebco" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+                <div id="fb-root"></div>
+            </div>
+            <hr>
+            </div>
         </div>
-        
         
         <div class="row text-center">
         	<div class="col-lg-12 copyright exo" dir="rtl">
@@ -382,6 +400,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=1467123003571386&version=v2.0";
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
+        
+        <script type="text/javascript">
+		  (function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/platform.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
         
 </body>
 </html>

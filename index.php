@@ -115,13 +115,13 @@
 </head>
 <body>
 <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K3LXRG"
+<!--<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K3LXRG"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-K3LXRG');</script>
+})(window,document,'script','dataLayer','GTM-K3LXRG');</script>-->
 <!-- End Google Tag Manager -->
 
 <script>
@@ -141,13 +141,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </a>
 
 </div>
-<div class="col-sm-10">
+<div class="col-sm-10 header-nav">
     <div class="top-header">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <span class="aux-text hidden-xs pull-right">
-                        به <strong>رای وب</strong> خوش آمدید 66576199-021
+                         به سامانه طراحی وب سایت<strong> رای وب </strong> خوش آمدید 44141868 - 021
                     </span>
                     <nav class="top-header-menu">
                         <ul class="menu">
@@ -166,6 +166,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
         </div>
     </div>
+    <hr class="hr-header">
     <!-- Header: Logo and Main Nav -->
     <header>    
         <div id="navOne" class="navbar navbar-wp" role="navigation">

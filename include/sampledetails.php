@@ -14,8 +14,8 @@
                 </div>
                 <div class="col-md-6">
                     <ol class="breadcrumb">
-                        <li><a href="/home/">صفحه اصلی</a></li>
-                        <li><a href="/works/">نمونه کارها</a></li>
+                        <li><a href="<?php echo $prefix; ?>/home/">صفحه اصلی</a></li>
+                        <li><a href="<?php echo $prefix; ?>/works/">نمونه کارها</a></li>
                         <li class="active">اطلاعات سایت</li>
                     </ol>
                 </div>
@@ -31,7 +31,7 @@
                     <div class="col-md-6">
                         
                                 <div class="item item-dark active">
-                                    <img src="/images/samples/detail/<?php echo $project_row['detail_image']; ?>" alt="" class="img-responsive">
+                                    <img src="<?php echo $prefix; ?>/images/samples/detail/<?php echo $project_row['detail_image']; ?>" alt="" class="img-responsive">
                                 </div>
                            
                     </div>
@@ -68,7 +68,7 @@
                         
                         <h3 class="section-title">گواهی حسن انجام کار</h3>
                         <p>
-                        <img src="/images/confirmation/<?php echo $project_row['confirmation']; ?>" alt="" class="img-responsive">
+                        <img src="<?php echo $prefix; ?>/images/confirmation/<?php echo $project_row['confirmation']; ?>" alt="" class="img-responsive">
                         </p>
                         
                     </div>
@@ -102,11 +102,11 @@
                                 echo '<div class="col-md-3">
                                     <div class="w-box inverse">
                                         <div class="figure">
-                                            <img alt="" src="/images/samples/'.$same_row['project_image'].'" class="img-responsive">
+                                            <img alt="" src="'.$prefix.'/images/samples/'.$same_row['project_image'].'" class="img-responsive">
                                             <div class="figcaption bg-2"></div>
                                             <div class="figcaption-btn">
                                                 <a href="'.$same_row['project_address'].'" class="btn btn-xs btn-one theater"><i class="fa fa-plus-circle"></i> ورود به سایت</a>
-                                                <a href="/works/'.$project_address.'/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> مشخصات سایت</a>
+                                                <a href="'.$prefix.'/works/'.$project_address.'/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> مشخصات سایت</a>
                                             </div>
                                         </div>
                                         <div class="row text-center">

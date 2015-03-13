@@ -1,6 +1,6 @@
 <?php 
-	
-	$article_query = "SELECT * FROM `articles` LIMIT 1";
+	$article_id = $_GET['project_address'];
+	$article_query = "SELECT * FROM `articles` WHERE id = '$article_id' LIMIT 1";
 	$article_result = mysqli_query($connection,$article_query);
 	$article_row = mysqli_fetch_assoc($article_result);
 	//var_dump($article_row);

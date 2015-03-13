@@ -166,10 +166,11 @@ hr{
 	}
 hr{ 
 border: 0 !important; 
-height: 1px !important; 
-background-image: -webkit-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.75), rgba(67,136,76,0)) !important; 
-background-image: -moz-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.75), rgba(67,136,76,0)) !important; background-image: -ms-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.75), rgba(67,136,76,0)) !important; 
-background-image: -o-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.75), rgba(67,136,76,0)) !important; 
+height: 1.9px !important; 
+background-image: -webkit-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.9), rgba(67,136,76,0)) !important; 
+background-image: -moz-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.9), rgba(67,136,76,0)) !important;
+background-image: -ms-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.9), rgba(67,136,76,0)) !important; 
+background-image: -o-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.9), rgba(67,136,76,0)) !important; 
 }
 #navOne{
 	border-bottom:1px solid #438838;

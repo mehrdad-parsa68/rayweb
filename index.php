@@ -328,8 +328,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
         
         <div class="row text-center">
-        	<div class="col-lg-12 copyright exo" dir="rtl">
-            	کلیه حقوق این وب سایت متعلق به شرکت داریس رایا وب می باشد. 
+        	<div class="col-lg-12 copyright" dir="rtl">
+            	کلیه حقوق این وب سایت متعلق به شرکت آرتمن رایا وب می باشد. 
                 
             </div>
             <div class="col-lg-3 footer-logo">

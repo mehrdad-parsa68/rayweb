@@ -1,3 +1,7 @@
+<?php 
+	$article_query = "SELECT * FROM `articles`";
+	$article_result = mysqli_query($connection,$article_query);
+?>
 <div class="pg-opt pin">
     <div class="container">
     
@@ -20,12 +24,13 @@
 	<div class="col-lg-12" style="font-size:18px; ">
 		<h2>مقالات طراحی وب سایت</h2>
 		<ul style="list-style:none; color:black important;">
-			<li><a class="exo" href="/<?php echo convert($connection,"article"); ?>/&article=4"><span class="fa fa-book"></span>&nbsp;&nbsp; AngularJS</a></li>
-			<li><a class="exo" href="/<?php echo convert($connection,"article"); ?>/&article=3"><span class="fa fa-book"></span>&nbsp;&nbsp; اصول طراحی سایت</a></li>
-			<li><a class="exo" href="/<?php echo convert($connection,"article"); ?>/&article=2"><span class="fa fa-book"></span>&nbsp;&nbsp;  عناصر مهم در طراحی سایت</a></li>
-			<li><a class="exo" href="/<?php echo convert($connection,"article"); ?>/&article=1"><span class="fa fa-book"></span>&nbsp;&nbsp;  تأثیر طراحی سایت واکنشی یا “Responsive”بر سئو</a></li>		
-            <li><a class="exo" href="/<?php echo convert($connection,"article"); ?>/&article=5"><span class="fa fa-book"></span>&nbsp;&nbsp;  W3C و معتبر سازی کدها</a></li>
-            <li><a class="exo" href="/<?php echo convert($connection,"article"); ?>/&article=5"><span class="fa fa-book"></span>&nbsp;&nbsp; CSS3 نسل جدیدی از CSS</a></li>
+        	<?php 
+				while($article_row = mysqli_fetch_assoc($article_result)){
+						echo '<li><a href="/&article=4"> <span class="fa fa-book"></span> '.$article_row['title'].' </a></li>'	;
+					
+					}
+			?>
+			
             
             
 		</ul>

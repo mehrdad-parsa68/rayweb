@@ -2,7 +2,7 @@
 table { border-collapse: collapse; border-spacing: 0; }
 input, button{ overflow: visible; }
 html, body { height: 100%; min-height: 100%; }
-body { font: normal 11px/14px tahoma, arial, verdana, sans-serif; text-align:center; color: #333; background: #f6f6f6; }
+body { font: normal 11px/14px tahoma, arial, exo, sans-serif; text-align:center; color: #333; background: #f6f6f6; }
 p { padding: 0 0 10px; }
 ul { padding: 0 0 0 16px; }
 li { padding: 0 0 8px; }

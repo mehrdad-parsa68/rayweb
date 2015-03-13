@@ -1,5 +1,5 @@
 body{
-	font-family:yekan,YekanNumbers,exo !important;
+	font-family:yekan,YekanNumbers,verdana !important;
 	direction:rtl !important;
 	font-size:15px !important;
 	}
@@ -30,18 +30,12 @@ body{
 }
 
 
-@font-face{
-	font-family:'Exo';
-	src:url('../fonts/Exo-Light.eot');
-	src:url('../fonts/Exo-Light.eot#iefix') format('eot'),url('../fonts/Exo-Light.woff') format('woff'),url('../fonts/Exo-Light.ttf') format('truetype');
-	font-weight:normal;
-	font-style:normal;
-}
+
 .exo{
-	font-family:Exo,yekan !important;
+	font-family:verdana !important;
 	}
 h1,h2,h3,h4,h5,h6{
-	font-family:yekan,Exo !important;
+	font-family:yekan,verdana !important;
 	}
 rtl{
 	direction:rtl !important;
@@ -285,4 +279,7 @@ background-image: -o-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.9
 	}
 .navbar-brand{
 	padding-top:5px !important;
+	}
+.h1-seo{
+	font-size:24px;
 	}

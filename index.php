@@ -157,8 +157,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <span class="aux-text hidden-xs pull-right">
-                         به سامانه طراحی وب سایت<strong> رای وب </strong> خوش آمدید 44141868 - 021
+                   <span class="aux-text hidden-xs pull-right">
+                        <strong>طراحی وب سایت رای وب 44141868 - 021</strong>
                     </span>
                     <nav class="top-header-menu">
                         <ul class="menu">

@@ -26,7 +26,7 @@
 		<ul style="list-style:none; color:black important;">
         	<?php 
 				while($article_row = mysqli_fetch_assoc($article_result)){
-						echo '<li><a href="/&article=4"> <span class="fa fa-book"></span> '.$article_row['title'].' </a></li>'	;
+						echo '<li><a href="/article/'.$article_row['id'].'/"> <span class="fa fa-book"></span> '.$article_row['title'].' </a></li>'	;
 					
 					}
 			?>

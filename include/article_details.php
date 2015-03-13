@@ -58,7 +58,7 @@
     <section class="slice relative bg-5 animate-hover-slide">
         <div class="w-section inverse">
             <div class="container">
-                <h3 class="section-title">ویدئو های مشابه</h3>
+                <h3 class="section-title">مقالات مشابه</h3>
                 <div id="carouselWork" class="carousel-3 slide animate-hover-slide">
                     <div class="carousel-nav">
                         <a data-slide="prev" class="left color-two" href="#carouselWork"><i class="fa fa-angle-left"></i></a>
@@ -81,7 +81,7 @@
                                         </div>
                                         <div class="row text-center">
                                             <div class="col-xs-12">
-                                                <h3>ویدئو اول</h3>
+                                                <h3>مقاله اول</h3>
                                                 
                                             </div>
                                             
@@ -98,7 +98,7 @@
                                         </div>
                                         <div class="row text-center">
                                             <div class="col-xs-12">
-                                                <h3>ویدئو دوم</h3>
+                                                <h3>مقاله دوم</h3>
                                                 
                                             </div>
                                             
@@ -116,7 +116,7 @@
                                         </div>
                                         <div class="row text-center">
                                             <div class="col-xs-12">
-                                                <h3>ویدئو سوم</h3>
+                                                <h3>مقاله سوم</h3>
                                                 
                                             </div>
                                             
@@ -134,7 +134,7 @@
                                         </div>
                                         <div class="row text-center">
                                             <div class="col-xs-12">
-                                                <h3>ویدئو چهارم</h3>
+                                                <h3>مقاله چهارم</h3>
                                                 
                                             </div>
                                             

@@ -70,7 +70,8 @@
 	
 	//echo $seo->fetchPersianUrl();
 	
-	
+	$article_query = "SELECT * FROM `articles`";
+	$article_result = mysqli_query($connection,$article_query);
 		
 ?>
 <!DOCTYPE html>

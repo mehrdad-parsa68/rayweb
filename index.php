@@ -279,12 +279,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
             <div class="col-md-3">
             	<div class="col">
-                    <h4>مقالات <a href="">طراحی وب سایت</a></h4>
+                    <h4>مقالات <a href="http://rayweb.ir">طراحی وب سایت</a></h4>
                     <hr>
                     <ul>
-                    	<li><a href="#"><i class="fa fa-book"></i> AngularJS </a></li>
-                        <li><a href="#"><i class="fa fa-book"></i>  اصول طراحی سایت </a></li>
-                        <li><a href="#"><i class="fa fa-book"></i> عناصر مهم در طراحی سایت </a></li>
+                    	<?php 
+				while($article_row = mysqli_fetch_assoc($article_result)){
+						echo '<li><a href="/article/'.$article_row['id'].'/"> <span class="fa fa-book"></span> '.$article_row['title'].' </a></li>'	;
+					
+					}
+			?>
                        
                     </ul>
                 </div>
@@ -292,7 +295,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
             <div class="col-md-3">
             	<div class="">
-                    <h4>ویدئو های طراحی وب سایت</h4>
+                    <h4>ویدئو های <a href="http://rayweb.ir">طراحی وب سایت</a></h4>
                     <hr>
                     
                 </div>
@@ -326,7 +329,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <br>
         <div class="social-link">
             <div class="g-plus-button">
-                <div class="g-plusone" data-annotation="none" data-href="https://plus.google.com/117776726100578815115/about?hl=en"></div>
+                <div class="g-plusone" data-annotation="none" data-href="https://plus.google.com/communities/107271610650119455714"></div>
             </div>
             
             <div class="fb-like-button">

@@ -123,6 +123,15 @@ section,.top-header,header{
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- Code baraye Anetwork.ir : 
+    <script type='text/javascript'>
+	!( function( d, wid, uid ) {
+		var s = d.createElement( 'script' ), h = d.head || d.getElementsByTagName( 'head' )[ 0 ]; s.async = true; s.onload = function( e ) { h.removeChild( this ); }; h.appendChild( s ); s.src = 'http://footprint.anetwork.ir/a?' + wid + '.14032015.' + uid;
+	})( document, 450758, 22971 );
+	</script>
+    -->
+    
 </head>
 <body>
 <!-- Google Tag Manager -->

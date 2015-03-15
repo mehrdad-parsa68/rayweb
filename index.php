@@ -235,6 +235,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <a href="/order/" class="dropdown-toggle" data-close-others="true">سفارش</a>
                             
                         </li>
+                        <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'video'){echo 'active';} ?> pull-right">
+                            <a href="/video/" class="dropdown-toggle" data-close-others="true" style="color:red">دانلود ویدئو آموزشی</a>
+                            
+                        </li>
                        
                     </ul>
                    

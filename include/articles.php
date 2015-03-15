@@ -57,7 +57,3 @@
       </div>
   </div>
 </div>
-<?php
-if(isset($_GET['article'])){
-	include($_GET['article'].'.php');
-	}

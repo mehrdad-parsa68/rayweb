@@ -1,41 +1,106 @@
-<?php 
-	$video_query = "SELECT * FROM `videos`";
-	$video_result = mysqli_query($connection,$video_query);
-?>
+
 <div class="pg-opt pin">
     <div class="container">
-    
         <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <h2 class="h-green">Videos</h2>
+            <div class="col-md-6">
+                <h2>Videos</h2>
             </div>
-            <div class="col-md-6 col-sm-6">
+            <div class="col-md-6">
                 <ol class="breadcrumb">
                     <li><a href="<?php echo $prefix; ?>/home/">صفحه اصلی</a></li>
-                    <li class="active">ویدئو آموزشی</li>
+                    <li class="active">ویدئو های آموزشی</li>
                 </ol>
             </div>
         </div>
         <hr>
     </div>
 </div>
-
-<div class="container" dir="rtl">
-	<div class="col-lg-12" style="font-size:18px; ">
-		<h2>مقالات طراحی وب سایت</h2>
-		<ul style="list-style:none; color:black important;">
-        	<?php 
-				while($video_row = mysqli_fetch_assoc($video_result)){
-						echo '<li><a href="/video/'.$video_row['id'].'/"> <span class="fa fa-book"></span> '.$video_row['name'].' </a></li>'	;
+    
+<section class="slice bg-3 animate-hover-slide">
+    <div class="w-section inverse work">
+        <div class="container">
+            <!--<div class="row">
+                <div class="col-md-12">
+                    <div class="btn-group pull-right">
+                        <button type="button" class="btn btn-menu">دسته بندی پروژه ها</button>
+                        <button type="button" class="btn btn-menu dropdown-toggle" data-toggle="dropdown">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu pull-right" role="menu" id="ulFilterMenu">
+                            <li class="filter active" data-filter="all"><a>نمایش همه</a></li>
+                            <li class="filter" data-filter="category_1"><a>شرکتی</a></li>
+                            <li class="filter" data-filter="category_2"><a>شخصی</a></li>
+                            <li class="filter" data-filter="category_3"><a>فروشگاهی</a></li>
+                            <li class="filter" data-filter="category_4"><a>هنری</a></li>
+                            <li class="filter" data-filter="category_5"><a>سرمایه گذاری</a></li>
+                            <li class="filter" data-filter="category_6"><a>پرتال</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>-->
+            
+            <div class="row">          
+                <div id="ulSorList">
 					
-					}
-			?>
-			
-            
-            
-		</ul>
-	</div>  
-</div>
+                    
+                   <?php 
+				   $videos_query = "SELECT * FROM `videos` ORDER BY RAND()";
+				   $videos_result = mysqli_query($connection,$videos_query);
+				   while($videos_row = mysqli_fetch_assoc($videos_result)){
+					   /*$cat = $sample_row['project_type'];
+					   
+					   switch ($cat) {
+						case 'شرکتی':
+							$cat = 1;
+							break;
+						case 'شخصی':
+							$cat = 2;
+							break;
+						case 'فروشگاهی':
+							$cat = 3;
+							break;
+						case 'هنری':
+							$cat = 4;
+							break;
+						case 'سرمایه گذاری':
+							$cat = 5;
+							break;
+						case 'پرتال':
+							$cat = 6;
+							break;
+					}*/
+					
+				
+		
+					   echo"
+						<div class='mix category_cat col-lg-4 col-md-4 col-sm-6' data-cat='cat'>
+							<div class='w-box inverse'>
+								<div class='figure'>
+									<img alt='طراحی وب سایت' src='".$prefix."/images/video_images/$videos_row[image1]' class='img-responsive'>
+									<div class='figcaption bg-2'></div>
+									<div class='figcaption-btn'>
+										<a href='".$prefix."/video/".$videos_row['id']."/' target='_blank' class='btn btn-xs btn-one'><i class='fa fa-link'></i> دانلود</a>
+									</div>
+								</div>
+								<div class='row'>
+									<div class='text-center'>
+										<h3>$videos_row[name]</h3>
+										<small>$videos_row[description]</small>
+									</div>
+									
+								</div>
+							</div>
+						</div>";
+				   }
+                    ?>
+                     
+                    <div class="gap"></div>
+                </div>
+                                
+            </div>
+        </div>
+    </div>
+</section>
 <hr>
 <div class="container">
 	<div class="wp-example" id="images-text">  

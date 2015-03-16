@@ -370,11 +370,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script type="text/javascript" src="<?php echo $prefix; ?>/js/jquery.easing.js"></script>
 <script src="<?php echo $prefix; ?>/js/lightbox.min.js"></script>
 
-<!--[if lt IE 9]>
-    <script src="/js/html5shiv.js"></script>
-    <script src="/js/respond.min.js"></script>
-<![endif]-->
-
 <!-- Plugins -->
 <script type="text/javascript" src="<?php echo $prefix; ?>/assets/hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
 <script type="text/javascript" src="<?php echo $prefix; ?>/assets/page-scroller/jquery.ui.totop.min.js"></script>

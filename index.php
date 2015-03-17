@@ -307,7 +307,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <ul>
                     	<?php 
 				while($video_footer_row = mysqli_fetch_assoc($video_footer_result)){
-						echo '<li><a href="/video/'.$video_footer_row['id'].'/"> <span class="fa fa-book"></span> '.$video_footer_row['name'].' </a></li>'	;
+						echo '<li><a href="/video/'.$video_footer_row['id'].'/"> <span class="fa fa-video-camera"></span> '.$video_footer_row['name'].' </a></li>'	;
 					
 					}
 			?>

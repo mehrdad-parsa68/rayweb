@@ -93,6 +93,7 @@
                                     <div class="text-center">
                                         	<a class="btn btn-two btn-lg" href="<?php echo $video_row['download_link']; ?>">دانلود ویدئو</a>
                                             <p align="center">دفعات دانلود : <?php echo $video_row['stat']; ?></p>
+                                            <p align="center">کلمه عبور فایل ها : <strong>www.rayweb.ir</strong></p>
                                         </div>
                     </div>
                     <div class="col-md-6">

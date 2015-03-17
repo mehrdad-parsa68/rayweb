@@ -7,6 +7,22 @@
 	
 	$video_result = mysqli_query($connection,$video_query);
 	$video_row = mysqli_fetch_assoc($video_result);
+	
+	$tags = '';
+	$tag_query = "SELECT tags.id,tags.name,tags_videos.video_id,tags_videos.tag_id FROM tags 
+				INNER JOIN tags_videos ON tags.id = tags_videos.tag_id 
+									WHERE tags_videos.video_id = '$video_id' ;";
+	$tag_result = mysqli_query($connection,$tag_query);
+	while($tag_row = mysqli_fetch_assoc($tag_result)){
+		$tags .= "<li><a href='".$prefix."/tags/".$tag_row['name']."/' target='_blank' >$tag_row[name]</a></li> ";
+		}
+		
+		
+	// stat query
+	$stat = $video_row['stat'] + 1;
+	$stat_query = "UPDATE `videos` SET `stat`='$stat' WHERE id = '$video_id' ; ";
+	mysqli_query($connection,$stat_query);
+	
 ?>
 <div class="pg-opt pin">
         <div class="container">
@@ -92,8 +108,7 @@
                         <hr>
                         <h4>برچسب های ویدئو :</h4><div class="itemTags">
                         	<ul class="tags">
-                            	<li><a href="#">php</a></li>
-                                <li><a href="#">mysqli</a></li>
+                            	<?php echo $tags; ?>
                             </ul>
                         </div>
                         

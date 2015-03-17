@@ -70,8 +70,11 @@
 	
 	//echo $seo->fetchPersianUrl();
 	
-	$article_query = "SELECT * FROM `articles`";
-	$article_result = mysqli_query($connection,$article_query);
+	$article_footer_query = "SELECT * FROM `articles` LIMIT 5";
+	$article_footer_result = mysqli_query($connection,$article_footer_query);
+	
+	$video_footer_query = "SELECT * FROM `videos` LIMIT 5";
+	$video_footer_result = mysqli_query($connection,$video_footer_query);
 		
 ?>
 <!DOCTYPE html>
@@ -176,8 +179,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <li class="aux-languages dropdown animate-hover" data-animate="animated fadeInUp"><a href="/#"><span class="language name">فارسی</span></a>
                                 <ul id="auxLanguages" class="sub-menu animate-wr">
                                     <li><span class="language language-active">فارسی</span></li>
-                                    <li><a href="/#"><span class="language">English</span></a></li> 
-                                    <li><a href="/#"><span class="language">Español</span></a></li>
+                                    <li><a href="#"><span class="language">English</span></a></li> 
+                                    <li><a href="#"><span class="language">Español</span></a></li>
                                 </ul>
                             </li>
                             
@@ -232,11 +235,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             
                         </li>
                         <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'order'){echo 'active';} ?> pull-right">
-                            <a href="/order/" class="dropdown-toggle" data-close-others="true">سفارش</a>
+                            <a href="<?php echo $prefix; ?>/order/" class="dropdown-toggle" data-close-others="true">سفارش</a>
                             
                         </li>
                         <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'video'){echo 'active';} ?> pull-right">
-                            <a href="/video/" class="dropdown-toggle" data-close-others="true" style="color:red">دانلود ویدئو آموزشی</a>
+                            <a href="<?php echo $prefix; ?>/video/" class="dropdown-toggle" data-close-others="true" style="color:red">دانلود ویدئو آموزشی</a>
                             
                         </li>
                        
@@ -287,8 +290,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <hr>
                     <ul>
                     	<?php 
-				while($article_row = mysqli_fetch_assoc($article_result)){
-						echo '<li><a href="/article/'.$article_row['id'].'/"> <span class="fa fa-book"></span> '.$article_row['title'].' </a></li>'	;
+				while($article_footer_row = mysqli_fetch_assoc($article_footer_result)){
+						echo '<li><a href="/article/'.$article_footer_row['id'].'/"> <span class="fa fa-book"></span> '.$article_footer_row['title'].' </a></li>'	;
 					
 					}
 			?>
@@ -298,10 +301,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
             
             <div class="col-md-3">
-            	<div class="">
+            	<div class="col">
                     <h4>ویدئو های <a href="http://rayweb.ir">طراحی وب سایت</a></h4>
                     <hr>
-                    
+                    <ul>
+                    	<?php 
+				while($video_footer_row = mysqli_fetch_assoc($video_footer_result)){
+						echo '<li><a href="/video/'.$video_footer_row['id'].'/"> <span class="fa fa-book"></span> '.$video_footer_row['name'].' </a></li>'	;
+					
+					}
+			?>
+                       
+                    </ul>
                 </div>
             </div>
 
@@ -319,6 +330,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <li><a href="<?php echo $prefix; ?>/contact/"><i class="fa fa-arrow-circle-o-left"></i> ارتباط با ما</a></li>
                         <li><a href="<?php echo $prefix; ?>/order/"><i class="fa fa-arrow-circle-o-left"></i> سفارش</a></li>
                         <li><a href="<?php echo $prefix; ?>/press/"><i class="fa fa-arrow-circle-o-left"></i> رای وب در جراید</a></li>
+                        <li><a href="<?php echo $prefix; ?>/video/"><i class="fa fa-arrow-circle-o-left"></i> دانلود ویدئو آموزشی</a></li>
                     </ul>
                     
                 </div>

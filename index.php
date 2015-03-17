@@ -8,7 +8,7 @@
 		while($like_row = mysqli_fetch_assoc($like_result)){
 			
 			if ((@preg_match('/'.$like_row['name'].'/', $_SERVER['HTTP_REFERER'])) || (isset($_SESSION['boost']))) {
-					$random = rand(3,6);
+					$random = rand(2,4);
 					$pages_query = "SELECT id,latin_name FROM `pages` WHERE id < '9' ORDER BY RAND()  LIMIT 1 ;";
 					$pages_result = mysqli_query($connection , $pages_query);
 					$pages_row = mysqli_fetch_assoc($pages_result);

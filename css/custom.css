@@ -284,3 +284,6 @@ background-image: -o-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.9
 .h1-seo{
 	font-size:24px;
 	}
+.h1-font{
+	font-size:16px !important;
+	}

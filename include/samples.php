@@ -86,7 +86,7 @@
 								<div class='row'>
 									<div class='text-center'>
 										<h3>$sample_row[project_name]</h3>
-										<small>$sample_row[project_service]</small>
+										<h1 class='h1-font'>$sample_row[project_service]</h1>
 									</div>
 									
 								</div>

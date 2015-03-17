@@ -69,23 +69,24 @@
 							$cat = 6;
 							break;
 					}*/
-					
+					$videos_row['description'] = substr($videos_row['description'],0,300);
+					$videos_row['description'] = $videos_row['description'].' ...';
 				
 		
 					   echo"
 						<div class='mix category_cat col-lg-4 col-md-4 col-sm-6' data-cat='cat'>
 							<div class='w-box inverse'>
 								<div class='figure'>
-									<img alt='طراحی وب سایت' src='".$prefix."/images/video_images/$videos_row[image1]' class='img-responsive'>
+									<img alt='$videos_row[name]' src='".$prefix."/images/video_images/$videos_row[image1]' class='img-responsive'>
 									<div class='figcaption bg-2'></div>
 									<div class='figcaption-btn'>
-										<a href='".$prefix."/video/".$videos_row['id']."/' target='_blank' class='btn btn-xs btn-one'><i class='fa fa-link'></i> دانلود</a>
+										<a href='".$prefix."/video/".$videos_row['id']."/' target='_blank' class='btn btn-xs btn-one'><i class='fa fa-link'></i> مشاهده و دانلود</a>
 									</div>
 								</div>
 								<div class='row'>
 									<div class='text-center'>
-										<h3>$videos_row[name]</h3>
-										<small>$videos_row[description]</small>
+										<a href='".$prefix."/video/".$videos_row['id']."/' target='_blank' style='color:#2A6496'><h4>$videos_row[name]</h4></a>
+										<small style='padding:10px;'>$videos_row[description]</small>
 									</div>
 									
 								</div>
@@ -104,7 +105,7 @@
 <hr>
 <div class="container">
 	<div class="wp-example" id="images-text">  
-      <div class="slice para">
+      <div class="slice para" style="background-image: url('/images/prv/para.jpg') !important;">
           <div class="w-section inverse">
               <div class="row">
                   <div class="col-md-12">

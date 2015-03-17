@@ -2,7 +2,7 @@
 
 	$video_id = $_GET['project_address'];
 	
-	$video_query = "SELECT videos.id AS video_id, videos.name, videos.lecturer_id, videos.description, videos.size, videos.time, videos.stat, videos.image1, videos.image2, videos.image3, videos.register_date, lecturer.id, lecturer.full_name FROM `videos` 
+	$video_query = "SELECT videos.id AS video_id, videos.name,videos.download_link, videos.lecturer_id, videos.description, videos.size, videos.time, videos.stat, videos.image1, videos.image2, videos.image3, videos.register_date, lecturer.id, lecturer.full_name FROM `videos` 
 	INNER JOIN `lecturer` ON lecturer.id = videos.lecturer_id WHERE videos.id = '$video_id' LIMIT 1";
 	
 	$video_result = mysqli_query($connection,$video_query);
@@ -75,7 +75,7 @@
                                     </section>
                                     <br>
                                     <div class="text-center">
-                                        	<input type="submit" name="mosuavi" class="btn btn-two btn-lg" value="دانلود ویدئو">
+                                        	<a class="btn btn-two btn-lg" href="<?php echo $video_row['download_link']; ?>">دانلود ویدئو</a>
                                             <p align="center">دفعات دانلود : <?php echo $video_row['stat']; ?></p>
                                         </div>
                     </div>

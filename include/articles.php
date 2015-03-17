@@ -39,7 +39,7 @@
 <hr>
 <div class="container">
 	<div class="wp-example" id="images-text">  
-      <div class="slice para">
+      <div class="slice para" style="background-image: url('/images/prv/para.jpg') !important;">
           <div class="w-section inverse">
               <div class="row">
                   <div class="col-md-12">

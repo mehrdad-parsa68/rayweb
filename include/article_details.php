@@ -3,16 +3,22 @@
 	$article_query = "SELECT * FROM `articles` WHERE id = '$article_id' LIMIT 1";
 	$article_result = mysqli_query($connection,$article_query);
 	$article_row = mysqli_fetch_assoc($article_result);
-	//var_dump($article_row);
-	$tag_query = "SELECT tags_articles.id, tags_articles.tag_id, tags_articles.article_id, tags.id AS tag_alias_id, tags.name FROM `tags` 
-	INNER JOIN `tags_articles` ON tags.id = tags_articles.tag_id WHERE tags_articles.article_id = '1'
 	
-	 ";
-	 $tags = '';
+	
+	$tags = '';
+	$tag_query = "SELECT tags.id,tags.name,tags_articles.article_id,tags_articles.tag_id FROM tags 
+				INNER JOIN tags_articles ON tags.id = tags_articles.tag_id 
+									WHERE tags_articles.article_id = '$article_id' ;";
 	$tag_result = mysqli_query($connection,$tag_query);
 	while($tag_row = mysqli_fetch_assoc($tag_result)){
-		$tags .= "<li><a href='#'>$tag_row[name]</a></li> ";
-	}
+		$tags .= "<li><a href='".$prefix."/tags/".$tag_row['name']."/' target='_blank' >$tag_row[name]</a></li> ";
+		}
+		
+		
+	// stat query
+	$stat = $article_row['stat'] + 1;
+	$stat_query = "UPDATE `articles` SET `stat`='$stat' WHERE id = '$article_id' ; ";
+	mysqli_query($connection,$stat_query);
 ?>
 <div class="pg-opt pin">
         <div class="container">
@@ -38,7 +44,7 @@
                 	<div class="container article">
                     	<?php echo $article_row['text'];?>       
                       <div>
-                            <p align="right">دفعات دانلود : <?php echo $article_row['stat']; ?></p>
+                            <p align="right">تعداد مشاهده : <?php echo $article_row['stat']; ?></p>
                              <p>برچسب های مقاله :</p><div class="itemTags">
                         	<ul class="tags">
                             	<?php echo $tags ?>

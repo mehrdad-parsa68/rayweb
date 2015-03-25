@@ -23,14 +23,15 @@
 <div class="pg-opt pin">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <h1 class="h1-small"><?php echo $news_row['title'] ?></h1>
-                </div>
-                <div class="col-md-6 col-sm-6">
+                
+                <div class="col-xs-12">
                     <ol class="breadcrumb">
                         <li><a href="/home/">صفحه اصلی</a></li>
                         <li class="active">اخبار فناوری اطلاعات (IT)</li>
                     </ol>
+                </div>
+                <div class="col-xs-12">
+                    <h1 class="h1-small news"><?php echo $news_row['title'] ?></h1>
                 </div>
             </div>
             <hr>

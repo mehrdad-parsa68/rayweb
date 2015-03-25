@@ -26,7 +26,7 @@
 		<ul style="list-style:none; color:black important;">
         	<?php 
 				while($news_row = mysqli_fetch_assoc($news_result)){
-						echo '<li><a href="/new/'.$news_row['id'].'/"> <span class="fa fa-newspaper-o"></span> '.$news_row['title'].' <span class="timeago">(18 ساعت پیش)<span></a></li>'	;
+						echo '<li><a href="/news/'.$news_row['id'].'/"> <span class="fa fa-newspaper-o"></span> '.$news_row['title'].' <span class="timeago">(18 ساعت پیش)<span></a></li>'	;
 					
 					}
 			?>

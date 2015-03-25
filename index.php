@@ -75,7 +75,13 @@
 	
 	$video_footer_query = "SELECT * FROM `videos` LIMIT 5";
 	$video_footer_result = mysqli_query($connection,$video_footer_query);
-		
+	##############################
+	$news_query = "SELECT * FROM `news` LIMIT 4";
+	
+	$news_result = mysqli_query($connection,$news_query);
+	
+	
+	
 ?>
 <!DOCTYPE html>
 <html>
@@ -95,7 +101,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/assets/animate/animate.css">
-    
+    <link rel="canonical" href="http://rayweb.ir<?php echo $_SERVER['REQUEST_URI']; ?>" />
     
     <link href="<?php echo $prefix; ?>/css/global-style.css" rel="stylesheet" type="text/css" media="screen">
     <link rel="icon" href="<?php echo $prefix; ?>/images/favicon.gif" type="image/png"><!-- LayerSlider stylesheet -->
@@ -331,6 +337,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <li><a href="<?php echo $prefix; ?>/order/"><i class="fa fa-arrow-circle-o-left"></i> سفارش</a></li>
                         <li><a href="<?php echo $prefix; ?>/press/"><i class="fa fa-arrow-circle-o-left"></i> رای وب در جراید</a></li>
                         <li><a href="<?php echo $prefix; ?>/video/"><i class="fa fa-arrow-circle-o-left"></i> دانلود ویدئو آموزشی</a></li>
+                        <li><a href="<?php echo $prefix; ?>/new/"><i class="fa fa-arrow-circle-o-left"></i> آخرین اخبار فناوری اطلاعات (IT)</a></li>
                     </ul>
                     
                 </div>

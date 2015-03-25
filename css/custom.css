@@ -319,3 +319,28 @@ background-image: -o-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.9
          -o-transform:skew(8deg) rotate(3deg);
             transform:skew(8deg) rotate(3deg);
 }
+.news{
+	margin-top:48px;
+	}
+.news ul{
+	padding:0;
+	margin:0;
+	}
+.news ul li{
+	list-style-type:none;
+	}
+.news ul li a{
+	font-size:16px;
+	}
+.timeago{
+	font-size:14px;
+	color:#999;
+	}
+p.key {
+	background-color:#999;
+	padding:5px 30px 5px 30px;
+	}
+p.bullet i{
+	color:#43883;
+	font-size:14px;
+	}

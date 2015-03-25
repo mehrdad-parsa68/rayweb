@@ -243,16 +243,25 @@
     </section>
     <hr>
     <section class="container">
-	 	<div class="col-md-6 	
-consultation">
+	 	<div class="col-md-6	
+news">
     	<div class="panel panel-default">
           <div class="panel-heading">
-            <h3 class="text-center margin-padding">مشاوره رایگان</h3>
+            <h3 class="text-center margin-padding">آخرین اخبار فناوری اطلاعات (IT)</h3>
           </div>
           <div id="collapseThree" class="panel-collapse in" style="height: auto;">
             <div class="panel-body">
-            <p align="center" style="font-size:40px;color:#438838"><i class="fa fa-users"></i></p>
-              <p><p align="center">نیاز هر انتخاب خوب ، مشاوره قبل از انتخاب می باشد.</p><p align="justify"> واحد مشاروه شرکت رای وب در جهت رضایت شما، آماده ارائه خدمات مشاوره می باشد. به منظور مشاوره رایگان ، با شماره 44141868 تماس حاصل فرمائید و یا پس از پرکردن فرم <a href="<?php echo $prefix; ?>/order/" style="text-decoration:underline">سفارش</a> منتظر تماس کارشناسان ما باشید. </p>
+            <ul>
+            <?php
+				while($news_row = mysqli_fetch_assoc($news_result)){
+					echo "
+            	<li><i class='fa fa-newspaper-o'></i><a href='$prefix/news/$news_row[id]/'> $news_row[title]  <span clas
+				timeago>(18 ساعت پیش)<span></a></li>
+				";
+				};
+			?>
+             </ul> 
+             <p class="text-center"><a href="<?php echo $prefix ?>/new/">مشاهده آرشیو اخبار</a></p>
               
             </div>
           </div>
@@ -334,6 +343,23 @@ consultation">
                 </div>
             </div>
         </div>
+    </section>
+    <section class="container">
+    	<div class="col-md-6 col-md-offset-3 	
+consultation">
+    	<div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="text-center margin-padding">مشاوره رایگان</h3>
+          </div>
+          <div id="collapseThree" class="panel-collapse in" style="height: auto;">
+            <div class="panel-body">
+            <p align="center" style="font-size:40px;color:#438838"><i class="fa fa-users"></i></p>
+              <p><p align="center">نیاز هر انتخاب خوب ، مشاوره قبل از انتخاب می باشد.</p><p align="justify"> واحد مشاروه شرکت رای وب در جهت رضایت شما، آماده ارائه خدمات مشاوره می باشد. به منظور مشاوره رایگان ، با شماره 44141868 تماس حاصل فرمائید و یا پس از پرکردن فرم <a href="<?php echo $prefix; ?>/order/" style="text-decoration:underline">سفارش</a> منتظر تماس کارشناسان ما باشید. </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="slice bg-3">
 	<div class="w-section inverse">

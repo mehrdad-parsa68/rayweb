@@ -1,8 +1,8 @@
 <?php 
-	$article_id = $_GET['project_address'];
-	$article_query = "SELECT * FROM `articles` WHERE id = '$article_id' LIMIT 1";
-	$article_result = mysqli_query($connection,$article_query);
-	$article_row = mysqli_fetch_assoc($article_result);
+	$new_id = $_GET['project_address'];
+	$news_query = "SELECT * FROM `news` WHERE id = '$new_id' LIMIT 1";
+	$article_result = mysqli_query($connection,$news_query);
+	$news_row = mysqli_fetch_assoc($news_result);
 	
 	
 	$tags = '';
@@ -24,12 +24,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <h1 class="h1-small"><?php echo $article_row['title'] ?></h1>
+                    <h1 class="h1-small"><?php echo $news_row['title'] ?></h1>
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <ol class="breadcrumb">
                         <li><a href="/home/">صفحه اصلی</a></li>
-                        <li class="active">مقالات آموزشی</li>
+                        <li class="active">اخبار فناوری اطلاعات (IT)</li>
                     </ol>
                 </div>
             </div>
@@ -42,8 +42,7 @@
             <div class="container">
                 <div class="row">
                 	<div class="container article">
-                    	<?php echo $article_row['text'];?> 
-                        
+                    	<?php echo $article_row['text'];?>       
                       <div>
                             <p align="right">تعداد مشاهده : <?php echo $article_row['stat']; ?></p>
                              <p>برچسب های مقاله :</p><div class="itemTags">

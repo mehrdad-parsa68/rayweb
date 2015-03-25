@@ -29,5 +29,6 @@ mysqli_set_charset($connection,'utf8');
 ##########################
 include('class/class.hire.php');
 include('class/class.seo.php');
+include('jdf.php');
 
 ?>

@@ -1,6 +1,6 @@
 <?php 
-	$article_query = "SELECT * FROM `news`";
-	$article_result = mysqli_query($connection,$article_query);
+	$news_query = "SELECT * FROM `news`";
+	$news_result = mysqli_query($connection,$news_query);
 ?>
 <div class="pg-opt pin">
     <div class="container">
@@ -26,7 +26,13 @@
 		<ul style="list-style:none; color:black important;">
         	<?php 
 				while($news_row = mysqli_fetch_assoc($news_result)){
-						echo '<li><a href="/news/'.$news_row['id'].'/"> <span class="fa fa-newspaper-o"></span> '.$news_row['title'].' <span class="timeago">(18 ساعت پیش)<span></a></li>'	;
+					$timeago = date('c',$news_row['date']);
+		  			$news_date = jdate('Y/m/d',$news_row['date']);
+					
+					echo "
+						<li><i class='fa fa-newspaper-o'></i><a href='$prefix/news/$news_row[id]/'> $news_row[title]  
+						(<span class='timeago' title='$timeago'>($news_date)</span>)</a></li>
+						";
 					
 					}
 			?>

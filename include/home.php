@@ -254,10 +254,14 @@ news">
             <ul>
             <?php
 				while($news_row = mysqli_fetch_assoc($news_result)){
+					
+					$timeago = date('c',$news_row['date']);
+		  			$news_date = jdate('Y/m/d',$news_row['date']);
+					
 					echo "
-            	<li><i class='fa fa-newspaper-o'></i><a href='$prefix/news/$news_row[id]/'> $news_row[title]  
-				<span class='timeago'>(18 ساعت پیش)</span></a></li>
-				";
+						<li><i class='fa fa-newspaper-o'></i><a href='$prefix/news/$news_row[id]/'> $news_row[title]  
+						(<span class='timeago' title='$timeago'>($news_date)</span>)</a></li>
+						";
 				};
 			?>
              </ul> 

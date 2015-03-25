@@ -76,7 +76,8 @@
 	$video_footer_query = "SELECT * FROM `videos` LIMIT 5";
 	$video_footer_result = mysqli_query($connection,$video_footer_query);
 	##############################
-	$news_query = "SELECT * FROM `news` ORDER BY `date` DESC";
+	
+	$news_query = "SELECT * FROM `news` ORDER BY `date` DESC LIMIT 10";
 	
 	$news_result = mysqli_query($connection,$news_query);
 	
@@ -382,6 +383,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- JavaScript -->
 <script type="text/javascript" src="<?php echo $prefix; ?>/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo $prefix; ?>/js/timeago.js"></script>
 <script type="text/javascript" src="<?php echo $prefix; ?>/assets/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo $prefix; ?>/js/modernizr.custom.js"></script>
 <script type="text/javascript" src="<?php echo $prefix; ?>/js/jquery.mousewheel-3.0.6.pack.js"></script>
@@ -418,6 +420,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			skin: 'borderlessdark3d',
 			hoverPrevNext: false
 		});
+	</script>
+    <script>
+		$(document).ready(function() {
+			$(".timeago").timeago();
+		});
+			
+		// Persian
+		// Use DIR attribute for RTL text in Persian Language for ABBR tag .
+		// By MB.seifollahi@gmail.com
+		jQuery.timeago.settings.strings = {
+		prefixAgo: null,
+		prefixFromNow: null,
+		suffixAgo: "پیش",
+		suffixFromNow: "از حال",
+		seconds: "کمتر از یک دقیقه",
+		minute: "حدود یک دقیقه",
+		minutes: "%d دقیقه",
+		hour: "حدود یک ساعت",
+		hours: "حدود %d ساعت",
+		day: "یک روز",
+		days: "%d روز",
+		month: "حدود یک ماه",
+		months: "%d ماه",
+		year: "حدود یک سال",
+		years: "%d سال",
+		wordSeparator: " "
+		};
 	</script>
     <script>
 			

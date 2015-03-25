@@ -6,7 +6,7 @@
                 <a href="http://rayweb.ir"> طراحی وب سایت </a> واکنش گرا
             </p>
             <p class="ls-l" style="top:190px;right:125px;font-size:21px;color:#6db509;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:2000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% top 0;offsetxout:-400;">
-                در تمامی دستکاه ها
+                در تمامی دستگاه ها
             </p>
             
         </div>

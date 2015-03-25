@@ -3,5 +3,5 @@ RewriteEngine On
 RewriteRule ^([^/]*)/$ index.php?page=$1
 
 RewriteRule ^([^/]*)/([^/]*)/$ index.php?page=$1&project_address=$2
-php_value allow_url_fopen On
+
 ErrorDocument 404 /404.html

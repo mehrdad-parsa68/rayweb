@@ -1,7 +1,6 @@
 <?php
-echo phpinfo();
 
-error_reporting(E_ALL);
+	error_reporting(E_ALL);
 	ini_set('display_errors','1');
 	
 	
@@ -10,7 +9,6 @@ error_reporting(E_ALL);
 	define('PASSWORD','Rayweb1393');
 	define('DB_NAME','rayweb');
 	
-	ini_set('allow_url_fopen',1);
 	
 	
 	$connection = mysqli_connect(HOST_NAME,USER_NAME,PASSWORD,DB_NAME) or die('CONNECTION FAILED!!!');
@@ -48,6 +46,6 @@ error_reporting(E_ALL);
 		$khorooji = str_replace("\n",'</p><p>',$khorooji);
 		$khorooji = str_replace("<p></p>",' ',$khorooji);
 	}
-	echo $title;
+	
 	$query = "INSERT INTO `news`(`id`, `title`, `description`) VALUES ('','$title','$khorooji')";
 	mysqli_query($connection,$query);

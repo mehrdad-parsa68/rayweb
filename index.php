@@ -337,7 +337,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <li><a href="<?php echo $prefix; ?>/order/"><i class="fa fa-arrow-circle-o-left"></i> سفارش</a></li>
                         <li><a href="<?php echo $prefix; ?>/press/"><i class="fa fa-arrow-circle-o-left"></i> رای وب در جراید</a></li>
                         <li><a href="<?php echo $prefix; ?>/video/"><i class="fa fa-arrow-circle-o-left"></i> دانلود ویدئو آموزشی</a></li>
-                        <li><a href="<?php echo $prefix; ?>/new/"><i class="fa fa-arrow-circle-o-left"></i> آخرین اخبار فناوری اطلاعات (IT)</a></li>
+                        <li><a href="<?php echo $prefix; ?>/news/"><i class="fa fa-arrow-circle-o-left"></i> آخرین اخبار فناوری اطلاعات (IT)</a></li>
                     </ul>
                     
                 </div>

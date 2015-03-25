@@ -1,23 +1,23 @@
 <?php 
 	$new_id = $_GET['project_address'];
 	$news_query = "SELECT * FROM `news` WHERE id = '$new_id' LIMIT 1";
-	$article_result = mysqli_query($connection,$news_query);
+	$news_result = mysqli_query($connection,$news_query);
 	$news_row = mysqli_fetch_assoc($news_result);
 	
 	
-	$tags = '';
+	/*$tags = '';
 	$tag_query = "SELECT tags.id,tags.name,tags_articles.article_id,tags_articles.tag_id FROM tags 
 				INNER JOIN tags_articles ON tags.id = tags_articles.tag_id 
 									WHERE tags_articles.article_id = '$article_id' ;";
 	$tag_result = mysqli_query($connection,$tag_query);
 	while($tag_row = mysqli_fetch_assoc($tag_result)){
 		$tags .= "<li><a href='".$prefix."/tags/".$tag_row['name']."/' target='_blank' >$tag_row[name]</a></li> ";
-		}
+		}*/
 		
 		
 	// stat query
-	$stat = $article_row['stat'] + 1;
-	$stat_query = "UPDATE `articles` SET `stat`='$stat' WHERE id = '$article_id' ; ";
+	$stat = $new_id['stat'] + 1;
+	$stat_query = "UPDATE `news` SET `stat`='$stat' WHERE id = '$new_id' ; ";
 	mysqli_query($connection,$stat_query);
 ?>
 <div class="pg-opt pin">
@@ -42,12 +42,12 @@
             <div class="container">
                 <div class="row">
                 	<div class="container article">
-                    	<?php echo $article_row['text'];?>       
+                    	<?php echo $news_row['description'];?>       
                       <div>
-                            <p align="right">تعداد مشاهده : <?php echo $article_row['stat']; ?></p>
+                            <p align="right">تعداد مشاهده : <?php echo $news_row['stat']; ?></p>
                              <p>برچسب های مقاله :</p><div class="itemTags">
                         	<ul class="tags">
-                            	<?php echo $tags ?>
+                            	<?php //echo $tags ?>
                             </ul>
                         </div>
                       </div>

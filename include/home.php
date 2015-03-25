@@ -261,7 +261,7 @@ news">
 				};
 			?>
              </ul> 
-             <p class="text-center"><a href="<?php echo $prefix ?>/new/">مشاهده آرشیو اخبار</a></p>
+             <p class="text-center"><a href="<?php echo $prefix ?>/news/">مشاهده آرشیو اخبار</a></p>
               
             </div>
           </div>

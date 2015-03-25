@@ -336,11 +336,17 @@ background-image: -o-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.9
 	font-size:14px;
 	color:#999;
 	}
-p.key {
-	background-color:#999;
-	padding:5px 30px 5px 30px;
+.article p.key {
+	background-color:#bbb;
+	padding:10px 30px 10px 30px;
 	}
-p.bullet i{
-	color:#43883;
+.article i.fa{
+	color:#438838 !important;
 	font-size:14px;
+	}
+.article img{
+	margin:auto;
+	}
+.article p {
+	text-align:justify;
 	}

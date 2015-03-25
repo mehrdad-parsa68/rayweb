@@ -76,7 +76,7 @@
 	$video_footer_query = "SELECT * FROM `videos` LIMIT 5";
 	$video_footer_result = mysqli_query($connection,$video_footer_query);
 	##############################
-	$news_query = "SELECT * FROM `news` LIMIT 4";
+	$news_query = "SELECT * FROM `news` ORDER BY `date` DESC";
 	
 	$news_result = mysqli_query($connection,$news_query);
 	

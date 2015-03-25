@@ -255,8 +255,8 @@ news">
             <?php
 				while($news_row = mysqli_fetch_assoc($news_result)){
 					echo "
-            	<li><i class='fa fa-newspaper-o'></i><a href='$prefix/news/$news_row[id]/'> $news_row[title]  <span clas
-				timeago>(18 ساعت پیش)<span></a></li>
+            	<li><i class='fa fa-newspaper-o'></i><a href='$prefix/news/$news_row[id]/'> $news_row[title]  
+				<span class='timeago'>(18 ساعت پیش)</span></a></li>
 				";
 				};
 			?>

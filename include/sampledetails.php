@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-md-6">
                     <ol class="breadcrumb">
-                        <li><a href="<?php echo $prefix; ?>/home/">صفحه اصلی</a></li>
+                        <li><a href="<?php echo $prefix; ?>/">صفحه اصلی</a></li>
                         <li><a href="<?php echo $prefix; ?>/works/">نمونه کارها</a></li>
                         <li class="active">اطلاعات سایت</li>
                     </ol>

@@ -8,8 +8,12 @@ class Seo{
 	public $titleExt;
 	public $seperator;
 	
-	public function Seo($page, $connection ,$titleExt,$seperator){		
+	public function Seo($page, $connection ,$titleExt,$seperator){	
 		$this->page = $page;
+		if(!$page){
+			$this->page = 'home';
+			}	
+		
 		$this->connection = $connection;
 		$this->titleExt = $titleExt;
 		$this->seperator = $seperator;

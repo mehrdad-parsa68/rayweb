@@ -26,7 +26,7 @@
                 
                 <div class="col-xs-12">
                     <ol class="breadcrumb">
-                        <li><a href="/home/">صفحه اصلی</a></li>
+                        <li><a href="<?php echo $prefix; ?>/">صفحه اصلی</a></li>
                         <li class="active">اخبار فناوری اطلاعات (IT)</li>
                     </ol>
                 </div>

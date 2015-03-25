@@ -8,163 +8,232 @@
 
 <url>
   <loc>http://rayweb.ir/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/home/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>http://rayweb.ir/article/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rayweb.ir/hire/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/learning/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <loc>http://rayweb.ir/courses/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rayweb.ir/works/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rayweb.ir/about/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rayweb.ir/contact/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rayweb.ir/order/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/video/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/news/77/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/news/76/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/news/75/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/news/74/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/news/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/article/1/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/article/3/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/video/1/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/video/2/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/video/3/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rayweb.ir/press/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/works/barincard/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rayweb.ir/works/sabramooz/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rayweb.ir/works/omstehran/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rayweb.ir/works/tahviehvatan/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rayweb.ir/works/rzarafshan/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rayweb.ir/works/tannazmezon/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rayweb.ir/works/vistagroups/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://rayweb.ir/works/meysamnourizadeh/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://rayweb.ir/works/tadbirregister/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://rayweb.ir/works/bazarsonnati/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/works/atiehtransport/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <loc>http://rayweb.ir/works/sabramooz/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/works/guardianbourse/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rayweb.ir/works/scards/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <loc>http://rayweb.ir/works/tahviehvatan/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://rayweb.ir/works/tavgroup/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/tannazmezon/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/omstehran/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/omsco/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/barincard/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/atiehtransport/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/vistagroups/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/rzarafshan/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/works/scards/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://rayweb.ir/works/shamsabadglass/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://rayweb.ir/works/zhihatregister/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://rayweb.ir/صفحه-اصلی/</loc>
-  <lastmod>2015-02-27T16:27:02+00:00</lastmod>
+  <loc>http://rayweb.ir/resume/Resume(93-12-06).pdf</loc>
+  <lastmod>2015-02-26T00:43:31+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/tags/Dreamweaver/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/tags/CSS/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/tags/PHP/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/tags/JQuery/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/tags/طراحی%20وب%20سایت/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/tags/website%20design/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/tags/Angular%20js/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/tags/آموزش%20آنگولار/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rayweb.ir/tags/deep%20linking/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>

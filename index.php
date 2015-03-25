@@ -20,21 +20,14 @@
 		}
 
 
-
-
-
-
-
-
-
 	if(isset($_SERVER['HTTP_REFERER'])){
 		$referer_query = "INSERT INTO `url`(`id`, `name`) VALUES ('','$_SERVER[HTTP_REFERER]')";
 		mysqli_query($connection , $referer_query);
 		}
 	
-	if(!isset($_GET['page'])){
+	/*if(!isset($_GET['page'])){
 		$_GET['page'] = "home";
-		}
+		}*/
 	
 	function convert($connection,$latin_name){
 		$query = "SELECT persian_name From pages WHERE latin_name = '$latin_name' ";
@@ -62,9 +55,9 @@
 		$page_latin = $page_row['latin_name'];
 		return $page_latin;
 		}
-	if(!isset($_GET['page'])){
+	/*if(!isset($_GET['page'])){
 		$_GET['page'] = "home";
-	}
+	}*/
 	//$latin_name_seo = convertToLatin($_GET['page'],$connection);
 	$seo = new seo(@$_GET['page'],$connection,"طراحی وب سایت رای وب | Rayweb "," | ");
 	
@@ -167,7 +160,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </script>
 <div class="col-sm-2 logo-div">
-	<a class="navbar-brand logo" href="<?php echo $prefix; ?>/home/" title="Rayweb | رای وب">
+	<a class="navbar-brand logo" href="<?php echo $prefix; ?>/" title="Rayweb | رای وب">
     	<img src="<?php echo $prefix; ?>/images/logo-HR-with-note.png" alt="Rayweb | رای وب">   	
     </a>
 
@@ -183,7 +176,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <nav class="top-header-menu">
                         <ul class="menu">
                             
-                            <li class="aux-languages dropdown animate-hover" data-animate="animated fadeInUp"><a href="/#"><span class="language name">فارسی</span></a>
+                            <li class="aux-languages dropdown animate-hover" data-animate="animated fadeInUp"><a href="#"><span class="language name">فارسی</span></a>
                                 <ul id="auxLanguages" class="sub-menu animate-wr">
                                     <li><span class="language language-active">فارسی</span></li>
                                     <li><a href="#"><span class="language">English</span></a></li> 
@@ -215,7 +208,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="<?php if((isset($_GET['page']) && $_GET['page'] == 'home') || !isset($_GET['page'])){echo 'active';} ?> pull-right">
-                            <a href="<?php echo $prefix; ?>/home/" data-close-others="true">صفحه اصلی</a>
+                            <a href="<?php echo $prefix; ?>/" data-close-others="true">صفحه اصلی</a>
                         </li>
                         <li class="<?php if(isset($_GET['page']) && $_GET['page'] == 'article'){echo 'active';} ?> pull-right">
                             <a href="<?php echo $prefix; ?>/article/" class="dropdown-toggle" data-close-others="true">مقالات</a>
@@ -261,14 +254,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <?php
 	if(isset($_GET['page'])){	
 	  //$page_latin = convertToLatin($_GET['page'],$connection);
+	  
 	  $page_latin = $_GET['page'];
 		if(is_file("include/$page_latin.php")){
+			if($_GET['page'] != 'home'){
 			include "include/$page_latin.php";
+			}else{
+			die('صفحه مورد نظر وجود ندارد');	
+				}
 			}else{
 			die('صفحه مورد نظر وجود ندارد');
 			}
 		}else{
-			include "include/home/";
+			include "include/home.php";
 	}
 ?>
 
@@ -328,7 +326,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <h4>لینک های مرتبط</h4>
                     <hr>
                     <ul>
-                    	<li><a href="<?php echo $prefix; ?>/home/"><i class="fa fa-arrow-circle-o-left"></i> صفحه اصلی </a></li>
+                    	<li><a href="<?php echo $prefix; ?>/"><i class="fa fa-arrow-circle-o-left"></i> صفحه اصلی </a></li>
                         <li><a href="<?php echo $prefix; ?>/article/"><i class="fa fa-arrow-circle-o-left"></i> مقالات</a></li>
                         <li><a href="<?php echo $prefix; ?>/hire/"><i class="fa fa-arrow-circle-o-left"></i> استخدام</a></li>
                         <li><a href="<?php echo $prefix; ?>/courses/"><i class="fa fa-arrow-circle-o-left"></i> دوره آموزشی</a></li>

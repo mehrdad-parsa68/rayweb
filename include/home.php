@@ -87,7 +87,7 @@
                             <div class="row">
                                 
                                 <div class="col-md-9">
-                                    <h1 class="h4-font"><a href="<?php echo $prefix; ?>/home/" style="color:#438838"> طراحی وب سایت </a> و پرتال</h1>
+                                    <h1 class="h4-font"><a href="<?php echo $prefix; ?>/" style="color:#438838"> طراحی وب سایت </a> و پرتال</h1>
                                     
                                          <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <a href="http://rayweb.ir"> طراحی وب سایت </a></h2>
                                          <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <a href="http://rayweb.ir"> طراحی وب سایت </a> شخصی</h2>
@@ -276,7 +276,7 @@ news">
             
                 
                     <div>
-                        <h3 class="section-title"><span> آخرین پروژه های <a href="<?php echo $prefix; ?>/home/" style="color:#333	 !important"> طراحی وب سایت </a></span></h3>
+                        <h3 class="section-title"><span> آخرین پروژه های <a href="<?php echo $prefix; ?>/" style="color:#333	 !important"> طراحی وب سایت </a></span></h3>
                         <div class="row">
                             <div class="col-md-12">
                                 <!--project slide show start-->

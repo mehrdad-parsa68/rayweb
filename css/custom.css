@@ -350,3 +350,6 @@ background-image: -o-linear-gradient(left, rgba(67,136,76,0), rgba(67,136,76,0.9
 .article p {
 	text-align:justify;
 	}
+h1.news{
+	font-size:24px;
+	}

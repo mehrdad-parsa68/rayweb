@@ -11,7 +11,7 @@
 	$connection = mysqli_connect(HOST_NAME,USER_NAME,PASSWORD,DB_NAME) or die('CONNECTION FAILED!!!');
 	mysqli_set_charset($connection,'utf8');
 	
-	$query = "INSERT INTO `news`(`id`, `title`, `description`) VALUES ('','$_POST[title]','$_POST[description]')";
+	$query = "INSERT INTO `news`(`id`, `title`, `description`,`date`) VALUES ('','$_POST[title]','$_POST[description]','NOW()')";
 	mysqli_query($connection,$query);
 
 	

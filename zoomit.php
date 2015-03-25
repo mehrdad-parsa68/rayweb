@@ -47,5 +47,5 @@
 		$khorooji = str_replace("<p></p>",' ',$khorooji);
 	}
 	
-	$query = "INSERT INTO `news`(`id`, `title`, `description` , `date`) VALUES ('','$title','$khorooji',NOW())";
+	$query = "INSERT INTO `news`(`id`, `title`, `description`,`date`) VALUES ('','$title','$khorooji','NOW()')";
 	mysqli_query($connection,$query);

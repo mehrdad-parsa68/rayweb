@@ -346,7 +346,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container text-center col col-social-icons">
         <a href="https://www.facebook.com/raywebco" target="_blank"><i class="fa fa-facebook"></i></a>
         <a href="https://plus.google.com/communities/107271610650119455714"><i class="fa fa-google-plus"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/company/raywebco"><i class="fa fa-linkedin"></i></a>
         <a href="#"><i class="fa fa-instagram"></i></a>
         <br>
         <div class="social-link">

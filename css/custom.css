@@ -202,17 +202,33 @@ i.fa-green{
 .navbar-right {
 	padding-right:0 !important;
 	}
-i.fa-facebook:hover{
+i.fa-facebook{
 	background-color:#3a5795 !important;
-	color:#ffffff !important;
+	color:#fff !important;
 	}
-i.fa-google-plus:hover{
+i.fa-facebook:hover{
+	background-color:#fff !important;
+	color:#3a5795 !important;
+	}
+i.fa-google-plus{
 	background-color:#d34836 !important;
 	color:#ffffff !important;
 	}
-i.fa-linkedin:hover{
+i.fa-google-plus:hover{
+	background-color:#fff !important;
+	color:#d34836 !important;
+	}
+i.fa-linkedin{
 	background-color:#1e88bd !important;
 	color:#ffffff !important;
+	}
+i.fa-linkedin:hover{
+	background-color:#fff !important;
+	color:#1e88bd !important;
+	}
+i.fa-instagram{
+	background-color:#517fa4 !important;
+	color:#fff !important;
 	}
 i.fa-instagram:hover{
 	background-color:#517fa4 !important;

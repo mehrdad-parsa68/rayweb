@@ -159,9 +159,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 </script>
-<div class="col-sm-2 logo-div">
+<div class="col-sm-2 logo-div" style="z-index:1000065541">
 	<a class="navbar-brand logo" href="<?php echo $prefix; ?>/" title="Rayweb | رای وب">
-    	<img src="<?php echo $prefix; ?>/images/logo-HR-with-note.png" alt="Rayweb | رای وب">   	
+    	<img src="<?php echo $prefix; ?>/images/logo-HR-with-note.png" alt="Rayweb | رای وب" class="img-responsive">   	
     </a>
 
 </div>
@@ -347,7 +347,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a href="https://www.facebook.com/raywebco" target="_blank"><i class="fa fa-facebook"></i></a>
         <a href="https://plus.google.com/communities/107271610650119455714"><i class="fa fa-google-plus"></i></a>
         <a href="https://www.linkedin.com/company/raywebco"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="https://instagram.com/raywebco"><i class="fa fa-instagram"></i></a>
         <br>
         <div class="social-link">
             <div class="g-plus-button">

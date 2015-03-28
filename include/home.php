@@ -202,9 +202,9 @@
               <div id="component" class="component component-transparent fxTableDrop">
                 
 					<ul class="itemwrap">
-						<li><a class="example-image-link" href="<?php echo $prefix; ?>/images/press/pic01.jpg" data-lightbox="example-set">
+						<li class="current"><a class="example-image-link" href="<?php echo $prefix; ?>/images/press/pic01.jpg" data-lightbox="example-set">
                     <img class="example-image img-thumbnail" src="<?php echo $prefix; ?>/images/press/pic01-t.jpg" alt="رای وب"/></a><h4 align="center">روزنامه ابتکار</h4></li>
-                    <li class="current"><a class="example-image-link" href="<?php echo $prefix; ?>/images/press/pic02.jpg" data-lightbox="example-set">
+                    <li><a class="example-image-link" href="<?php echo $prefix; ?>/images/press/pic02.jpg" data-lightbox="example-set">
                     <img class="example-image img-thumbnail" src="<?php echo $prefix; ?>/images/press/pic02-t.jpg" alt="رای وب"/></a><h4 align="center">مجله برین کارت</h4></li>
 					
 					</ul>

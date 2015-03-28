@@ -406,6 +406,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- LayerSlider script files -->
 <script src="<?php echo $prefix; ?>/assets/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
 <script src="<?php echo $prefix; ?>/assets/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+<script src="<?php echo $prefix; ?>js/classie.js"></script>
+<script src="<?php echo $prefix; ?>js/main.js"></script>
 <!-- Initializing the slider -->
 	<script>
 		jQuery("#layerslider").layerSlider({

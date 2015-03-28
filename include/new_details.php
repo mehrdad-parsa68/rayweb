@@ -34,7 +34,12 @@
                     <h1 class="h1-small news"><?php echo $news_row['title'] ?></h1>
                 </div>
             </div>
-            <hr>
+            <hr><br>
+            <?php
+            	if(!empty($news_row['image_link'])){
+					echo "<img class='img-responsive' style='margin:auto' src='$news_row[image_link]' alt='$news_row[title] | طراحی وب سایت رای وب' title='$news_row[title] | طراحی وب سایت رای وب'>";
+					}
+			?>
         </div>
     </div>
     
@@ -43,7 +48,9 @@
             <div class="container">
                 <div class="row">
                 	<div class="container article">
-                    	<?php echo $news_row['description'];?>       
+                    	<p align="justify">
+                    	<?php echo $news_row['description'];?> 
+                        </p>      
                       <div>
                             <p align="right">تعداد مشاهده : <?php echo $news_row['stat']; ?></p>
                              <p>برچسب های مقاله :</p><div class="itemTags">
@@ -61,105 +68,7 @@
             </div>
         </div>
     </section>
-    
-    <section class="slice relative bg-5 animate-hover-slide">
-        <div class="w-section inverse">
-            <div class="container">
-                <h3 class="section-title">مقالات مشابه</h3>
-                <div id="carouselWork" class="carousel-3 slide animate-hover-slide">
-                    <div class="carousel-nav">
-                        <a data-slide="prev" class="left color-two" href="#carouselWork"><i class="fa fa-angle-left"></i></a>
-                        <a data-slide="next" class="right color-two" href="#carouselWork"><i class="fa fa-angle-right"></i></a>
-                    </div>
-                    
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div class="row">
-                            <div class="col-md-3">
-                                    <div class="w-box inverse">
-                                        <div class="figure">
-                                            <img alt="" src="/images/samples/barincard.jpg" class="img-responsive">
-                                            <div class="figcaption bg-2"></div>
-                                            <div class="figcaption-btn">
-                                               
-                                                <a href="/works/vistagroups/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> دانلود ویدئو</a>
-                                            </div>
-                                        </div>
-                                        <div class="row text-center">
-                                            <div class="col-xs-12">
-                                                <h3>مقاله اول</h3>
-                                                
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div><div class="col-md-3">
-                                    <div class="w-box inverse">
-                                        <div class="figure">
-                                            <img alt="" src="/images/samples/ano.jpg" class="img-responsive">
-                                            <div class="figcaption bg-2"></div>
-                                            <div class="figcaption-btn">
-                                                <a href="/works/vistagroups/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> دانلود ویدئو</a>
-                                            </div>
-                                        </div>
-                                        <div class="row text-center">
-                                            <div class="col-xs-12">
-                                                <h3>مقاله دوم</h3>
-                                                
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div><div class="col-md-3">
-                                    <div class="w-box inverse">
-                                        <div class="figure">
-                                            <img alt="" src="/images/samples/atieh.jpg" class="img-responsive">
-                                            <div class="figcaption bg-2"></div>
-                                            <div class="figcaption-btn">
-                                            <a href="/works/vistagroups/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> دانلود ویدئو</a>
-                                                
-                                            </div>
-                                        </div>
-                                        <div class="row text-center">
-                                            <div class="col-xs-12">
-                                                <h3>مقاله سوم</h3>
-                                                
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div><div class="col-md-3">
-                                    <div class="w-box inverse">
-                                        <div class="figure">
-                                            <img alt="" src="/images/samples/tadbir_small.jpg" class="img-responsive">
-                                            <div class="figcaption bg-2"></div>
-                                            <div class="figcaption-btn">
-                                             
-                                                <a href="/works/vistagroups/" class="btn btn-xs btn-one"><i class="fa fa-link"></i> دانلود ویدئو</a>
-                                            </div>
-                                        </div>
-                                        <div class="row text-center">
-                                            <div class="col-xs-12">
-                                                <h3>مقاله چهارم</h3>
-                                                
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                    </div>
-                                </div>                                
-                                
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
+
     
     
     

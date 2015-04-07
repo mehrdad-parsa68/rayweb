@@ -16,7 +16,7 @@
 		
 		
 	// stat query
-	$stat = $new_id['stat'] + 1;
+	$stat = $news_row['stat'] + 1;
 	$stat_query = "UPDATE `news` SET `stat`='$stat' WHERE id = '$new_id' ; ";
 	mysqli_query($connection,$stat_query);
 ?>

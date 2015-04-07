@@ -418,12 +418,3 @@ consultation">
     </div>
 </section>
 <div class="clearfix"></div>
-<section>
-	<div class="container">
-        	<h3 class="section-title">حمایت می کنیم</h3>
-            <div class="row text-center">
-	<a target="_blank" title="دانلود" href="http://p30download.com/"><img src="http://p30download.com/img/logo/web2/p30download_60x468.gif" width="468" height="60" alt="دانلود" border="0"></a>
-    </div>
-    </div>
-</section>
-<br><br>

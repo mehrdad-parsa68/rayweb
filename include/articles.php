@@ -12,7 +12,7 @@
             <div class="col-md-6 col-sm-6">
                 <ol class="breadcrumb">
                     <li><a href="<?php echo $prefix; ?>/">صفحه اصلی</a></li>
-                    <li class="active">مقالات</li>
+                    <li class="active">مقالات <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong></li>
                 </ol>
             </div>
         </div>
@@ -22,7 +22,7 @@
 
 <div class="container" dir="rtl">
 	<div class="col-lg-12" style="font-size:18px; ">
-		<h2>مقالات طراحی وب سایت</h2>
+		<h2>مقالات <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong></h2>
 		<ul style="list-style:none; color:black important;">
         	<?php 
 				while($article_row = mysqli_fetch_assoc($article_result)){

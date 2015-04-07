@@ -3,7 +3,7 @@
         <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
             <img src="<?php echo $prefix; ?>/images/slider/fw-1.jpg" class="ls-bg" alt="Slide background"/><img class="ls-l" style="top:280px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:300;delayin:500;offsetxout:0;offsetyout:-50;durationout:1000;showuntil:220;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;transformoriginout:50% top 0;" src="<?php echo $prefix; ?>/images/slider/s1.png" alt=""><img class="ls-l" style="top:230px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:30;delayin:1720;scalexin:0.9;scaleyin:0.9;offsetxout:0;offsetyout:300;durationout:1000;scalexout:0.5;scaleyout:0.5;transformoriginout:50% bottom 0;" src="<?php echo $prefix; ?>/images/slider/s2.png" alt=""><img class="ls-l" style="top:65%;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:250;durationin:950;delayin:500;offsetxout:0;offsetyout:-8;durationout:1000;showuntil:270;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;" src="<?php echo $prefix; ?>/images/slider/s2.jpg" alt=""><img class="ls-l" style="top:195px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;delayin:1720;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;" src="<?php echo $prefix; ?>/images/slider/s1.jpg" alt="">
             <p class="ls-l" style="top:150px;right:116px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#82d10c;border-radius:3px;white-space: nowrap; width:340px" data-ls="offsetxin:0;durationin:2000;delayin:1500;easingin:easeOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:-200;durationout:1000;">
-                <a href="http://rayweb.ir"> طراحی وب سایت </a> واکنش گرا
+                <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> واکنش گرا
             </p>
             <p class="ls-l" style="top:190px;right:125px;font-size:21px;color:#6db509;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:2000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% top 0;offsetxout:-400;">
                 در تمامی دستگاه ها
@@ -31,7 +31,7 @@
     	
         <div class="w-section inverse">
             <div class="container">
-           	 <h1> برخی خدمات شرکت <strong><a href="http://rayweb.ir"> طراحی وب سایت </a> رای وب</strong></h1>
+           	 <h1> برخی خدمات شرکت <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> رای وب</h1>
              <hr>
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
@@ -42,7 +42,8 @@
                                     <h1 class="h4-font">طراحی اپلیکیشن های موبایل</h1>
                                     
                                     	 <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی اپلیکیشن برای تمامی وب سایت ها</h2>
-                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی اپلیکیشن های Android و iOS</h2>
+                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی اپلیکیشن های Android</h2>
+                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی اپلیکیشن های iOS</h2>
                                          <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> پنل مدیریت پیشرفته</h2>
                                          
                                          
@@ -87,14 +88,14 @@
                             <div class="row">
                                 
                                 <div class="col-md-9">
-                                    <h1 class="h4-font"><a href="<?php echo $prefix; ?>/" style="color:#438838"> طراحی وب سایت </a> و پرتال</h1>
+                                    <h1 class="h4-font"><strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> و پرتال</h1>
                                     
-                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <a href="http://rayweb.ir"> طراحی وب سایت </a></h2>
-                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <a href="http://rayweb.ir"> طراحی وب سایت </a> شخصی</h2>
-                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <a href="http://rayweb.ir"> طراحی وب سایت </a> شرکتی</h2>
-                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <a href="http://rayweb.ir"> طراحی وب سایت </a> فروشگاهی</h2>
-                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <a href="http://rayweb.ir"> طراحی وب سایت </a> هنری</h2>
-                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <a href="http://rayweb.ir"> طراحی وب سایت </a> سرمایه گذاری</h2>
+                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong></h2>
+                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> شخصی</h2>
+                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> شرکتی</h2>
+                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> فروشگاهی</h2>
+                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> هنری</h2>
+                                         <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> سرمایه گذاری</h2>
                                          <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی پورتال سازمانی</h2>
                                          <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> طراحی و تولید سیستم های مدیریت پورتال</h2>
                                     
@@ -113,7 +114,7 @@
                             <div class="row">
                                 
                                 <div class="col-md-9">
-                                    <h1 class="h4-font"> آموزش <a href="http://rayweb.ir" style="color:#438838"> طراحی وب سایت </a></h1>
+                                    <h1 class="h4-font"> آموزش <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong></h1>
                                     
                                          <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> HTML / CSS</h2>
                                          <h2 class="h6-font"><i class="fa fa-hand-o-left"></i> javascript / JQuery</h2>
@@ -223,18 +224,18 @@
                     <div class="col-md-6">
                     <h2>چرا <strong>رای وب</strong></h2>
                     <hr>
-                    <h4><i class="fa fa-check fa-green"></i> <a href="http://rayweb.ir"> طراحی وب سایت </a> تخصصی</h4>
+                    <h4><i class="fa fa-check fa-green"></i> <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> تخصصی</h4>
                     <p align="justify">
-تیم تخصصی <a href="http://rayweb.ir"> طراحی وب سایت </a> رای وب برای هر پروژه مراحل طراحی گرافیکی را کامل انجام می دهند و در هر مرحله مستندات آن را به مشتری ارائه می دهند و مشتری را در جریان انجام مراحل طراحی می گذارند.
+						امروزه با پیشرفت تکنولوژی، وب سایت، یک ویترین از حرفه شما به حساب می آید. شرکت <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> رای وب با کمک تیم <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> و گرافیک خلاق و حرفه ای با استفاده از جدیدترین متدهای روز دنیا در <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong>،وب سایت هایی با ظاهری زیبا و مدرن طراحی می نماید.
                      </p>
                      
-                    <h4><i class="fa fa-check fa-green"></i> برنامه نویسی لایه ای</h4>
+                    <h4><i class="fa fa-check fa-green"></i> امینت وب سایت</h4>
                     <p align="justify">
-تیم برنامه نویسی شرکت <strong>رای وب</strong> با تکیه بر کار گروهی و افزایش سرعت طراحی و توسعه وب سایت ها و پرتال ها از مدل برنامه نویسی لایه ای در سفارشات خود استفاده می کنند که به موجل آن کار طراحی و توسعه به صورت تخصصی در هر حوزه به متخصص آن ارجاع می شود.
+                    	امینت بالا در وب سایت های داینامیک (پویا) از مهمترین ویژگی های آن ها می باشد. شرکت <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> رای وب با کمک متخصصین خود در حوزه ی امنیت، آرامش خاطر را برای شما در این حوزه به ارمغان می آورد.
                      </p>
-                     <h4><i class="fa fa-check fa-green"></i> امنیت بالا</h4>
+                     <h4><i class="fa fa-check fa-green"></i> بهینه سازی وب سایت (سئو)</h4>
                     <p align="justify">
- تیم برنامه نویسی شرکت <strong>رای وب</strong> با تجربه بالا در زمینه برنامه نویسی و استفاده از فریم ورکهای قوی و جدید ، وب سایت ها و پرتال هایی با بالاترین سطح امنیت را طراحی می کند و کلیه سفارشات دارای گارانتی 6 ماهه در زمینه امنیت و پشتیبانی می باشد.
+ 						امروزه داشتن رتبه خوب در سایت الکسا و موتورهای جستجو از دغدغه اصلی مشتریان <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> می باشد. شرکت <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> رای وب با کمک متخصصین خود در حوزه بهینه سازی و سئو، با توجه به درخواست مشتریان گرامی، وب سایت را به بهترین شکل ممکن بهینه سازی می نمایند.
                      </p>
                      
                     
@@ -276,7 +277,7 @@ news">
             
                 
                     <div>
-                        <h3 class="section-title"><span> آخرین پروژه های <a href="<?php echo $prefix; ?>/" style="color:#333	 !important"> طراحی وب سایت </a></span></h3>
+                        <h3 class="section-title"><span> آخرین پروژه های <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong></span></h3>
                         <div class="row">
                             <div class="col-md-12">
                                 <!--project slide show start-->
@@ -416,3 +417,13 @@ consultation">
         </div>
     </div>
 </section>
+<div class="clearfix"></div>
+<section>
+	<div class="container">
+        	<h3 class="section-title">حمایت می کنیم</h3>
+            <div class="row text-center">
+	<a target="_blank" title="دانلود" href="http://p30download.com/"><img src="http://p30download.com/img/logo/web2/p30download_60x468.gif" width="468" height="60" alt="دانلود" border="0"></a>
+    </div>
+    </div>
+</section>
+<br><br>

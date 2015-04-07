@@ -95,7 +95,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/assets/animate/animate.css">
-    <link rel="canonical" href="http://rayweb.ir<?php echo $_SERVER['REQUEST_URI']; ?>" />
+   
     
     <link href="<?php echo $prefix; ?>/css/global-style.css" rel="stylesheet" type="text/css" media="screen">
     <link rel="icon" href="<?php echo $prefix; ?>/images/favicon.gif" type="image/png"><!-- LayerSlider stylesheet -->
@@ -327,15 +327,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <hr>
                     <ul>
                     	<li><a href="<?php echo $prefix; ?>/"><i class="fa fa-arrow-circle-o-left"></i> صفحه اصلی </a></li>
-                        <li><a href="<?php echo $prefix; ?>/article/"><i class="fa fa-arrow-circle-o-left"></i> مقالات</a></li>
+                        <li><a href="<?php echo $prefix; ?>/article/"><i class="fa fa-arrow-circle-o-left"></i> مقالات طراحی وب سایت</a></li>
                         <li><a href="<?php echo $prefix; ?>/hire/"><i class="fa fa-arrow-circle-o-left"></i> استخدام</a></li>
-                        <li><a href="<?php echo $prefix; ?>/courses/"><i class="fa fa-arrow-circle-o-left"></i> دوره آموزشی</a></li>
+                        <li><a href="<?php echo $prefix; ?>/courses/"><i class="fa fa-arrow-circle-o-left"></i> آموزش طراحی وب سایت </a></li>
                         <li><a href="<?php echo $prefix; ?>/works/"><i class="fa fa-arrow-circle-o-left"></i> نمونه کارها</a></li>
                         <li><a href="<?php echo $prefix; ?>/about/"><i class="fa fa-arrow-circle-o-left"></i> درباره ما</a></li>
                         <li><a href="<?php echo $prefix; ?>/contact/"><i class="fa fa-arrow-circle-o-left"></i> ارتباط با ما</a></li>
-                        <li><a href="<?php echo $prefix; ?>/order/"><i class="fa fa-arrow-circle-o-left"></i> سفارش</a></li>
+                        <li><a href="<?php echo $prefix; ?>/order/"><i class="fa fa-arrow-circle-o-left"></i> سفارش طراحی وب سایت</a></li>
                         <li><a href="<?php echo $prefix; ?>/press/"><i class="fa fa-arrow-circle-o-left"></i> رای وب در جراید</a></li>
-                        <li><a href="<?php echo $prefix; ?>/video/"><i class="fa fa-arrow-circle-o-left"></i> دانلود ویدئو آموزشی</a></li>
+                        <li><a href="<?php echo $prefix; ?>/video/"><i class="fa fa-arrow-circle-o-left"></i> ویدئوهای آموزشی طراحی وب سایت </a></li>
                         <li><a href="<?php echo $prefix; ?>/news/"><i class="fa fa-arrow-circle-o-left"></i> آخرین اخبار فناوری اطلاعات (IT)</a></li>
                     </ul>
                     

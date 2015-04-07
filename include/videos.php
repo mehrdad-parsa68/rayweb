@@ -8,7 +8,7 @@
             <div class="col-md-6">
                 <ol class="breadcrumb">
                     <li><a href="<?php echo $prefix; ?>/">صفحه اصلی</a></li>
-                    <li class="active">ویدئو های آموزشی</li>
+                    <li class="active">ویدئو های آموزشی <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong></li>
                 </ol>
             </div>
         </div>
@@ -19,25 +19,7 @@
 <section class="slice bg-3 animate-hover-slide">
     <div class="w-section inverse work">
         <div class="container">
-            <!--<div class="row">
-                <div class="col-md-12">
-                    <div class="btn-group pull-right">
-                        <button type="button" class="btn btn-menu">دسته بندی پروژه ها</button>
-                        <button type="button" class="btn btn-menu dropdown-toggle" data-toggle="dropdown">
-                            <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu pull-right" role="menu" id="ulFilterMenu">
-                            <li class="filter active" data-filter="all"><a>نمایش همه</a></li>
-                            <li class="filter" data-filter="category_1"><a>شرکتی</a></li>
-                            <li class="filter" data-filter="category_2"><a>شخصی</a></li>
-                            <li class="filter" data-filter="category_3"><a>فروشگاهی</a></li>
-                            <li class="filter" data-filter="category_4"><a>هنری</a></li>
-                            <li class="filter" data-filter="category_5"><a>سرمایه گذاری</a></li>
-                            <li class="filter" data-filter="category_6"><a>پرتال</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>-->
+      
             
             <div class="row">          
                 <div id="ulSorList">

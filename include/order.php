@@ -40,7 +40,7 @@
             <div class="col-md-6 col-sm-6">
                 <ol class="breadcrumb">
                     <li><a href="<?php echo $prefix; ?>/">صفحه اصلی</a></li>
-                    <li class="active">سفارش</li>
+                    <li class="active">سفارش <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong></li>
                 </ol>
             </div>
         </div>
@@ -49,11 +49,13 @@
 </div>
 
 <div class="container">
-<h1>سفارش سایت</h1><br><br>
-<p style="font-size:18px !important">برای سفارش سایت ابتدا فرم زیر را تکمیل نمایید . تیم رای وب پس از بررسی سفارش و برآورد قیمت با شما تماس خواهند گرفت .</p><br><br>
+<h1>سفارش <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong></h1><br><br>
+<p style="font-size:18px !important">برای سفارش وب سایت ابتدا فرم زیر را تکمیل نمایید . تیم <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> رای وب پس از بررسی سفارش و برآورد قیمت با شما تماس خواهند گرفت .</p><br><br>
 <div class="col-md-5 col-xs-12 pull-right">
 <form class="form-horizontal form-light mt-20" role="form" method="post">
 <legend><h2>فرم سفارش</h2></legend>
+	<hr class="hr-header">
+    <br>
  	<div class="col-xs-8">
       <input type="text" class="form-control" id="first_name" placeholder="first name" name="first_name">
     </div>
@@ -122,7 +124,7 @@
 </div>
 
 </div><br>
-<hr>
+
 <!--<div class="container" ng-app="priceCalculate">
     <div ng-controller="MainController">
         <table class="table table-bordered table-hover table-responsive table-striped">

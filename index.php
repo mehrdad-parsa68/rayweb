@@ -8,7 +8,7 @@
 		while($like_row = mysqli_fetch_assoc($like_result)){
 			
 			if ((@preg_match('/'.$like_row['name'].'/', $_SERVER['HTTP_REFERER'])) || (isset($_SESSION['boost']))) {
-					$random = rand(2,4);
+					$random = rand(1,4);
 					$pages_query = "SELECT id,latin_name FROM `pages` WHERE id < '9' ORDER BY RAND()  LIMIT 1 ;";
 					$pages_result = mysqli_query($connection , $pages_query);
 					$pages_row = mysqli_fetch_assoc($pages_result);
@@ -171,7 +171,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="row">
                 <div class="col-sm-12">
                    <span class="aux-text hidden-xs pull-right">
-                        <strong>طراحی وب سایت رای وب 44141868 - 021</strong>
+                        <strong><h1 style="margin:0 !important;font-weight:bold;padding:0;font-size:15px;display:inline-block">طراحی وب سایت</h1> رای وب 44141868 - 021</strong>
                     </span>
                     <nav class="top-header-menu">
                         <ul class="menu">

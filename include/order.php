@@ -125,7 +125,7 @@
 
 </div><br>
 
-<!--<div class="container" ng-app="priceCalculate">
+<div class="container" ng-app="priceCalculate">
     <div ng-controller="MainController">
         <table class="table table-bordered table-hover table-responsive table-striped">
             <tr>
@@ -135,13 +135,21 @@
                 <th class="text-center">درخواست</th>
             </tr>
             <tr ng-repeat="todo in todos">
-                <td class="text-center">{{todo.number}}</td>
-                <td>{{todo.name}}</td>
-                <td class="price">{{todo.price}}</td>
-                <td class="text-center"><input type="checkbox" ng-model="todo.done" ng-change="change()"></td>
+                <td class="text-center">{{todo.id}}</td>
+                <td>{{todo.title}}</td>
+                <td class="price">{{todo.price | number}}</td>
+                <td class="text-center">
+                    <a class="btn-link" ng-show="todo.done" style="color:#438838" ng-click="todo.done=false;change() " ng-model="check">
+                        <i class="fa fa-check"></i>
+                    </a>
+                	<a class="btn-link" ng-show="!todo.done" style="color:red" ng-click="todo.done=true; change()" ng-model="close">
+                    	<i class="fa fa-close"></i>
+                    </a>
+                <input type="checkbox" ng-model="todo.done" ng-change="change()" style="display:none"></td>
             </tr>
             
         </table>
-        <div class="price-calculate">{{amount}} تومان</div>
+        <div class="price-calculate" ng-show="amount>0"><h2>مجموع قیمت : {{amount | number}} تومان </h2></div>
+        
     </div>
-</div>-->
+</div>

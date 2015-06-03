@@ -24,7 +24,11 @@
     </div>
 </section>
 
- 
+ 	<section class="grid_item text-center">
+    	<div class="grid__item">
+				<a class="link link--takiri" href="#"><div class="index">Rayweb</div> <span dir="ltr">be special ...</span></a>
+			</div>
+    </section>
     
 
     <section class="slice bg-5">
@@ -222,7 +226,7 @@
 			
             
                     <div class="col-md-6">
-                    <h2>چرا <strong>رای وب</strong></h2>
+                    <h2>چرا <strong>طراحی وب سایت رای وب</strong></h2>
                     <hr>
                     <h4><i class="fa fa-check fa-green"></i> <strong class="strong-edited"><a href="http://rayweb.ir" title="طراحی وب سایت"> طراحی وب سایت </a></strong> تخصصی</h4>
                     <p align="justify">
@@ -336,7 +340,9 @@ news">
                     <div class="col-md-12">
                         <div class="text-center">
                             <h4><i class="fa fa-quote-left fa-3x"></i></h4>
-                            <h2>شما تصور کنید، ما طراحی می کنیم</h2>
+                            <div class="grid__item color-9">
+                                <a class="link link--ilin" href="#"><span>شما تصور کنید</span> <span>ما طراحی می کنیم</span></a>
+                            </div>
                       
                             <span class="clearfix"></span>
                             

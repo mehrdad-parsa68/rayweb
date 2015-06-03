@@ -95,6 +95,7 @@ h1{
 	width:100%;
 	box-shadow:0 0 5px #222;
 	border-bottom:solid 3px black;
+	z-index:2000065541;
 	}
 .price-calculate h2{
 	margin-top:8px !important;

@@ -149,7 +149,11 @@
             </tr>
             
         </table>
-        <div class="price-calculate" ng-show="amount>0"><h2>مجموع قیمت : {{amount | number}} تومان </h2></div>
+        <div class="price-calculate" ng-show="amount>0">
+        	<h2>مجموع قیمت : {{amount | number}} تومان </h2>
+            <a ng-click="restart();" class="btn btn-three">از نو <i class="fa fa-close"></i></a>
+            <a ng-click="rollBack();" class="btn btn-default" ng-show="backShow">قبلی <i class="fa fa-step-backward"></i></a>
+        </div>
         
     </div>
 </div>

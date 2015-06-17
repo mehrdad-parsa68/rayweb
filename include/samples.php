@@ -76,7 +76,7 @@
 						<div class='mix category_$cat col-lg-4 col-md-4 col-sm-6' data-cat='$cat'>
 							<div class='w-box inverse'>
 								<div class='figure'>
-									<img alt='طراحی وب سایت' src='".$prefix."/images/samples/$sample_row[project_image]' class='img-responsive'>
+									<img alt='طراحی وب سایت' src='".$prefix."/images/samples/$sample_row[project_image]' class='img-responsive img-thumbnail'>
 									<div class='figcaption bg-2'></div>
 									<div class='figcaption-btn'>
 										<a href='$sample_row[project_address]' target='_blank' class='btn btn-xs btn-one theater'><i class='fa fa-plus-circle'></i> ورود به سایت</a>
